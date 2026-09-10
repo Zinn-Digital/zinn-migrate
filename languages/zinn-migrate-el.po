@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-migrate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-migrate\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-migrate.php
+msgid "Zinn® Migrate"
+msgstr "Zinn® Migrate"
+
+#. Plugin URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+
+#. Description of the plugin
+#: zinn-migrate.php
+msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
+msgstr "Συσκευάζει αυτόν τον ιστότοπο WordPress — αρχεία και βάση δεδομένων — σε ένα ενιαίο αρχειοθετημένο αρχείο που η Zinn Digital® μπορεί να ανακτήσει, για παρόχους φιλοξενίας στους οποίους δεν μπορούμε να έχουμε πρόσβαση με άλλον τρόπο. Εγκαταστήστε το στον ιστότοπο που ΕΓΚΑΤΑΛΕΙΠΕΤΕ, πατήστε ένα κουμπί και επικολλήστε τον σύνδεσμο στη μετανάστευση Zinn® που πραγματοποιείτε."
+
+#. Author of the plugin
+#: zinn-migrate.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-migrate-admin.php:57
+#: includes/class-zinn-migrate-admin.php:150
+msgid "Move this site to Zinn®"
+msgstr "Μεταφέρετε αυτόν τον ιστότοπο στο Zinn®"
+
+#: includes/class-zinn-migrate-admin.php:58
+msgid "Move to Zinn®"
+msgstr "Μετακίνηση στο Zinn®"
+
+#: includes/class-zinn-migrate-admin.php:68
+msgid "You do not have permission to do this."
+msgstr "Δεν έχετε δικαίωμα να το κάνετε αυτό."
+
+#: includes/class-zinn-migrate-admin.php:154
+msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
+msgstr "Αυτό συσκευάζει τα πάντα σε αυτόν τον ιστότοπο — τα αρχεία του και τη βάση δεδομένων του — σε ένα αρχειοθήκη και σας δίνει έναν ιδιωτικό σύνδεσμο προς αυτό. Επικοallήστε αυτόν τον σύνδεσμο στη μετανάστευσή σας στο Zinn® και θα μεταφέρουμε τον ιστότοπο. Τίποτα εδώ δεν αποστέλλεται οπουδήποτε μέχρι να επιλέξετε να μοιραστείτε τον σύνδεσμο."
+
+#: includes/class-zinn-migrate-admin.php:168
+msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
+msgstr "Ενδέχεται να μη το χρειαστείτε. Εάν ο παλιός σας πάροχος σάς παρέχει FTP, SSH, cPanel, Plesk ή DirectAdmin, το Zinn® μπορεί να μεταφέρει τον ιστότοπο απευθείας με αυτά τα στοιχεία και μπορείτε να παραλείψετε εξ ολοκλήρου αυτό το πρόσθετο — είναι πιο γρήγορο και δεν αφήνει τίποτα πίσω του στη συνέχεια. Χρησιμοποιήστε το όταν κανένα από αυτά δεν είναι διαθέσιμο σε εσάς."
+
+#: includes/class-zinn-migrate-admin.php:180
+msgid "Room on this server"
+msgstr "Χώρος σε αυτόν τον διακομιστή"
+
+#. translators: %s: an approximate size, e.g. "1.4 GB".
+#: includes/class-zinn-migrate-admin.php:191
+#, php-format
+msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
+msgstr "Αυτός ο διακομιστής δεν μας ενημερώνει για τον διαθέσιμο χώρο στο δίσκο, οπότε δεν μπορούμε να τον ελέγξουμε για εσάς. Το πακέτο χρειάζεται περίπου %s. Εάν δεν είστε σίγουροι ότι υπάρχει τόσος διαθέσιμος χώρος, ρωτήστε τον πάροχό σας πριν τον δημιουργήσετε — ένας διακομιστής που ξεμένει από χώρο στη μέση της διαδικασίας θέτει τον ιστότοπο εκτός λειτουργίας."
+
+#. translators: 1: space required, 2: space free.
+#: includes/class-zinn-migrate-admin.php:197
+#, php-format
+msgid "The package needs roughly %1$s and this server has %2$s free."
+msgstr "Το πακέτο χρειάζεται περίπου %1$s και αυτός ο διακομιστής έχει %2$s ελεύθερα."
+
+#: includes/class-zinn-migrate-admin.php:206
+msgid "Build the package"
+msgstr "Δημιουργία πακέτου"
+
+#: includes/class-zinn-migrate-admin.php:208
+msgid "Building…"
+msgstr "Δόμηση…"
+
+#. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
+#: includes/class-zinn-migrate-admin.php:213
+#, php-format
+msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
+msgstr "Τώρα γίνεται πακέτο: %1$s. %2$s αρχεία μέχρι στιγμής, %3$s εγγραφές."
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your files"
+msgstr "τα αρχεία σας"
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your database"
+msgstr "η βάση δεδομένων σας"
+
+#: includes/class-zinn-migrate-admin.php:226
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: includes/class-zinn-migrate-admin.php:227
+msgid "Cancel and delete"
+msgstr "Ακύρωση και διαγραφή"
+
+#: includes/class-zinn-migrate-admin.php:238
+msgid "Your package is ready"
+msgstr "Το πακέτο σας είναι έτοιμο"
+
+#: includes/class-zinn-migrate-admin.php:239
+msgid "Copy this link and paste it into your migration on Zinn®:"
+msgstr "Αντιγράψτε αυτόν τον σύνδεσμο και επικόλλησέ τον στη μετανάστευσή σας στο Zinn®:"
+
+#. translators: %s: the package size.
+#: includes/class-zinn-migrate-admin.php:252
+#, php-format
+msgid "Size: %s."
+msgstr "Μέγεθος: %s."
+
+#: includes/class-zinn-migrate-admin.php:264
+msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
+msgstr "Αντιμετωπίστε αυτόν τον σύνδεσμο σαν κωδικό πρόσβασης. Οποιοσδήποτε τον έχει μπορεί να κατεβάσει ολόκληρο τον ιστότοπό σας, συμπεριλαμβανομένης της βάσης δεδομένων σας. Διαγράφουμε το πακέτο αυτόματα 24 ώρες μετά τη δημιουργία του — διαγράψτε το μόνοι σας μόλις ολοκληρωθεί η μετεγκατάστασή σας."
+
+#: includes/class-zinn-migrate-admin.php:273
+msgid "Delete the package now"
+msgstr "Διαγραφή πακέτου τώρα"
+
+#: includes/class-zinn-migrate-admin.php:274
+msgid "Build it again"
+msgstr "Εκ νέου δημιουργία"
+
+#: includes/class-zinn-migrate-package.php:187
+msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
+msgstr "Αυτός ο διακομιστής δεν διαθέτει την επέκταση ZipArchive της PHP, επομένως δεν είναι δυνατή η δημιουργία πακέτου εδώ. Ζητήστε από τον πάροχο φιλοξενίας σας να την ενεργοποιήσει ή χρησιμοποιήστε εναλλακτικά τη φόρμα μετεγκατάστασης στο Zinn® με τα στοιχεία FTP ή SSH σας."
+
+#: includes/class-zinn-migrate-package.php:197
+msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
+msgstr "Δεν ήταν δυνατή η δημιουργία φακέλου μέσα στον κατάλογο μεταφορτώσεων, επομένως δεν υπάρχει χώρος για την εγγραφή του πακέτου. Ελέγξτε ότι το wp-content/uploads είναι εγγραφές."
+
+#: includes/class-zinn-migrate-package.php:278
+msgid "There is no package being built. Start one first."
+msgstr "Δεν υπάρχει πακέτο υπό κατασκευή. Ξεκινήστε ένα πρώτα."
+
+#: includes/class-zinn-migrate-package.php:284
+msgid "We could not open the package file for writing."
+msgstr "Δεν ήταν δυνατό να ανοίξουμε το αρχείο του πακέτου για εγγραφή."
+
+#: includes/class-zinn-migrate-package.php:366
+msgid "We could not write the database export."
+msgstr "Δεν ήταν δυνατή η εγγραφή της εξαγωγής της βάσης δεδομένων."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-migrate-promo.php:241
+#: includes/class-zinn-migrate-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — οδηγοί και υπηρεσίες"
+
+#: includes/class-zinn-migrate-promo.php:256
+msgid "User guides"
+msgstr "Οδηγοί χρήσης"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-migrate-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "Διαβάστε τον οδηγό χρήσης %s"
+
+#: includes/class-zinn-migrate-promo.php:314
+msgid "Hide this"
+msgstr "Από αποκrύψτε το"
+
+#: includes/class-zinn-migrate-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "Φιλοξενία Zinn® για WordPress"
+
+#: includes/class-zinn-migrate-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, καθημερινά αντίγραφα ασφαλείας, δωρεάν μετανάστευση και ένας πίνακας ελέγχου σχεδιασμένος για άτομα που διαχειρίζονται περισσότερους από έναν ιστότοπους."
+
+#: includes/class-zinn-migrate-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Η αγορά Zinn®"
+
+#: includes/class-zinn-migrate-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Αγοράστε και πουλήστε καθιερωμένους ιστότοπους, τομείς και τοποθετήσεις συνδέσμων, με τα χρήματα να φυλάσσονται με ασφάλεια έως ότου και οι δύο πλευρές μείνουν ικανοποιημένες."
+
+#: includes/class-zinn-migrate-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — προσλάβετε άτομα που το κάνουν αυτό επαγγελματικά"
+
+#: includes/class-zinn-migrate-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Η παγκόσμια αγορά ανεξάρτητων επαγγελματιών μας: περιηγηθείτε σε περισσότερες από 10.000 έτοιμες υπηρεσίες από συγγραφείς, σχεδιαστές, προγραμματιστές και ειδικούς SEO, ή δημοσιεύστε ένα έργο και αφήστε τους να υποβάλουν προσφορές."
+
+#: includes/class-zinn-migrate-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Δείτε τις σημειώσεις έκδοσης του Zinn Digital®."
+
+#: includes/class-zinn-migrate-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Η λaβoύσα ενημέρωση απέτυχε στον έλεγχο ακεραιότητας και δεν εγκαταστάθηκε."

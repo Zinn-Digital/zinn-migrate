@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-migrate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-migrate\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-migrate.php
+msgid "Zinn® Migrate"
+msgstr "Zinn® Migrate"
+
+#. Plugin URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+
+#. Description of the plugin
+#: zinn-migrate.php
+msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
+msgstr "このWordPressサイト（ファイルとデータベース）を1つのアーカイブにまとめ、Zinn Digital®が他の方法では接続できないホストから取得できるようにします。移行元のサイトにインストールしてボタンを1つ押し、そのリンクをZinn®の移行画面に貼り付けます。"
+
+#. Author of the plugin
+#: zinn-migrate.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-migrate-admin.php:57
+#: includes/class-zinn-migrate-admin.php:150
+msgid "Move this site to Zinn®"
+msgstr "このサイトを Zinn® に移行する"
+
+#: includes/class-zinn-migrate-admin.php:58
+msgid "Move to Zinn®"
+msgstr "Zinn®へ移動"
+
+#: includes/class-zinn-migrate-admin.php:68
+msgid "You do not have permission to do this."
+msgstr "この操作を実行する権限がありません。"
+
+#: includes/class-zinn-migrate-admin.php:154
+msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
+msgstr "この機能により、サイト上のファイルとデータベースを含むすべてのデータが1つのアーカイブにまとめられ、プライベートリンクが生成されます。そのリンクをZinn®での移行手続き画面に貼り付けると、サイトが移行されます。リンクを共有するまでは、いかなるデータも外部に送信されることはありません。"
+
+#: includes/class-zinn-migrate-admin.php:168
+msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
+msgstr "これらは必要ないかもしれません。移行前のホスティングプロバイダーからFTP、SSH、cPanel、Plesk、DirectAdminのいずれかのアクセス情報が提供されている場合、Zinn®はその詳細を使用してサイトを直接取得できるため、このプラグインを完全にスキップできます。その方が高速であり、後あとも何も残りません。これらいずれも利用できない場合にご使用ください。"
+
+#: includes/class-zinn-migrate-admin.php:180
+msgid "Room on this server"
+msgstr "このサーバーの空き容量"
+
+#. translators: %s: an approximate size, e.g. "1.4 GB".
+#: includes/class-zinn-migrate-admin.php:191
+#, php-format
+msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
+msgstr "このサーバーは空きディスク容量を通知しないため、確認できません。パッケージには約 %s が必要です。十分な空き容量があるか不明な場合は、構築前にホストにお問い合わせください。途中で容量が不足したサーバーはサイトが停止します。"
+
+#. translators: 1: space required, 2: space free.
+#: includes/class-zinn-migrate-admin.php:197
+#, php-format
+msgid "The package needs roughly %1$s and this server has %2$s free."
+msgstr "このパッケージにはおよそ %1$s が必要ですが、このサーバーの空き容量は %2$s です。"
+
+#: includes/class-zinn-migrate-admin.php:206
+msgid "Build the package"
+msgstr "パッケージを構築する"
+
+#: includes/class-zinn-migrate-admin.php:208
+msgid "Building…"
+msgstr "構築中…"
+
+#. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
+#: includes/class-zinn-migrate-admin.php:213
+#, php-format
+msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
+msgstr "パッケージング中: %1$s。これまでに %2$s 個のファイル、%3$s が書き込まれました。"
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your files"
+msgstr "ファイル"
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your database"
+msgstr "お客様のデータベース"
+
+#: includes/class-zinn-migrate-admin.php:226
+msgid "Continue"
+msgstr "続行"
+
+#: includes/class-zinn-migrate-admin.php:227
+msgid "Cancel and delete"
+msgstr "キャンセルして削除"
+
+#: includes/class-zinn-migrate-admin.php:238
+msgid "Your package is ready"
+msgstr "お客様のパッケージの準備ができました"
+
+#: includes/class-zinn-migrate-admin.php:239
+msgid "Copy this link and paste it into your migration on Zinn®:"
+msgstr "このリンクをコピーし、Zinn®の移行画面に貼り付けてください："
+
+#. translators: %s: the package size.
+#: includes/class-zinn-migrate-admin.php:252
+#, php-format
+msgid "Size: %s."
+msgstr "サイズ: %s。"
+
+#: includes/class-zinn-migrate-admin.php:264
+msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
+msgstr "このリンクはパスワードのように扱ってください。これを持っている人は誰でも、データベースを含めてサイト全体をダウンロードできます。パッケージは作成から24時間後に自動的に削除されますが、移行が完了したらすぐに、ご自身でも削除してください。"
+
+#: includes/class-zinn-migrate-admin.php:273
+msgid "Delete the package now"
+msgstr "今すぐパッケージを削除"
+
+#: includes/class-zinn-migrate-admin.php:274
+msgid "Build it again"
+msgstr "もう一度ビルドする"
+
+#: includes/class-zinn-migrate-package.php:187
+msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
+msgstr "このサーバーにはPHPのZipArchive拡張機能がないため、ここでパッケージを作成できません。ホストに有効化を依頼するか、代わりにFTPまたはSSHの詳細を使用してZinn®の移行フォームをご利用ください。"
+
+#: includes/class-zinn-migrate-package.php:197
+msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
+msgstr "アップロードディレクトリ内にフォルダを作成できなかったため、パッケージを書き込む場所がありません。wp-content/uploads が書き込み可能であることを確認してください。"
+
+#: includes/class-zinn-migrate-package.php:278
+msgid "There is no package being built. Start one first."
+msgstr "現在ビルドされているパッケージはありません。先にビルドを開始してください。"
+
+#: includes/class-zinn-migrate-package.php:284
+msgid "We could not open the package file for writing."
+msgstr "パッケージファイルを開いて書き込むことができませんでした。"
+
+#: includes/class-zinn-migrate-package.php:366
+msgid "We could not write the database export."
+msgstr "データベースの書き出しに失敗しました。"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-migrate-promo.php:241
+#: includes/class-zinn-migrate-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — ガイドとサービス"
+
+#: includes/class-zinn-migrate-promo.php:256
+msgid "User guides"
+msgstr "ユーザーガイド"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-migrate-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s ユーザーガイドを読む"
+
+#: includes/class-zinn-migrate-promo.php:314
+msgid "Hide this"
+msgstr "非表示にする"
+
+#. zinn-i18n: not translated — MalformedMarkError: [ja] the ® left its mark: expected 'Zinn®' in the translation source: 'Zinn® hosting for WordPress' result
+#: includes/class-zinn-migrate-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr ""
+
+#: includes/class-zinn-migrate-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed、毎日のバックアップ、無料移行、そして複数のサイトを運営する方向けに構築されたコントロールパネル。"
+
+#: includes/class-zinn-migrate-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® マーケットプレイス"
+
+#: includes/class-zinn-migrate-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "既存のサイト、ドメイン、およびリンク掲載枠を売買できます。双方が納得するまで代金は安全に保管されます。"
+
+#: includes/class-zinn-migrate-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — プロの専門家を採用する"
+
+#: includes/class-zinn-migrate-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "当社のグローバルなフリーランスマーケットプレイス：ライター、デザイナー、開発者、SEO専門家による10,000件以上の既製サービスを閲覧するか、プロジェクトを投稿して入札してもらいましょう。"
+
+#: includes/class-zinn-migrate-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® のリリースノートをご覧ください。"
+
+#: includes/class-zinn-migrate-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ダウンロードしたアップデートの整合性チェックに失敗したため、インストールされませんでした。"

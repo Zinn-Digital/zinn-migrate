@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-migrate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1 && n != 2 && n != 3 && (n%10 == 4 || n%10 == 6 || n%10 == 9));\n"
+"X-Domain: zinn-migrate\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-migrate.php
+msgid "Zinn® Migrate"
+msgstr "Zinn® Migrate"
+
+#. Plugin URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+
+#. Description of the plugin
+#: zinn-migrate.php
+msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
+msgstr "Ibinabalot ang WordPress site na ito — mga file at database — sa iisang archive na maaaring kunin ng Zinn Digital®, para sa mga host na hindi namin maabot sa ibang paraan. I-install ito sa site na IQUINIINIT MO, pindutin ang isang button, at i-paste ang link sa iyong Zinn® migration."
+
+#. Author of the plugin
+#: zinn-migrate.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-migrate-admin.php:57
+#: includes/class-zinn-migrate-admin.php:150
+msgid "Move this site to Zinn®"
+msgstr "Ilipat ang site na ito sa Zinn®"
+
+#: includes/class-zinn-migrate-admin.php:58
+msgid "Move to Zinn®"
+msgstr "Ilipat sa Zinn®"
+
+#: includes/class-zinn-migrate-admin.php:68
+msgid "You do not have permission to do this."
+msgstr "Wala kang pahintulot na gawin ito."
+
+#: includes/class-zinn-migrate-admin.php:154
+msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
+msgstr "Naka-package nito ang lahat sa site na ito — ang mga file at ang database nito — sa isang archive, at binibigyan ka ng pribadong link dito. I-paste ang link na iyon sa iyong migration sa Zinn® at hihilain namin ang site patungo rito. Walang ipinapadala kahit saan dito hangga't hindi mo pinipiling ibahagi ang link."
+
+#: includes/class-zinn-migrate-admin.php:168
+msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
+msgstr "Maaaring hindi mo na ito kailangan. Kung ang iyong lumang host ay nagbibigay sa iyo ng FTP, SSH, cPanel, Plesk o DirectAdmin, direktang makukuha ng Zinn® ang site gamit ang mga detalyeng iyon at maaari mong laktawan nang buo ang plugin na ito — mas mabilis ito at wala nang maiiwang anuman pagkatapos. Gamitin ito kapag wala kang magagamit na alinman sa mga iyon."
+
+#: includes/class-zinn-migrate-admin.php:180
+msgid "Room on this server"
+msgstr "Espasyo sa server na ito"
+
+#. translators: %s: an approximate size, e.g. "1.4 GB".
+#: includes/class-zinn-migrate-admin.php:191
+#, php-format
+msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
+msgstr "Hindi sasabihin sa amin ng server na ito kung magkano ang libreng espasyo sa disk, kaya hindi namin ito masusuri para sa iyo. Ang package ay nangangailangan ng humigit-kumulang %s. Kung hindi ka sigurado kung may ganoon kalaking espasyo, itanong muna sa iyong host bago ito buuin — ang server na maubusan ng espasyo sa gitna ng proseso ay magpapababa sa site."
+
+#. translators: 1: space required, 2: space free.
+#: includes/class-zinn-migrate-admin.php:197
+#, php-format
+msgid "The package needs roughly %1$s and this server has %2$s free."
+msgstr "Kailangan ng package ng humigit-kumulang %1$s at ang server na ito ay mayroong %2$s na libre."
+
+#: includes/class-zinn-migrate-admin.php:206
+msgid "Build the package"
+msgstr "Buuin ang pakete"
+
+#: includes/class-zinn-migrate-admin.php:208
+msgid "Building…"
+msgstr "Gumagawa…"
+
+#. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
+#: includes/class-zinn-migrate-admin.php:213
+#, php-format
+msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
+msgstr "Kasalukuyang nagpapakete: %1$s. May %2$s na file na sa ngayon, %3$s ang naisulat na."
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your files"
+msgstr "ang iyong mga file"
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your database"
+msgstr "ang iyong database"
+
+#: includes/class-zinn-migrate-admin.php:226
+msgid "Continue"
+msgstr "Magpatuloy"
+
+#: includes/class-zinn-migrate-admin.php:227
+msgid "Cancel and delete"
+msgstr "Kanselahin at burahin"
+
+#: includes/class-zinn-migrate-admin.php:238
+msgid "Your package is ready"
+msgstr "Handa na ang iyong pakete"
+
+#: includes/class-zinn-migrate-admin.php:239
+msgid "Copy this link and paste it into your migration on Zinn®:"
+msgstr "Kopyahin ang link na ito at i-paste ito sa iyong migration sa Zinn®:"
+
+#. translators: %s: the package size.
+#: includes/class-zinn-migrate-admin.php:252
+#, php-format
+msgid "Size: %s."
+msgstr "Laki: %s."
+
+#: includes/class-zinn-migrate-admin.php:264
+msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
+msgstr "Ituring ang link na ito tulad ng isang password. Sinumang mayroon nito ay maaaring mag-download ng iyong buong site, kabilang ang iyong database. Awtomatikong tinatanggal namin ang package makalipas ang 24 na oras matapos itong mabuo — tanggalin ito nang mag-isa sa sandaling matapos ang iyong migrasyon."
+
+#: includes/class-zinn-migrate-admin.php:273
+msgid "Delete the package now"
+msgstr "Tanggalin ang package ngayon"
+
+#: includes/class-zinn-migrate-admin.php:274
+msgid "Build it again"
+msgstr "Buuin muli"
+
+#: includes/class-zinn-migrate-package.php:187
+msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
+msgstr "Ang server na ito ay walang ZipArchive extension ng PHP, kaya hindi kami makabuo ng package dito. Hilingin sa iyong host na i-enable ito, o gamitin sa halip ang migration form sa Zinn® gamit ang iyong mga detalye sa FTP o SSH."
+
+#: includes/class-zinn-migrate-package.php:197
+msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
+msgstr "Hindi namin nagawang gumawa ng folder sa loob ng iyong direktoryo ng mga upload, kaya walang mapagsusulatan ng package. Suriin na ang wp-content/uploads ay nasusulatan."
+
+#: includes/class-zinn-migrate-package.php:278
+msgid "There is no package being built. Start one first."
+msgstr "Walang binubuong pakete. Magsimula muna ng isa."
+
+#: includes/class-zinn-migrate-package.php:284
+msgid "We could not open the package file for writing."
+msgstr "Hindi namin maabukasan ang package file para sa pagsusulat."
+
+#: includes/class-zinn-migrate-package.php:366
+msgid "We could not write the database export."
+msgstr "Hindi namin naisulat ang export ng database."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-migrate-promo.php:241
+#: includes/class-zinn-migrate-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — mga gabay at serbisyo"
+
+#: includes/class-zinn-migrate-promo.php:256
+msgid "User guides"
+msgstr "Mga gabay para sa gumagamit"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-migrate-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "Basahin ang gabay sa gumagamit ng %s"
+
+#: includes/class-zinn-migrate-promo.php:314
+msgid "Hide this"
+msgstr "Itago ito"
+
+#: includes/class-zinn-migrate-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "Hosting ng Zinn® para sa WordPress"
+
+#: includes/class-zinn-migrate-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, araw-araw na backup, libreng migrasyon at control panel na ginawa para sa mga taong nagpapatakbo ng higit sa isang site."
+
+#: includes/class-zinn-migrate-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Ang pamilihan ng Zinn®"
+
+#: includes/class-zinn-migrate-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Bumili at magbenta ng mga itinatag na site, domain at mga paglalagay ng link, kung saan ang pera ay ligtas na itinatabi hanggang sa maging masaya ang magkabilang panig."
+
+#: includes/class-zinn-migrate-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — umarkila ng mga taong ito ang ikinabubuhay"
+
+#: includes/class-zinn-migrate-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Ang aming pandaigdigang pamilihan para sa mga freelancer: mag-browse ng mahigit 10,000 handa nang serbisyo mula sa mga manunulat, designer, developer, at SEO, o mag-post ng proyekto at hayaan silang mag-bid."
+
+#: includes/class-zinn-migrate-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Tingnan ang mga tala sa paglabas ng Zinn Digital®."
+
+#: includes/class-zinn-migrate-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Nabigo ang na-download na update sa pagsusuri ng integridad nito at hindi na-install."

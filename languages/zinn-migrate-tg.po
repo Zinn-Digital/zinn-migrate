@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-migrate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tg\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: zinn-migrate\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-migrate.php
+msgid "Zinn® Migrate"
+msgstr "Zinn® Migrate"
+
+#. Plugin URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+
+#. Description of the plugin
+#: zinn-migrate.php
+msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
+msgstr "Ин сайти WordPress — файлҳо ва пойгоҳи додаҳо —-ро ба як бойгонии ягона борпеч мекунад, ки Zinn Digital® онро барои мизбонон, ки бо роҳи дигар дастрас карда наметавонем, гирифта метавонад. Онро дар сомонае, ки аз он КӮЧ истодаед, насб кунед, як тугмаро пахш кунед ва пайвандро ба муҳоҷирати Zinn®-и худ часпенед."
+
+#. Author of the plugin
+#: zinn-migrate.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-migrate-admin.php:57
+#: includes/class-zinn-migrate-admin.php:150
+msgid "Move this site to Zinn®"
+msgstr "Ин сайт ба Zinn® гузаронида шавад"
+
+#: includes/class-zinn-migrate-admin.php:58
+msgid "Move to Zinn®"
+msgstr "Гузариш ба Zinn®"
+
+#: includes/class-zinn-migrate-admin.php:68
+msgid "You do not have permission to do this."
+msgstr "Шумо барои иҷрои ин кор иҷозат надоред."
+
+#: includes/class-zinn-migrate-admin.php:154
+msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
+msgstr "Ин баста ҳама чизро дар ин сомона — файлҳо ва пойгоҳи додаи онро — ба як бойгонӣ ҷамъ мекунад ва ба шумо истиноди шахсиро ба он медиҳад. Ин истинодро ба муҳоҷирати худ дар Zinn® гузоред ва мо сомонаро мегузаронем. То даме ки шумо мубодила кардани истинодро интихоб накунед, ҳеҷ чиз ба ягон ҷо фиристода намешавад."
+
+#: includes/class-zinn-migrate-admin.php:168
+msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
+msgstr "Шояд ин ба шумо лозим набошад. Агар мизбони пешини шумо FTP, SSH, cPanel, Plesk ё DirectAdmin-ро пешниҳод кунад, Zinn® метавонад сомонаро бо ин тафсилот мустақиман дастрас кунад ва шумо метавонед ин плагинро умуман гузаред — ин тезтар аст ва баъд аз он ягон чизи зиёдатӣ боқӣ намемонад. Ҳангоме ки ҳеҷ яке аз инҳо дастнорас ҳастанд, инро истифода баред."
+
+#: includes/class-zinn-migrate-admin.php:180
+msgid "Room on this server"
+msgstr "Ҷой дар ин сервер"
+
+#. translators: %s: an approximate size, e.g. "1.4 GB".
+#: includes/class-zinn-migrate-admin.php:191
+#, php-format
+msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
+msgstr "Ин сервер ба мо намегӯяд, ки чӣ қадар фазои диск озод аст, бинобар ин мо наметавонем онро барои шумо тафтиш кунем. Баста тақрибан ба %s ниёз дорад. Агар шумо боварӣ надоред, ки чунин миқдор фазо мавҷуд аст, пеш аз сохтани он аз мизбони худ пурсед — сервере, ки дар нимароҳ аз фазо холӣ мешавад, сайттро аз кор мебарорад."
+
+#. translators: 1: space required, 2: space free.
+#: includes/class-zinn-migrate-admin.php:197
+#, php-format
+msgid "The package needs roughly %1$s and this server has %2$s free."
+msgstr "Баста тақрибан %1$s талаб мекунад ва ин сервер %2$s фазои озод дорад."
+
+#: includes/class-zinn-migrate-admin.php:206
+msgid "Build the package"
+msgstr "Сохтани баста"
+
+#: includes/class-zinn-migrate-admin.php:208
+msgid "Building…"
+msgstr "Сохта истодааст…"
+
+#. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
+#: includes/class-zinn-migrate-admin.php:213
+#, php-format
+msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
+msgstr "Ҳоло бастабандӣ мешавад: %1$s. То ин дам %2$s файл, %3$s навишта шуд."
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your files"
+msgstr "файлҳои шумо"
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your database"
+msgstr "пойгоҳи додаи шумо"
+
+#: includes/class-zinn-migrate-admin.php:226
+msgid "Continue"
+msgstr "Идома додан"
+
+#: includes/class-zinn-migrate-admin.php:227
+msgid "Cancel and delete"
+msgstr "Бекор кардан ва нест кардан"
+
+#: includes/class-zinn-migrate-admin.php:238
+msgid "Your package is ready"
+msgstr "Бастаи шумо омода аст"
+
+#: includes/class-zinn-migrate-admin.php:239
+msgid "Copy this link and paste it into your migration on Zinn®:"
+msgstr "Ин истинокорро нусхабардорӣ кунед ва ба муҳоҷирати худ дар Zinn® часпенед:"
+
+#. translators: %s: the package size.
+#: includes/class-zinn-migrate-admin.php:252
+#, php-format
+msgid "Size: %s."
+msgstr "Андоза: %s."
+
+#: includes/class-zinn-migrate-admin.php:264
+msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
+msgstr "Ин истинодро мисли гузарвожа муҳофизат кунед. Ҳар касе, ки онро дорад, метавонад тамоми сомонаи шумо, аз ҷумла пойгоҳи додаҳоятонро зеркашӣ кунад. Мо бастаро ба таври худкор пас аз 24 соати сохта шуданаш нест мекунем — пас аз анҷоми муҳоҷират онро худатон низ фавран нест кунед."
+
+#: includes/class-zinn-migrate-admin.php:273
+msgid "Delete the package now"
+msgstr "Бастаarро ҳозир нест кунед"
+
+#: includes/class-zinn-migrate-admin.php:274
+msgid "Build it again"
+msgstr "А از нав сохтан"
+
+#: includes/class-zinn-migrate-package.php:187
+msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
+msgstr "Ин сервер васеъкунии ZipArchive-и PHP-ро надорад, аз ин рӯ мо наметавонем дар ин ҷо бастае созем. Аз мизбони худ хоҳиш кунед, ки онро фаъол созад, ё ба ҷои он аз варақаи муҳоҷират дар Zinn® бо тафсилоти FTP ё SSH-и худ истифода баред."
+
+#: includes/class-zinn-migrate-package.php:197
+msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
+msgstr "Мо натавонистем дар директорияи боргузориҳои шумо папкае созем, аз ин рӯ барои навиштани баста ҷойе нест. Санҷед, ки wp-content/uploads барои навиштан дастрас аст."
+
+#: includes/class-zinn-migrate-package.php:278
+msgid "There is no package being built. Start one first."
+msgstr "Ягон баста сохта намешавад. Аввал якеро оғоз кунед."
+
+#: includes/class-zinn-migrate-package.php:284
+msgid "We could not open the package file for writing."
+msgstr "Файли бастаро барои навиштан кушода натавонистем."
+
+#: includes/class-zinn-migrate-package.php:366
+msgid "We could not write the database export."
+msgstr "Содироти пойгоҳи додаҳо навишта нашуд."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-migrate-promo.php:241
+#: includes/class-zinn-migrate-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — дастурҳо ва хидматҳо"
+
+#: includes/class-zinn-migrate-promo.php:256
+msgid "User guides"
+msgstr "Дастурҳои корбар"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-migrate-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "Дастури корбарии %s-ро хонед"
+
+#: includes/class-zinn-migrate-promo.php:314
+msgid "Hide this"
+msgstr "Инро пинҳон кардан"
+
+#: includes/class-zinn-migrate-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "Мизбонии Zinn® барои WordPress"
+
+#: includes/class-zinn-migrate-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, нусхаҳои эҳтиётии ҳаррӯза, муҳоҷирати ройгон ва панели идоракуние, ки барои шахсони зиёда аз як сайт дошта сохта шудааст."
+
+#: includes/class-zinn-migrate-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Бозори Zinn®"
+
+#: includes/class-zinn-migrate-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Сайти таҳкимшуфта, доменҳо ва ҷойгиркунии истинодҳоро харидед ва фурӯшед, ки маблағ то он даме, ки ҳарду ҷониб розианд, бехатар нигоҳ дошта мешавад."
+
+#: includes/class-zinn-migrate-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — мутахассисони касбиро ба кор киро кунед"
+
+#: includes/class-zinn-migrate-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Бозори ҷаҳонии фрилансерони мо: зиёда аз 10,000 хидмати омодаро аз нависандагон, тарроҳон, таҳиягарон ва мутахассисони SEO ҷустуҷӯ кунед ё лоиҳаеро ҷойгир кунед ва бигзор онҳо пешниҳод пешниҳод кунанд."
+
+#: includes/class-zinn-migrate-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Эволютҳои Zinn Digital®-ро бинед."
+
+#: includes/class-zinn-migrate-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Тафтиши амнияти навсозии зеркашишуда номуваффақ анҷом ёфт ва он насб нашуд."

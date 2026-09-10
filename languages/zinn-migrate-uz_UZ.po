@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-migrate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uz_UZ\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-migrate\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-migrate.php
+msgid "Zinn® Migrate"
+msgstr "Zinn® Migrate"
+
+#. Plugin URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+
+#. Description of the plugin
+#: zinn-migrate.php
+msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
+msgstr "Boshqa yo'l bilan ulanib bo'lmaydigan xostlar uchun Zinn Digital® tortib ola oladigan yagona arxivga ushbu WordPress saytini — fayllar va ma'lumotlar bazasini — to'playdi. Uni siz TARK ETHAYOTGAN saytga o'rnating, bitta tugmani bosing va havolani Zinn® migratsiyatingizga qo'ying."
+
+#. Author of the plugin
+#: zinn-migrate.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-migrate-admin.php:57
+#: includes/class-zinn-migrate-admin.php:150
+msgid "Move this site to Zinn®"
+msgstr "Bu saytni Zinn® ga ko‘chirish"
+
+#: includes/class-zinn-migrate-admin.php:58
+msgid "Move to Zinn®"
+msgstr "Zinn® ga o'tkazish"
+
+#: includes/class-zinn-migrate-admin.php:68
+msgid "You do not have permission to do this."
+msgstr "Buni amalga oshirish uchun ruxsatingiz yoʻq."
+
+#: includes/class-zinn-migrate-admin.php:154
+msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
+msgstr "Bu saytdagi hamma narsani — uning fayllari va ma'lumotlar bazasini — bitta arxivga to'playdi va sizga uning maxsus havolasini beradi. Ushbu havolani Zinn® saytidagi migratsiyangizga qo'ying va biz saytni ko'chirib o'tamiz. Siz havolani ulashishni tanlamaguningizcha, bu yerdagi hech narsa hech qayerga yuborilmaydi."
+
+#: includes/class-zinn-migrate-admin.php:168
+msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
+msgstr "Bunga ehtiyojingiz bo'lmasligi mumkin. Agar eski xostingiz sizga FTP, SSH, cPanel, Plesk yoki DirectAdmin'ni taqdim etsa, Zinn® ushbu ma'lumotlar yordamida saytni to'g'ridan-to'g'ri ko'chirib kelishi mumkin va siz ushbu plagindan butunlay voz kechishingiz mumkin — bu tezroq ishlaydi va keyinchalik hech qanday ortiqcha narsa qolmaydi. Bularning birortasi ham mavjud bo'lmagan taqdirda, shundan foydalaning."
+
+#: includes/class-zinn-migrate-admin.php:180
+msgid "Room on this server"
+msgstr "Bu serverdagi bo'sh joy"
+
+#. translators: %s: an approximate size, e.g. "1.4 GB".
+#: includes/class-zinn-migrate-admin.php:191
+#, php-format
+msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
+msgstr "Bu server bizga qancha disk maydoni bo'sh ekanligini aytmaydi, shuning uchun biz buni siz uchun tekshira olmaymiz. Paketga taxminan %s kerak bo'ladi. Agar yetarli joy borligiga ishonchgingiz komil bo'lmasa, uni o'rnatishdan oldin hosting provayderingizdan so'rang — joyi tugab qolgan server saytni ishdan chiqaradi."
+
+#. translators: 1: space required, 2: space free.
+#: includes/class-zinn-migrate-admin.php:197
+#, php-format
+msgid "The package needs roughly %1$s and this server has %2$s free."
+msgstr "Paket taxminan %1$s talab qiladi va bu serverda %2$s bo'sh joy mavjud."
+
+#: includes/class-zinn-migrate-admin.php:206
+msgid "Build the package"
+msgstr "Paketni tuzish"
+
+#: includes/class-zinn-migrate-admin.php:208
+msgid "Building…"
+msgstr "Qurilmoqda..."
+
+#. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
+#: includes/class-zinn-migrate-admin.php:213
+#, php-format
+msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
+msgstr "Hozir arxivlanmoqda: %1$s. Hozirgacha %2$s ta fayl, %3$s tasi yozildi."
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your files"
+msgstr "sizning fayllaringiz"
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your database"
+msgstr "sizning ma'lumotlar bazangiz"
+
+#: includes/class-zinn-migrate-admin.php:226
+msgid "Continue"
+msgstr "Davom etish"
+
+#: includes/class-zinn-migrate-admin.php:227
+msgid "Cancel and delete"
+msgstr "Bekor qilish va o‘chirish"
+
+#: includes/class-zinn-migrate-admin.php:238
+msgid "Your package is ready"
+msgstr "Paketingiz tayyor"
+
+#: includes/class-zinn-migrate-admin.php:239
+msgid "Copy this link and paste it into your migration on Zinn®:"
+msgstr "Ushbu havolani nusxalab, Zinn®'dagi migratsiyangizga qo'ying:"
+
+#. translators: %s: the package size.
+#: includes/class-zinn-migrate-admin.php:252
+#, php-format
+msgid "Size: %s."
+msgstr "Hajmi: %s."
+
+#: includes/class-zinn-migrate-admin.php:264
+msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
+msgstr "Bu havolani paroldek saqlang. Unga ega bo'lgan har qanday shaxs butun saytingizni, shu jumladan ma'lumotlar bazangizni ham yuklab olishi mumkin. Paket u yaratilganidan keyin 24 soat o'tib avtomatik ravishda o'chiriladi — migratsiya tugashi bilanoq uni o'zingiz ham o'chirib tashlang."
+
+#: includes/class-zinn-migrate-admin.php:273
+msgid "Delete the package now"
+msgstr "Paketni hozir o'chirish"
+
+#: includes/class-zinn-migrate-admin.php:274
+msgid "Build it again"
+msgstr "Qaytadan qurish"
+
+#: includes/class-zinn-migrate-package.php:187
+msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
+msgstr "Bu serverda PHP’ning ZipArchive kengaytmasi mavjud emas, shuning uchun bu yerda paket yaratib bo‘lmaydi. Xosting provayderingizdan buni yoqishini so‘rang yoki uning o‘rniga FTP yoki SSH ma’lumotlaringiz bilan Zinn®’dagi migratsiya formasidan foydalaning."
+
+#: includes/class-zinn-migrate-package.php:197
+msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
+msgstr "Yuklashlar katalogingiz ichida papka yaratib bo'lmadi, shuning uchun paketni yozish uchun joy yo'q. wp-content/uploads yozish uchun ruxsat etilganligini tekshiring."
+
+#: includes/class-zinn-migrate-package.php:278
+msgid "There is no package being built. Start one first."
+msgstr "Hech qanday paket tuzilmayapti. Avval birini boshlang."
+
+#: includes/class-zinn-migrate-package.php:284
+msgid "We could not open the package file for writing."
+msgstr "Paket faylini yozish uchun ochib bo‘lmadi."
+
+#: includes/class-zinn-migrate-package.php:366
+msgid "We could not write the database export."
+msgstr "Maʼlumotlar bazasini eksport qilish imkoni boʻlmadi."
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-migrate-promo.php:241
+#: includes/class-zinn-migrate-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — qo'llanmalar va xizmatlar"
+
+#: includes/class-zinn-migrate-promo.php:256
+msgid "User guides"
+msgstr "Foydalanuvchi qoʻllanmalari"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-migrate-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s foydalanuvchi qo'llanmasini o'qing"
+
+#: includes/class-zinn-migrate-promo.php:314
+msgid "Hide this"
+msgstr "Buni yashirish"
+
+#: includes/class-zinn-migrate-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress uchun Zinn® xostingi"
+
+#: includes/class-zinn-migrate-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed, kunlik zaxira nusxalari, bepul migratsiya va birdan ortiq saytni boshqaradigan shaxslar uchun mo‘ljallangan boshqaruv paneli."
+
+#: includes/class-zinn-migrate-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® bozori"
+
+#: includes/class-zinn-migrate-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "Tayyor saytlar, domenlar va havola joylashtirishni sotib oling va soting, mablag' esa har ikki tomon rozi bo'lgunga qadar xavfsiz saqlanadi."
+
+#: includes/class-zinn-migrate-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — buni kasb qilgan mutaxassislarni yollang"
+
+#: includes/class-zinn-migrate-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "Bizning global frilanserlar bozori: matn yozuvchilar, dizaynerlar, dasturchilar va SEO mutaxassislarining 10 000 dan ortiq tayyor xizmatlarini ko'rib chiqing yoki loyiha joylashtirib, ularga taklif kiritish imkonini bering."
+
+#: includes/class-zinn-migrate-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® chiqarilish eslatmalarini ko'ring."
+
+#: includes/class-zinn-migrate-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "Yuklab olingan yangilanish yaxlitlik tekshiruvidan o'tmadi va o'rnatilmadi."

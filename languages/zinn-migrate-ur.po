@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zinn-migrate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ur\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: zinn-migrate\n"
+"X-Generator: scripts/wp-i18n-translate.py\n"
+
+#. Plugin Name of the plugin
+#: zinn-migrate.php
+msgid "Zinn® Migrate"
+msgstr "Zinn® Migrate"
+
+#. Plugin URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
+
+#. Description of the plugin
+#: zinn-migrate.php
+msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
+msgstr "اس WordPress سائیٹ — فائلز اور ڈیٹا بیس — کو ایک آرکائیو میں پیک کرتا ہے جسے Zinn Digital® حاصل کر سکتا ہے، ان ہوسٹس کے لیے جن تک ہم کسی اور طریقے سے نہیں پہنچ سکتے۔ اسے اس سائیٹ پر انسٹال کریں جسے آپ چھوڑ رہے ہیں، ایک بٹن دبائیں، اور لنک کو اپنی Zinn® مائیگریشن میں پیسٹ کریں۔"
+
+#. Author of the plugin
+#: zinn-migrate.php
+msgid "Neil Lock — CEO, Zinn Digital® Ltd"
+msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
+
+#. Author URI of the plugin
+#: zinn-migrate.php
+msgid "https://zinndigital.com"
+msgstr "https://zinndigital.com"
+
+#: includes/class-zinn-migrate-admin.php:57
+#: includes/class-zinn-migrate-admin.php:150
+msgid "Move this site to Zinn®"
+msgstr "اس سائٹ کو Zinn® پر منتقل کریں"
+
+#: includes/class-zinn-migrate-admin.php:58
+msgid "Move to Zinn®"
+msgstr "Zinn® پر منتقل کریں"
+
+#: includes/class-zinn-migrate-admin.php:68
+msgid "You do not have permission to do this."
+msgstr "آپ کو یہ کرنے کی اجازت نہیں ہے۔"
+
+#: includes/class-zinn-migrate-admin.php:154
+msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
+msgstr "یہ آپ کی اس سائٹ کی ہر چیز — اس کی فائلوں اور اس کے ڈیٹا بیس — کو ایک آرکائیو میں پیک کرتا ہے، اور آپ کو اس کا ایک نجی ربط دیتا ہے۔ اس ربط کو Zinn® پر اپنی ہجرت میں پیسٹ کریں اور ہم سائٹ کو کھینچ لیں گے۔ یہاں کوئی بھی چیز کہیں نہیں بھیجی جاتی جب تک آپ ربط کا اشتراک کرنے کا انتخاب نہیں کرتے۔"
+
+#: includes/class-zinn-migrate-admin.php:168
+msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
+msgstr "آپ کو اس کی ضرورت نہیں ہو سکتی۔ اگر آپ کا پرانا ہوسٹ آپ کو FTP، SSH، cPanel، Plesk یا DirectAdmin فراہم کرتا ہے، تو Zinn® ان تفصیلات کے ساتھ سائیٹ کو براہ راست حاصل کر سکتا ہے اور آپ اس پلگ ان کو بالکل چھوڑ سکتے ہیں—یہ زیادہ تیز ہے اور اس کے بعد پیچھے کچھ نہیں رہتا۔ جب ان میں سے کوئی بھی آپ کے پاس دستیاب نہ ہو تو اسے استعمال کریں۔"
+
+#: includes/class-zinn-migrate-admin.php:180
+msgid "Room on this server"
+msgstr "اس سرور پر جگہ"
+
+#. translators: %s: an approximate size, e.g. "1.4 GB".
+#: includes/class-zinn-migrate-admin.php:191
+#, php-format
+msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
+msgstr "یہ سرور ہمیں نہیں بتاتا کہ کتنی ڈسک کی جگہ خالی ہے، اس لیے ہم آپ کے لیے چیک نہیں کر سکتے۔ پیکیج کو تقریباً %s کی ضرورت ہے۔ اگر آپ کو یقین نہیں ہے کہ اتنی جگہ موجود ہے، تو اسے بنانے سے پہلے اپنے ہوسٹ سے پوچھ لیں — جو سرور درمیان میں جگہ ختم ہونے کی وجہ سے رک جائے وہ سائٹ کو بند کر دیتا ہے۔"
+
+#. translators: 1: space required, 2: space free.
+#: includes/class-zinn-migrate-admin.php:197
+#, php-format
+msgid "The package needs roughly %1$s and this server has %2$s free."
+msgstr "اس پیکیج کو تقریباً %1$s کی ضرورت ہے اور اس سرور پر %2$s خالی موجود ہے۔"
+
+#: includes/class-zinn-migrate-admin.php:206
+msgid "Build the package"
+msgstr "پیکیج بنائیں"
+
+#: includes/class-zinn-migrate-admin.php:208
+msgid "Building…"
+msgstr "تعمیر ہو رہا ہے…"
+
+#. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
+#: includes/class-zinn-migrate-admin.php:213
+#, php-format
+msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
+msgstr "اب پیکنگ جاری ہے: %1$s۔ اب تک %2$s فائلیں، %3$s لکھی گئیں۔"
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your files"
+msgstr "آپ کی فائلیں"
+
+#: includes/class-zinn-migrate-admin.php:214
+msgid "your database"
+msgstr "آپ کا ڈیٹا بیس"
+
+#: includes/class-zinn-migrate-admin.php:226
+msgid "Continue"
+msgstr "جاری رکھیں"
+
+#: includes/class-zinn-migrate-admin.php:227
+msgid "Cancel and delete"
+msgstr "منسوخ کریں اور حذف کریں"
+
+#: includes/class-zinn-migrate-admin.php:238
+msgid "Your package is ready"
+msgstr "آپ کا پیکیج تیار ہے"
+
+#: includes/class-zinn-migrate-admin.php:239
+msgid "Copy this link and paste it into your migration on Zinn®:"
+msgstr "اس لنک کو کاپی کریں اور Zinn® پر اپنی ہجرت میں پیسٹ کریں:"
+
+#. translators: %s: the package size.
+#: includes/class-zinn-migrate-admin.php:252
+#, php-format
+msgid "Size: %s."
+msgstr "سائز: %s۔"
+
+#: includes/class-zinn-migrate-admin.php:264
+msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
+msgstr "اس لنک کو پاس ورڈ کی طرح سمجھیں۔ جو بھی اس تک رسائی حاصل کرے گا وہ آپ کے ڈیٹا بیس سمیت آپ کی پوری سائٹ ڈاؤن لوڈ کر سکتا ہے۔ ہم پیکج کو بنانے کے 24 گھنٹے بعد خود بخود حذف کر دیتے ہیں — جیسے ہی آپ کی مائیگریشن ختم ہو جائے آپ اسے خود حذف کر دیں۔"
+
+#: includes/class-zinn-migrate-admin.php:273
+msgid "Delete the package now"
+msgstr "ابھی پیکیج حذف کریں"
+
+#: includes/class-zinn-migrate-admin.php:274
+msgid "Build it again"
+msgstr "دوبارہ بنائیں"
+
+#: includes/class-zinn-migrate-package.php:187
+msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
+msgstr "اس سرور پر پی ایچ پی (PHP) کا ZipArchive ایکسٹینشن موجود نہیں ہے، لہٰذا ہم یہاں پیکیج نہیں بنا سکتے۔ اپنے ہوسٹ سے کہیں کہ اسے فعال کرے، یا اس کے بجائے اپنے FTP یا SSH کی تفصیلات کے ساتھ Zinn® پر ہجرت کا فارم استعمال کریں۔"
+
+#: includes/class-zinn-migrate-package.php:197
+msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
+msgstr "ہم آپ کی اپ لوڈز ڈائریکٹری کے اندر ایک فولڈر نہیں بنا سکے، اس لیے پیکیج لکھنے کے لیے کوئی جگہ موجود نہیں ہے۔ چیک کریں کہ wp-content/uploads لکھنے کے قابل ہے۔"
+
+#: includes/class-zinn-migrate-package.php:278
+msgid "There is no package being built. Start one first."
+msgstr "کوئی پیکیج تیار نہیں ہو رہا ہے۔ پہلے ایک شروع کریں۔"
+
+#: includes/class-zinn-migrate-package.php:284
+msgid "We could not open the package file for writing."
+msgstr "ہم لکھنے کے لیے پیکیج فائل نہیں کھول سکے۔"
+
+#: includes/class-zinn-migrate-package.php:366
+msgid "We could not write the database export."
+msgstr "ہم ڈیٹا بیس ایکسپورٹ نہیں لکھ سکے۔"
+
+#. translators: %s: the Zinn Digital trade mark, which is not translated.
+#: includes/class-zinn-migrate-promo.php:241
+#: includes/class-zinn-migrate-promo.php:299
+#, php-format
+msgid "%s — guides and services"
+msgstr "%s — گائیڈز اور خدمات"
+
+#: includes/class-zinn-migrate-promo.php:256
+msgid "User guides"
+msgstr "صارف کے رہنما خطوط"
+
+#. translators: %s: this plugin's name, e.g. "Zinn® Cache".
+#: includes/class-zinn-migrate-promo.php:306
+#, php-format
+msgid "Read the %s user guide"
+msgstr "%s صارف گائیڈ پڑھیں"
+
+#: includes/class-zinn-migrate-promo.php:314
+msgid "Hide this"
+msgstr "یہ چھپائیں"
+
+#: includes/class-zinn-migrate-promo.php:374
+msgid "Zinn® hosting for WordPress"
+msgstr "WordPress کے لیے Zinn® ہوسٹنگ"
+
+#: includes/class-zinn-migrate-promo.php:375
+msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
+msgstr "LiteSpeed، روزانہ کے بیک اپ، مفت مائیگریشن اور ایک ایسا کنٹرول پینل جو ان لوگوں کے لیے بنایا گیا ہے جو ایک سے زیادہ سائیٹس چلاتے ہیں۔"
+
+#: includes/class-zinn-migrate-promo.php:381
+msgid "The Zinn® marketplace"
+msgstr "Zinn® مارکیٹ پلیس"
+
+#: includes/class-zinn-migrate-promo.php:382
+msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
+msgstr "مضبوط سائیٹس، ڈومینز اور لنک پلیسمنٹس خریدیں اور بیچیں، اور رقم اس وقت تک محفوظ رکھی جاتی ہے جب تک دونوں فریق مطمئن نہ ہوں۔"
+
+#: includes/class-zinn-migrate-promo.php:429
+msgid "Zinn Hub® — hire people who do this for a living"
+msgstr "Zinn Hub® — ایسے لوگوں کو ہائر کریں جو روزگار کے لیے یہ کام کرتے ہیں"
+
+#: includes/class-zinn-migrate-promo.php:430
+msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
+msgstr "ہماری عالمی فری لانس مارکیٹ پلیس: مصنفین، ڈیزائنرز، ڈویلپرز اور ایس ای او ماہرین کی 10,000 سے زیادہ تیار سروسز میں سے انتخاب کریں، یا کوئی پروجیکٹ پوسٹ کریں اور انہیں بولی لگانے دیں۔"
+
+#: includes/class-zinn-migrate-updater.php:233
+msgid "See the Zinn Digital® release notes."
+msgstr "Zinn Digital® کے ریلیز نوٹس دیکھیں۔"
+
+#: includes/class-zinn-migrate-updater.php:288
+msgid "The downloaded update failed its integrity check and was not installed."
+msgstr "ڈاؤن لوڈ کردہ اپ ڈیٹ کی سالمیت کی جانچ میں ناکام رہی اور اسے انسٹال نہیں کیا گیا۔"
