@@ -168,10 +168,10 @@ msgstr "%s ユーザーガイドを読む"
 msgid "Hide this"
 msgstr "非表示にする"
 
-#. zinn-i18n: not translated — MalformedMarkError: [ja] the ® left its mark: expected 'Zinn®' in the translation source: 'Zinn® hosting for WordPress' result
+#. zinn-i18n: human translation — the machine translator refused this string
 #: includes/class-zinn-migrate-promo.php:374
 msgid "Zinn® hosting for WordPress"
-msgstr ""
+msgstr "WordPress 向け Zinn® ホスティング"
 
 #: includes/class-zinn-migrate-promo.php:375
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."

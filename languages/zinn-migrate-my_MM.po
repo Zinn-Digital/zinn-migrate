@@ -51,10 +51,10 @@ msgstr "င်းကို လုပ်ဆောင်ရန် သင့်တ�
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "ဤအထုပ်သည် ဤဆိုက်ပေါ်ရှိ အရာအားလုံး (၎င်း၏ဖိုင်များနှင့် ဒေတာဘေ့စ်) ကို မော်ကွန်းတိုက်တစ်ခုထဲသို့ ပေါင်းထည့်ပေးပြီး ၎င်းအတွက် သီးသန့်လင့်ခ်တစ်ခုကို ပေးပါသည်။ ထိုလင့်ခ်ကို Zinn® ရှိ သင့်ရွှေ့ပြောင်းမှုထဲသို့ ကူးထည့်ပါ၊ ကျွန်ုပ်တို့သည် ဆိုက်ကို ဆွဲယူပါမည်။ သင်သည် လင့်ခ်ကို မျှဝေရန် မရွေးချယ်မချင်း ဤနေရာမှ မည်သည့်အရာကိုမျှ မည်သည့်နေရာသို့မျှ ပို့ဆောင်မည်မဟုတ်ပါ။"
 
-#. zinn-i18n: not translated — MalformedMarkError: [my] the translation INVENTED a registered mark: ['cPanel®', 'Plesk®', 'DirectAdmin®'] source: 'You may not
+#. zinn-i18n: human translation — the machine translator refused this string
 #: includes/class-zinn-migrate-admin.php:168
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
-msgstr ""
+msgstr "သင် ဒါကို မလိုအပ်နိုင်ပါ။ သင့်ယခင် hosting က FTP၊ SSH၊ cPanel၊ Plesk သို့မဟုတ် DirectAdmin ကို ပေးထားပါက Zinn® သည် ထိုအချက်အလက်များဖြင့် ဆိုက်ကို တိုက်ရိုက် ယူဆောင်နိုင်ပြီး ဤပလပ်ဂင်ကို လုံးဝ ကျော်သွားနိုင်ပါသည် — ပိုမြန်ပြီး နောက်ပိုင်းတွင် ဘာမျှ ကျန်မနေပါ။ ၎င်းတို့ထဲမှ တစ်ခုမျှ မရနိုင်သည့်အခါ ဤပလပ်ဂင်ကို အသုံးပြုပါ။"
 
 #: includes/class-zinn-migrate-admin.php:180
 msgid "Room on this server"

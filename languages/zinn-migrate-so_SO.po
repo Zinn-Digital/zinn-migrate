@@ -51,10 +51,10 @@ msgstr "Ma haysatid ogolaansho aad arrintan ku samayso."
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "Tani waxay wax walba oo ku jira boggan — faylasha iyo xog-ururintiisa — ku ururinaysaa hal kayd, waxayna ku siinaysaa xiriirin gaar ah. Xiriirintaas ku dheji raristaada Zinn® waana soo jiidi doonaa bogga. Wax halkan ku jira lama diro meelna ilaa aad doorato inaad la wadaagto xiriirinta."
 
-#. zinn-i18n: not translated — NeedsHumanTranslationError: so translation contains 'faahfaahintaas', a token that repeats its own opening — the shape of `revrevendeur` f
+#. zinn-i18n: human translation — the machine translator refused this string
 #: includes/class-zinn-migrate-admin.php:168
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
-msgstr ""
+msgstr "Waxaa laga yaabaa inaadan tan u baahnayn. Haddii martigeliyahaagii hore uu ku siiyo FTP, SSH, cPanel, Plesk ama DirectAdmin, Zinn® ayaa si toos ah u soo qaadan kara goobta iyadoo la adeegsanayo xogtaas, waadna ka boodi kartaa plugin-kan gebi ahaanba — way ka dhakhso badan tahay, mana jiraan wax ka hara kadib. Isticmaal tan marka midkoodna aadan heli karin."
 
 #: includes/class-zinn-migrate-admin.php:180
 msgid "Room on this server"

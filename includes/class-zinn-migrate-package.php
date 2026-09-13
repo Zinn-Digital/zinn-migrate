@@ -134,6 +134,7 @@ final class Zinn_Migrate_Package {
 				$bytes += (int) $file->getSize();
 			}
 		}
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- A size estimate for the export about to be written must read the database as it is NOW; there is no core API for table sizes and a cached answer is the wrong one.
 		$tables = $wpdb->get_results( 'SHOW TABLE STATUS', ARRAY_A );
 		foreach ( (array) $tables as $table ) {
 			$bytes += (int) ( $table['Data_length'] ?? 0 ) + (int) ( $table['Index_length'] ?? 0 );
@@ -340,6 +341,7 @@ final class Zinn_Migrate_Package {
 	 */
 	private static function step_database( ZipArchive $zip, array $state ): array {
 		global $wpdb;
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- The exporter must see every table that exists at the moment it runs; there is no core API for listing tables and a cached list would drop one created since.
 		$tables = $wpdb->get_col( 'SHOW TABLES' );
 		$tables = array_values(
 			array_filter( (array) $tables, static fn( $t ) => str_starts_with( (string) $t, $wpdb->prefix ) )
@@ -371,8 +373,9 @@ final class Zinn_Migrate_Package {
 				$create = $wpdb->get_row( "SHOW CREATE TABLE `{$table}`", ARRAY_N ); // phpcs:ignore WordPress.DB
 				fwrite( $handle, "\nDROP TABLE IF EXISTS `{$table}`;\n" . ( $create[1] ?? '' ) . ";\n" ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fwrite -- `WP_Filesystem`'s API is whole-file, and the whole file here is the customer's database. Appending row windows to a handle is the entire reason this export survives a 128M host.
 			}
+			// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching -- Streaming the customer's own rows into their export; caching them would copy the database into the object cache.
 			$rows = $wpdb->get_results(
-				$wpdb->prepare( "SELECT * FROM `{$table}` LIMIT %d OFFSET %d", self::ROWS_PER_WINDOW, $offset ), // phpcs:ignore WordPress.DB
+				$wpdb->prepare( 'SELECT * FROM %i LIMIT %d OFFSET %d', $table, self::ROWS_PER_WINDOW, $offset ),
 				ARRAY_A
 			);
 			foreach ( (array) $rows as $row ) {
