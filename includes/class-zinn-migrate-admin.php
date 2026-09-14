@@ -31,6 +31,13 @@ final class Zinn_Migrate_Admin {
 	private const NONCE = 'zinn_migrate_action';
 
 	/**
+	 * The hook suffix of this plugin's screen, filled in by `menu()`.
+	 *
+	 * @var string
+	 */
+	private static $screen = '';
+
+	/**
 	 * Wire the screen and the three write handlers.
 	 *
 	 * @return void
@@ -53,13 +60,87 @@ final class Zinn_Migrate_Admin {
 	 * @return void
 	 */
 	public static function menu(): void {
-		add_management_page(
+		$screen = add_management_page(
 			__( 'Move this site to Zinn®', 'zinn-migrate' ),
 			__( 'Move to Zinn®', 'zinn-migrate' ),
 			'manage_options',
 			self::SLUG,
 			array( self::class, 'render' )
 		);
+
+		// ⛔ `false` when the current user cannot see the screen, which is also exactly when
+		// nothing should be enqueued for it.
+		if ( is_string( $screen ) && '' !== $screen ) {
+			self::$screen = $screen;
+			add_action( 'admin_enqueue_scripts', array( self::class, 'enqueue' ) );
+		}
+	}
+
+	/**
+	 * The screen's JavaScript, enqueued — never printed.
+	 *
+	 * ⛔⛔ **THIS USED TO BE A `<script>` TAG IN `render()` UNDER A COMMENT SAYING *"no
+	 * dependency, no bundle, no enqueue"*, AND THAT COMMENT WAS THE DEFECT.** It reads as a
+	 * considered trade and is not one: a printed tag cannot be dequeued by a site owner,
+	 * cannot be deferred or combined by an optimiser, cannot be reached by
+	 * `script_loader_tag`, and is silently dropped on a site with a Content-Security-Policy
+	 * that forbids inline code — on which this screen would then sit on "Building…" for
+	 * ever with no visible fault.
+	 *
+	 * ⭐ Found by auditing the class after WordPress.org raised the same shape against
+	 * `zinn-cache` (`docs/730`). They named four sites in one plugin; this is a fifth, in a
+	 * plugin they have never seen, and it is the reason their *"search your codebase for
+	 * other occurrences"* instruction is the valuable half of a review.
+	 *
+	 * ⭐ The auto-continue is still an ENHANCEMENT, exactly as before: with JavaScript off
+	 * the "Continue" button is right there and the migration finishes by hand.
+	 *
+	 * @param string $hook_suffix The screen WordPress is about to render.
+	 * @return void
+	 */
+	public static function enqueue( $hook_suffix = '' ): void {
+		if ( self::$screen !== (string) $hook_suffix ) {
+			return;
+		}
+
+		$handle  = 'zinn-migrate-admin';
+		$version = defined( 'ZINN_MIGRATE_VERSION' ) ? (string) constant( 'ZINN_MIGRATE_VERSION' ) : false;
+
+		// A handle with no source is WordPress's own idiom for one that exists so inline
+		// code can hang off it — so this plugin still ships no `.js` file.
+		if ( ! wp_script_is( $handle, 'registered' ) ) {
+			wp_register_script( $handle, false, array(), $version, true );
+		}
+		wp_enqueue_script( $handle );
+
+		// ⛔ The auto-continue is enqueued unconditionally and GUARDS ITSELF on the button
+		// being present, rather than being enqueued only mid-build. Reading the package
+		// state here would be a second copy of `render()`'s condition, in a different hook,
+		// able to drift from it — and the drift would show up as a migration that silently
+		// stops advancing (§2.52). One line of JavaScript is cheaper than a second source
+		// of truth.
+		wp_add_inline_script( $handle, self::script_js() );
+	}
+
+	/**
+	 * The screen's behaviour: press Continue, and select the private link on focus.
+	 *
+	 * @return string
+	 */
+	private static function script_js(): string {
+		return <<<'JS'
+		( function () {
+			var step = document.querySelector( 'form input[value="zinn_migrate_step"]' );
+			if ( step && step.form ) {
+				window.setTimeout( function () { step.form.submit(); }, 800 );
+			}
+
+			document.addEventListener( 'focus', function ( event ) {
+				var field = event.target.closest( '[data-zinn-select]' );
+				if ( field ) { field.select(); }
+			}, true );
+		}() );
+		JS;
 	}
 
 	/** ⛔ Capability AND nonce on every write. Neither alone is a control. */
@@ -227,13 +308,6 @@ final class Zinn_Migrate_Admin {
 					self::button( 'zinn_migrate_delete', __( 'Cancel and delete', 'zinn-migrate' ) );
 					?>
 				</p>
-				<script>
-					// ⛔ No dependency, no bundle, no enqueue: three lines that press Continue.
-					setTimeout( function () {
-						var form = document.querySelector( 'form input[value="zinn_migrate_step"]' );
-						if ( form && form.form ) { form.form.submit(); }
-					}, 800 );
-				</script>
 			<?php else : ?>
 				<h2><?php esc_html_e( 'Your package is ready', 'zinn-migrate' ); ?></h2>
 				<p><?php esc_html_e( 'Copy this link and paste it into your migration on Zinn®:', 'zinn-migrate' ); ?></p>
@@ -242,7 +316,7 @@ final class Zinn_Migrate_Admin {
 						type="text"
 						readonly
 						class="large-text code"
-						onfocus="this.select()"
+						data-zinn-select
 						value="<?php echo esc_url( (string) ( $state['url'] ?? '' ) ); ?>" />
 				</p>
 				<p>
