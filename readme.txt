@@ -7,7 +7,7 @@ Tags: migration, export, backup, transfer, move
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ The plugin will tell you so instead of failing part way. In that case use the mi
 It builds in small steps, so size is a question of time and disk space rather than of timeouts. If the site is larger than the free space on the server, the screen tells you before you start.
 
 == Changelog ==
+
+= 1.0.2 =
+* Fix: a percent sign in the database — in your permalink settings, a post or a page — is now exported as a percent sign. Earlier packages replaced it with a long code, which broke post links after the move. Build a new package with this version.
 
 = 1.0.1 =
 * Translations: every string this plugin's admin shows is now translated in every bundled language. A few strings the machine translator refused were shipping in English; they are now translated by hand.

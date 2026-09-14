@@ -381,7 +381,7 @@ final class Zinn_Migrate_Package {
 			foreach ( (array) $rows as $row ) {
 				$values = array();
 				foreach ( $row as $value ) {
-					$values[] = null === $value ? 'NULL' : "'" . esc_sql( (string) $value ) . "'";
+					$values[] = self::sql_literal( $value );
 				}
 				fwrite( $handle, "INSERT INTO `{$table}` VALUES (" . implode( ',', $values ) . ");\n" ); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_fwrite -- see above: whole-file APIs cannot stream a database out in bounded windows.
 			}
@@ -395,6 +395,29 @@ final class Zinn_Migrate_Package {
 			$state['offset'] = $offset + self::ROWS_PER_WINDOW;
 		}
 		return $state;
+	}
+
+	/**
+	 * One column value as a SQL literal for the export file.
+	 *
+	 * ⛔⛔ `esc_sql()` IS NOT ENOUGH ON ITS OWN, AND IT CORRUPTED EVERY `%` IN EVERY EXPORT
+	 * (W43-43, D25870). Since WordPress 4.8.3 `esc_sql()` replaces each `%` with a
+	 * per-request placeholder hash, so that the result can be passed to `$wpdb->prepare()`
+	 * safely; `prepare()` puts the `%` back. This export never calls `prepare()` on the
+	 * value — it writes it to a file — so the hash was written instead. Measured on
+	 * production: a WordPress site restored from a package had `/%year%/%monthnum%/`
+	 * permalinks reading `/540843d1…year540843d1…/`, every post link was broken, and any post
+	 * saying "50% off" would have said "50540843d1… off".
+	 *
+	 * @param mixed $value A column value as `$wpdb` returned it.
+	 * @return string
+	 */
+	public static function sql_literal( $value ): string {
+		global $wpdb;
+		if ( null === $value ) {
+			return 'NULL';
+		}
+		return "'" . $wpdb->remove_placeholder_escape( esc_sql( (string) $value ) ) . "'";
 	}
 
 	/** Delete every package and forget the job. */
