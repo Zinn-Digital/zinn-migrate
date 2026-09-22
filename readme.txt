@@ -5,9 +5,9 @@ Author: Neil Lock — CEO, Zinn Digital® Ltd
 Author URI: https://zinndigital.com
 Tags: migration, export, backup, transfer, move
 Requires at least: 6.6
-Tested up to: 7.1
+Tested up to: 7.1.1
 Requires PHP: 8.2
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ The plugin will tell you so instead of failing part way. In that case use the mi
 It builds in small steps, so size is a question of time and disk space rather than of timeouts. If the site is larger than the free space on the server, the screen tells you before you start.
 
 == Changelog ==
+
+= 1.0.5 =
+* Tested up to WordPress 7.1.1.
 
 = 1.0.4 =
 * Maintenance release: the admin panel code this plugin shares with the other Zinn® plugins gained a layout fix for Zinn® Cache Engine. Nothing changes on this plugin's own screens.
