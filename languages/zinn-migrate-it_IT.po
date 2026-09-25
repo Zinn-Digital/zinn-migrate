@@ -34,116 +34,116 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-migrate-admin.php:57
-#: includes/class-zinn-migrate-admin.php:150
+#: includes/class-zinn-migrate-admin.php:64
+#: includes/class-zinn-migrate-admin.php:231
 msgid "Move this site to Zinn®"
 msgstr "Sposta questo sito su Zinn®"
 
-#: includes/class-zinn-migrate-admin.php:58
+#: includes/class-zinn-migrate-admin.php:65
 msgid "Move to Zinn®"
 msgstr "Sposta su Zinn®"
 
-#: includes/class-zinn-migrate-admin.php:68
+#: includes/class-zinn-migrate-admin.php:149
 msgid "You do not have permission to do this."
 msgstr "Non si dispone dell'autorizzazione per eseguire questa operazione."
 
-#: includes/class-zinn-migrate-admin.php:154
+#: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "Questo pacchetto racchiude tutto ciò che si trova su questo sito (i file e il database) in un unico archivio e Le fornisce un link privato a esso. Incolli quel link nella Sua migrazione su Zinn® e noi sposteremo il sito. Nulla di ciò che è qui viene inviato altrove finché Lei non decide di condividere il link."
 
-#: includes/class-zinn-migrate-admin.php:168
+#: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
 msgstr "Potrebbe non esservi necessario. Se il vostro vecchio host vi fornisce FTP, SSH, cPanel, Plesk o DirectAdmin, Zinn® può recuperare il sito direttamente con quei dati e potete saltare completamente questo plugin: è più veloce e non lascia nulla alle spalle in seguito. Utilizzatelo quando nessuno di questi vi è disponibile."
 
-#: includes/class-zinn-migrate-admin.php:180
+#: includes/class-zinn-migrate-admin.php:261
 msgid "Room on this server"
 msgstr "Spazio su questo server"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
-#: includes/class-zinn-migrate-admin.php:191
+#: includes/class-zinn-migrate-admin.php:272
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
 msgstr "Questo server non ci comunica quanto spazio su disco sia libero, quindi non possiamo verificarlo per Lei. Il pacchetto richiede circa %s. Se non ha la certezza che ci sia abbastanza spazio, lo chieda al Suo provider prima di effettuare la creazione: un server che esaurisce lo spazio a metà processo mette offline il sito."
 
 #. translators: 1: space required, 2: space free.
-#: includes/class-zinn-migrate-admin.php:197
+#: includes/class-zinn-migrate-admin.php:278
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
 msgstr "Il pacchetto richiede circa %1$s e questo server ha %2$s liberi."
 
-#: includes/class-zinn-migrate-admin.php:206
+#: includes/class-zinn-migrate-admin.php:287
 msgid "Build the package"
 msgstr "Crea il pacchetto"
 
-#: includes/class-zinn-migrate-admin.php:208
+#: includes/class-zinn-migrate-admin.php:289
 msgid "Building…"
 msgstr "Creazione in corso…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
-#: includes/class-zinn-migrate-admin.php:213
+#: includes/class-zinn-migrate-admin.php:294
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
 msgstr "Creazione pacchetto in corso: %1$s. Finora %2$s file, %3$s scritti."
 
-#: includes/class-zinn-migrate-admin.php:214
+#: includes/class-zinn-migrate-admin.php:295
 msgid "your files"
 msgstr "i tuoi file"
 
-#: includes/class-zinn-migrate-admin.php:214
+#: includes/class-zinn-migrate-admin.php:295
 msgid "your database"
 msgstr "il Suo database"
 
-#: includes/class-zinn-migrate-admin.php:226
+#: includes/class-zinn-migrate-admin.php:307
 msgid "Continue"
 msgstr "Continua"
 
-#: includes/class-zinn-migrate-admin.php:227
+#: includes/class-zinn-migrate-admin.php:308
 msgid "Cancel and delete"
 msgstr "Annulla ed elimina"
 
-#: includes/class-zinn-migrate-admin.php:238
+#: includes/class-zinn-migrate-admin.php:312
 msgid "Your package is ready"
 msgstr "Il Suo pacchetto è pronto"
 
-#: includes/class-zinn-migrate-admin.php:239
+#: includes/class-zinn-migrate-admin.php:313
 msgid "Copy this link and paste it into your migration on Zinn®:"
 msgstr "Copi questo link e incollalo nella tua migrazione su Zinn®:"
 
 #. translators: %s: the package size.
-#: includes/class-zinn-migrate-admin.php:252
+#: includes/class-zinn-migrate-admin.php:326
 #, php-format
 msgid "Size: %s."
 msgstr "Dimensioni: %s."
 
-#: includes/class-zinn-migrate-admin.php:264
+#: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
 msgstr "Tratti questo link come una password. Chiunque lo possieda può scaricare l'intero sito, incluso il database. Il pacchetto viene eliminato automaticamente 24 ore dopo la creazione; lo elimini autonomamente non appena la migrazione è completata."
 
-#: includes/class-zinn-migrate-admin.php:273
+#: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
 msgstr "Elimina il pacchetto ora"
 
-#: includes/class-zinn-migrate-admin.php:274
+#: includes/class-zinn-migrate-admin.php:348
 msgid "Build it again"
 msgstr "Ricostruisci"
 
-#: includes/class-zinn-migrate-package.php:187
+#: includes/class-zinn-migrate-package.php:188
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
 msgstr "Questo server non dispone dell'estensione ZipArchive di PHP, quindi non è possibile creare un pacchetto qui. Si prega di chiedere al proprio provider di attivarla, oppure di utilizzare il modulo di migrazione su Zinn® inserendo i propri dati FTP o SSH."
 
-#: includes/class-zinn-migrate-package.php:197
+#: includes/class-zinn-migrate-package.php:198
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
 msgstr "Non siamo riusciti a creare una cartella all'interno della directory degli upload, quindi non c'è alcuno spazio in cui scrivere il pacchetto. Verifica che wp-content/uploads sia scrivibile."
 
-#: includes/class-zinn-migrate-package.php:278
+#: includes/class-zinn-migrate-package.php:279
 msgid "There is no package being built. Start one first."
 msgstr "Non ci sono pacchetti in fase di compilazione. Avviane prima uno."
 
-#: includes/class-zinn-migrate-package.php:284
+#: includes/class-zinn-migrate-package.php:285
 msgid "We could not open the package file for writing."
 msgstr "Non è stato possibile aprire il file del pacchetto in scrittura."
 
-#: includes/class-zinn-migrate-package.php:366
+#: includes/class-zinn-migrate-package.php:368
 msgid "We could not write the database export."
 msgstr "Non è stato possibile scrivere l'esportazione del database."
 
@@ -168,27 +168,27 @@ msgstr "Leggi la guida utente %s"
 msgid "Hide this"
 msgstr "Nascondi"
 
-#: includes/class-zinn-migrate-promo.php:374
+#: includes/class-zinn-migrate-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "Hosting Zinn® per WordPress"
 
-#: includes/class-zinn-migrate-promo.php:375
+#: includes/class-zinn-migrate-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, backup giornalieri, migrazione gratuita e un pannello di controllo progettato per chi gestisce più di un sito."
 
-#: includes/class-zinn-migrate-promo.php:381
+#: includes/class-zinn-migrate-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Il marketplace Zinn®"
 
-#: includes/class-zinn-migrate-promo.php:382
+#: includes/class-zinn-migrate-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Compra e vendi siti già avviati, domini e posizionamenti di link, con il denaro trattenuto al sicuro finché entrambe le parti non sono soddisfatte."
 
-#: includes/class-zinn-migrate-promo.php:429
+#: includes/class-zinn-migrate-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — assumi professionisti che lo fanno per mestiere"
 
-#: includes/class-zinn-migrate-promo.php:430
+#: includes/class-zinn-migrate-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Il nostro marketplace globale per freelance: sfoglia oltre 10.000 servizi pronti all'uso di scrittori, designer, sviluppatori ed esperti SEO, oppure pubblica un progetto e lascia che facciano le loro offerte."
 

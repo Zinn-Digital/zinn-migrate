@@ -34,116 +34,116 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-migrate-admin.php:57
-#: includes/class-zinn-migrate-admin.php:150
+#: includes/class-zinn-migrate-admin.php:64
+#: includes/class-zinn-migrate-admin.php:231
 msgid "Move this site to Zinn®"
 msgstr "এই সাইটটি Zinn®-এ সরান"
 
-#: includes/class-zinn-migrate-admin.php:58
+#: includes/class-zinn-migrate-admin.php:65
 msgid "Move to Zinn®"
 msgstr "Zinn®-এ সরান"
 
-#: includes/class-zinn-migrate-admin.php:68
+#: includes/class-zinn-migrate-admin.php:149
 msgid "You do not have permission to do this."
 msgstr "আপনার এটি করার অনুমতি নেই।"
 
-#: includes/class-zinn-migrate-admin.php:154
+#: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "এটি এই সাইটের সবকিছু—এর ফাইল এবং ডেটাবেস—একটি সংরক্ষণাগারে প্যাক করে এবং আপনাকে এতে একটি ব্যক্তিগত লিঙ্ক দেয়। Zinn®-এ আপনার মাইগ্রেশনে সেই লিঙ্কটি পেস্ট করুন এবং আমরা সাইটটি টেনে নেব। আপনি লিঙ্কটি শেয়ার করার সিদ্ধান্ত না নেওয়া পর্যন্ত এখানকার কিছুই কোথাও পাঠানো হয় না।"
 
-#: includes/class-zinn-migrate-admin.php:168
+#: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
 msgstr "আপনার এটি নাও লাগতে পারে। যদি আপনার পুরোনো হোস্ট আপনাকে FTP, SSH, cPanel, Plesk বা DirectAdmin দিয়ে থাকে, তবে Zinn® সেই বিবরণগুলো ব্যবহার করে সরাসরি সাইটটি নিয়ে আসতে পারে এবং আপনি এই প্লাগইনটি পুরোপুরি এড়িয়ে যেতে পারেন—এটি দ্রুততর এবং এর পরে কোনো অবশিষ্টাংশ থাকে না। আপনার কাছে এর মধ্যে কোনটিই উপলব্ধ না থাকলে এটি ব্যবহার করুন।"
 
-#: includes/class-zinn-migrate-admin.php:180
+#: includes/class-zinn-migrate-admin.php:261
 msgid "Room on this server"
 msgstr "এই সার্ভারে জায়গা"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
-#: includes/class-zinn-migrate-admin.php:191
+#: includes/class-zinn-migrate-admin.php:272
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
 msgstr "এই সার্ভারটি আমাদের জানায় না যে কত ডিস্ক স্পেস খালি আছে, তাই আমরা আপনার জন্য তা পরীক্ষা করতে পারছি না। প্যাকেজটির জন্য প্রায় %s প্রয়োজন। পর্যাপ্ত জায়গা আছে কি না সে বিষয়ে নিশ্চিত না হলে, তৈরি করার আগে আপনার হোস্টে জিজ্ঞাসা করুন—মাঝপথে স্পেস ফুরিয়ে যাওয়া একটি সার্ভার সাইটটিকে ডাউন করে দেয়।"
 
 #. translators: 1: space required, 2: space free.
-#: includes/class-zinn-migrate-admin.php:197
+#: includes/class-zinn-migrate-admin.php:278
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
 msgstr "প্যাকেজটির জন্য প্রায় %1$s প্রয়োজন এবং এই সার্ভারে %2$s খালি রয়েছে।"
 
-#: includes/class-zinn-migrate-admin.php:206
+#: includes/class-zinn-migrate-admin.php:287
 msgid "Build the package"
 msgstr "প্যাকেজ তৈরি করুন"
 
-#: includes/class-zinn-migrate-admin.php:208
+#: includes/class-zinn-migrate-admin.php:289
 msgid "Building…"
 msgstr "তৈরি হচ্ছে…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
-#: includes/class-zinn-migrate-admin.php:213
+#: includes/class-zinn-migrate-admin.php:294
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
 msgstr "এখন প্যাকেজ করা হচ্ছে: %1$s। এ পর্যন্ত %2$s ফাইল, %3$s লেখা হয়েছে।"
 
-#: includes/class-zinn-migrate-admin.php:214
+#: includes/class-zinn-migrate-admin.php:295
 msgid "your files"
 msgstr "আপনার ফাইলসমূহ"
 
-#: includes/class-zinn-migrate-admin.php:214
+#: includes/class-zinn-migrate-admin.php:295
 msgid "your database"
 msgstr "আপনার ডাটাবেস"
 
-#: includes/class-zinn-migrate-admin.php:226
+#: includes/class-zinn-migrate-admin.php:307
 msgid "Continue"
 msgstr "চালিয়ে যান"
 
-#: includes/class-zinn-migrate-admin.php:227
+#: includes/class-zinn-migrate-admin.php:308
 msgid "Cancel and delete"
 msgstr "বাতিল করুন এবং মুছুন"
 
-#: includes/class-zinn-migrate-admin.php:238
+#: includes/class-zinn-migrate-admin.php:312
 msgid "Your package is ready"
 msgstr "আপনার প্যাকেজ প্রস্তুত আছে"
 
-#: includes/class-zinn-migrate-admin.php:239
+#: includes/class-zinn-migrate-admin.php:313
 msgid "Copy this link and paste it into your migration on Zinn®:"
 msgstr "এই লিঙ্কটি কপি করে Zinn®-এ আপনার মাইগ্রেশনে পেস্ট করুন:"
 
 #. translators: %s: the package size.
-#: includes/class-zinn-migrate-admin.php:252
+#: includes/class-zinn-migrate-admin.php:326
 #, php-format
 msgid "Size: %s."
 msgstr "আকার: %s।"
 
-#: includes/class-zinn-migrate-admin.php:264
+#: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
 msgstr "এই লিঙ্কে পাসওয়ার্ডের মতো আচরণ করুন। এটি যার কাছেই থাকবে, সে আপনার ডাটাবেজসহ আপনার সম্পূর্ণ সাইট ডাউনলোড করতে পারবে। প্যাকেজ তৈরি হওয়ার ২৪ ঘণ্টা পর আমরা এটি স্বয়ংক্রয়ভাবে মুছে ফেলি — মাইগ্রেশন শেষ হওয়ার সাথে সাথেই আপনি নিজে এটি মুছে ফেলুন।"
 
-#: includes/class-zinn-migrate-admin.php:273
+#: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
 msgstr "প্যাকেজটি এখনই মুছুন"
 
-#: includes/class-zinn-migrate-admin.php:274
+#: includes/class-zinn-migrate-admin.php:348
 msgid "Build it again"
 msgstr "আবার তৈরি করুন"
 
-#: includes/class-zinn-migrate-package.php:187
+#: includes/class-zinn-migrate-package.php:188
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
 msgstr "এই সার্ভারে পিএইচপি-র (PHP) ZipArchive এক্সটেনশন নেই, তাই আমরা এখানে কোনো প্যাকেজ তৈরি করতে পারছি না। আপনার হোস্টকে এটি সচল (enable) করতে বলুন, অথবা এর পরিবর্তে আপনার এফটিপি (FTP) বা এসএসএইচ (SSH) বিবরণসহ Zinn®-এর মাইগ্রেশন ফর্ম ব্যবহার করুন।"
 
-#: includes/class-zinn-migrate-package.php:197
+#: includes/class-zinn-migrate-package.php:198
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
 msgstr "আমরা আপনার আপলোড ডিরেক্টরির মধ্যে একটি ফোল্ডার তৈরি করতে পারিনি, তাই প্যাকেজটি লেখার কোনো স্থান নেই। wp-content/uploads রাইটযোগ্য (writable) কিনা তা পরীক্ষা করুন।"
 
-#: includes/class-zinn-migrate-package.php:278
+#: includes/class-zinn-migrate-package.php:279
 msgid "There is no package being built. Start one first."
 msgstr "কোনো প্যাকেজ তৈরি করা হচ্ছে না। প্রথমে একটি শুরু করুন।"
 
-#: includes/class-zinn-migrate-package.php:284
+#: includes/class-zinn-migrate-package.php:285
 msgid "We could not open the package file for writing."
 msgstr "আমরা লেখার জন্য প্যাকেজ ফাইলটি খুলতে পারিনি।"
 
-#: includes/class-zinn-migrate-package.php:366
+#: includes/class-zinn-migrate-package.php:368
 msgid "We could not write the database export."
 msgstr "আমরা ডাটাবেস এক্সপোর্ট লিখতে পারিনি।"
 
@@ -168,27 +168,27 @@ msgstr "%s ব্যবহারকারী নির্দেশিকা প�
 msgid "Hide this"
 msgstr "এটি লুকান"
 
-#: includes/class-zinn-migrate-promo.php:374
+#: includes/class-zinn-migrate-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress-এর জন্য Zinn® হোস্টিং"
 
-#: includes/class-zinn-migrate-promo.php:375
+#: includes/class-zinn-migrate-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, দৈনিক ব্যাকআপ, বিনামূল্যে মাইগ্রেশন এবং একাধিক সাইট পরিচালনা করেন এমন ব্যক্তিদের জন্য তৈরি একটি কন্ট্রোল প্যানেল।"
 
-#: includes/class-zinn-migrate-promo.php:381
+#: includes/class-zinn-migrate-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Zinn® মার্কেটপ্লেস"
 
-#: includes/class-zinn-migrate-promo.php:382
+#: includes/class-zinn-migrate-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "প্রতিষ্ঠিত সাইট, ডোমেইন এবং লিঙ্ক প্লেসমেন্ট কেনা-বেচা করুন, উভয় পক্ষ সন্তুষ্ট না হওয়া পর্যন্ত টাকা নিরাপদে জমা রাখা হয়।"
 
-#: includes/class-zinn-migrate-promo.php:429
+#: includes/class-zinn-migrate-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — এমন মানুষ নিয়োগ করুন যারা জীবিকা হিসেবে এটি করেন"
 
-#: includes/class-zinn-migrate-promo.php:430
+#: includes/class-zinn-migrate-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "আমাদের বৈশ্বিক ফ্রিল্যান্স মার্কেটপ্লেস: লেখক, ডিজাইনার, ডেভেলপার এবং এসইও বিশেষজ্ঞদের কাছ থেকে ১০,০০০-এর বেশি প্রস্তুত সার্ভিস ব্রাউজ করুন, অথবা একটি প্রজেক্ট পোস্ট করে তাদের বিড করার সুযোগ দিন।"
 

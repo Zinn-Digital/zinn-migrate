@@ -34,116 +34,116 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-migrate-admin.php:57
-#: includes/class-zinn-migrate-admin.php:150
+#: includes/class-zinn-migrate-admin.php:64
+#: includes/class-zinn-migrate-admin.php:231
 msgid "Move this site to Zinn®"
 msgstr "Бұл сайтты Zinn® жүйесіне көшіру"
 
-#: includes/class-zinn-migrate-admin.php:58
+#: includes/class-zinn-migrate-admin.php:65
 msgid "Move to Zinn®"
 msgstr "Zinn® жүйесіне жылжыту"
 
-#: includes/class-zinn-migrate-admin.php:68
+#: includes/class-zinn-migrate-admin.php:149
 msgid "You do not have permission to do this."
 msgstr "Бұл әрекетті орындауға рұқсатыңыз жоқ."
 
-#: includes/class-zinn-migrate-admin.php:154
+#: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "Бұл сайттағы барлық нәрсенің (файлдар мен дерекқордың) басын біріктіріп бір мұрағатқа жинайды және сізге оған жеке сілтеме береді. Сол сілтемені Zinn® көшіру бөліміне қойсаңыз, біз сайтты тасымалдап әкелеміз. Сілтемені бөлісуді шешпесеңіз, мұндағы ештеңе ешқайда жіберілмейді."
 
-#: includes/class-zinn-migrate-admin.php:168
+#: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
 msgstr "Бұл сізге қажет болмауы мүмкін. Егер ескі хостингіңіз сізге FTP, SSH, cPanel, Plesk немесе DirectAdmin берсе, Zinn® бұл деректер арқылы сайтты тікелей ала алады және бұл плагин мүлде қажет емес — ол жылдамырақ және соңында ешнәрсе қалмайды. Мұны олардың ешқайсысы қолжетімсіз болған жағдайда пайдаланыңыз."
 
-#: includes/class-zinn-migrate-admin.php:180
+#: includes/class-zinn-migrate-admin.php:261
 msgid "Room on this server"
 msgstr "Бұл сервердегі орын"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
-#: includes/class-zinn-migrate-admin.php:191
+#: includes/class-zinn-migrate-admin.php:272
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
 msgstr "Бұл сервер бізге қанша бос диск кеңістігі қалғанын хабарламайды, сондықтан біз оны сіз үшін тектей алмаймыз. Пакетке шамамен %s қажет. Егер мұндай бос орын бар екеніне сенімді болмасаңыз, құрастырма бұрын хостинг провайдеріңізден сұраңыз — орта жолда бос орны таусылған сервер сайтты жұмыстан шығарады."
 
 #. translators: 1: space required, 2: space free.
-#: includes/class-zinn-migrate-admin.php:197
+#: includes/class-zinn-migrate-admin.php:278
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
 msgstr "Бұл пакетке шамамен %1$s қажет, ал бұл серверде %2$s бос орын бар."
 
-#: includes/class-zinn-migrate-admin.php:206
+#: includes/class-zinn-migrate-admin.php:287
 msgid "Build the package"
 msgstr "Пакетті құру"
 
-#: includes/class-zinn-migrate-admin.php:208
+#: includes/class-zinn-migrate-admin.php:289
 msgid "Building…"
 msgstr "Құрылуда…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
-#: includes/class-zinn-migrate-admin.php:213
+#: includes/class-zinn-migrate-admin.php:294
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
 msgstr "Қазір буып-түю: %1$s. Әзірше %2$s файл, %3$s жазылды."
 
-#: includes/class-zinn-migrate-admin.php:214
+#: includes/class-zinn-migrate-admin.php:295
 msgid "your files"
 msgstr "сіздің файлдарыңыз"
 
-#: includes/class-zinn-migrate-admin.php:214
+#: includes/class-zinn-migrate-admin.php:295
 msgid "your database"
 msgstr "сіздің дерекқорыңыз"
 
-#: includes/class-zinn-migrate-admin.php:226
+#: includes/class-zinn-migrate-admin.php:307
 msgid "Continue"
 msgstr "Жалғастыру"
 
-#: includes/class-zinn-migrate-admin.php:227
+#: includes/class-zinn-migrate-admin.php:308
 msgid "Cancel and delete"
 msgstr "Болдырмау және жою"
 
-#: includes/class-zinn-migrate-admin.php:238
+#: includes/class-zinn-migrate-admin.php:312
 msgid "Your package is ready"
 msgstr "Сіздің пакетіңіз дайын"
 
-#: includes/class-zinn-migrate-admin.php:239
+#: includes/class-zinn-migrate-admin.php:313
 msgid "Copy this link and paste it into your migration on Zinn®:"
 msgstr "Бұл сілтемені көшіріп, Zinn® көшіру әрекетіне қойыңыз:"
 
 #. translators: %s: the package size.
-#: includes/class-zinn-migrate-admin.php:252
+#: includes/class-zinn-migrate-admin.php:326
 #, php-format
 msgid "Size: %s."
 msgstr "Өлшемі: %s."
 
-#: includes/class-zinn-migrate-admin.php:264
+#: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
 msgstr "Бұл сілтемені құпия сөз сияқты сақтаңыз. Оған ие болған кез келген адам, соның ішінде дерекқорыңызды да, бүкіл сайтыңызды жүктеп ала алады. Біз мұрағатты жасалғаннан кейін 24 сағат өткен соң автоматты түрде жоямыз — миграция аяқталған бойda оны өзіңіз де жойыңыз."
 
-#: includes/class-zinn-migrate-admin.php:273
+#: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
 msgstr "Пакетті қазір жою"
 
-#: includes/class-zinn-migrate-admin.php:274
+#: includes/class-zinn-migrate-admin.php:348
 msgid "Build it again"
 msgstr "Қайта құру"
 
-#: includes/class-zinn-migrate-package.php:187
+#: includes/class-zinn-migrate-package.php:188
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
 msgstr "Бұл серверде PHP-ның ZipArchive кеңейтімі жоқ, сондықтан біз мұнда топтама құра алмаймыз. Хостинг провайдеріңізге оны қосуды сұраңыз немесе оның орнына FTP немесе SSH деректерімен Zinn® жүйесіндегі көшіру формасын пайдаланыңыз."
 
-#: includes/class-zinn-migrate-package.php:197
+#: includes/class-zinn-migrate-package.php:198
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
 msgstr "Жүктеулер каталогының ішінде папка жасай алмадық, сондықтан топтаманы жазатын орын жоқ. wp-content/uploads жазуға болатынын тексеріңіз."
 
-#: includes/class-zinn-migrate-package.php:278
+#: includes/class-zinn-migrate-package.php:279
 msgid "There is no package being built. Start one first."
 msgstr "Құрылып жатқан пакет жоқ. Алдымен біреуін бастаңыз."
 
-#: includes/class-zinn-migrate-package.php:284
+#: includes/class-zinn-migrate-package.php:285
 msgid "We could not open the package file for writing."
 msgstr "Мезма файлын жазу үшін ашу мүмкін болмады."
 
-#: includes/class-zinn-migrate-package.php:366
+#: includes/class-zinn-migrate-package.php:368
 msgid "We could not write the database export."
 msgstr "Деректер базасының экспорттық файлын жаза алмадық."
 
@@ -168,27 +168,27 @@ msgstr "%s пайдаланушы нұсқаулығын оқу"
 msgid "Hide this"
 msgstr "Бұл жасыру"
 
-#: includes/class-zinn-migrate-promo.php:374
+#: includes/class-zinn-migrate-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress үшін Zinn® хостингі"
 
-#: includes/class-zinn-migrate-promo.php:375
+#: includes/class-zinn-migrate-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, күн́делік сақтық көшірмелер, тегін көшіру және бірнеше сайт басқаратын адамдарға арналған басқару панелі."
 
-#: includes/class-zinn-migrate-promo.php:381
+#: includes/class-zinn-migrate-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Zinn® маркетплейсі"
 
-#: includes/class-zinn-migrate-promo.php:382
+#: includes/class-zinn-migrate-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Дайын сайттарды, домендерді және сілтеме орналастыру орындарын сатып алыңыз және сатыңыз, ал ақша екі тарап та риза болғанша қауіпсіз түрде сақталады."
 
-#: includes/class-zinn-migrate-promo.php:429
+#: includes/class-zinn-migrate-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — бұл іспен кәсіби түрде айналысатын мамандарды жалдаңыз"
 
-#: includes/class-zinn-migrate-promo.php:430
+#: includes/class-zinn-migrate-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Біздің жаһандық фриланс нарығымыз: жазушылардан, дизайнерлерден, әзірлеушілерден және SEO мамандарынан 10 000-нан астам дайын қызметті қарап шығыңыз немесе жоба жариялап, олардың ұсыныс жасауына мүмкіндік беріңіз."
 

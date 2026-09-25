@@ -7,7 +7,7 @@ Tags: migration, export, backup, transfer, move
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ The plugin will tell you so instead of failing part way. In that case use the mi
 It builds in small steps, so size is a question of time and disk space rather than of timeouts. If the site is larger than the free space on the server, the screen tells you before you start.
 
 == Changelog ==
+
+= 1.0.7 =
+* Translations: a word written in the wrong alphabet (for example a Korean word inside a Malayalam sentence, or an Urdu word ending a Punjabi one) is corrected in every language that had one. Each affected string was translated again and checked.
 
 = 1.0.6 =
 * Tested up to: 7.1 — the major version only, as WordPress.org's Plugin Check requires (7.1.1 was refused as invalid_tested_upto_minor).

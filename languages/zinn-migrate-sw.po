@@ -34,116 +34,116 @@ msgstr "Neil Lock — CEO, Zinn Digital® Ltd"
 msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
-#: includes/class-zinn-migrate-admin.php:57
-#: includes/class-zinn-migrate-admin.php:150
+#: includes/class-zinn-migrate-admin.php:64
+#: includes/class-zinn-migrate-admin.php:231
 msgid "Move this site to Zinn®"
 msgstr "Hamisha tovuti hii hadi Zinn®"
 
-#: includes/class-zinn-migrate-admin.php:58
+#: includes/class-zinn-migrate-admin.php:65
 msgid "Move to Zinn®"
 msgstr "Hamishia Zinn®"
 
-#: includes/class-zinn-migrate-admin.php:68
+#: includes/class-zinn-migrate-admin.php:149
 msgid "You do not have permission to do this."
 msgstr "Huna ruhusa ya kufanya hivi."
 
-#: includes/class-zinn-migrate-admin.php:154
+#: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "Kifurushi hiki kinajumuisha kila kitu kwenye tovuti hii — faili zake na hifadhidata yake — katika hifadhi moja, na kinakupa kiungo cha faragha kuelekea huko. Bandika kiungo hicho kwenye uhamiaji wako kwenye Zinn® nasi tutahamisha tovuti hiyo. Hakuna kinachotumwa popote hapa hadi utakapochagua kushiriki kiungo hicho."
 
-#: includes/class-zinn-migrate-admin.php:168
+#: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
 msgstr "Huenda usihitaji hili. Ikiwa mwenyeji wako wa zamani anakupa FTP, SSH, cPanel, Plesk au DirectAdmin, Zinn® inaweza kuchukua tovuti hiyo moja kwa moja kwa maelezo hayo na unaweza kuruka programu-jalizi hii kabisa — ni ya haraka na hakuna kinachobaki baadaye. Tumia hii wakati hakuna mojawapo ya hizo inayopatikana kwako."
 
-#: includes/class-zinn-migrate-admin.php:180
+#: includes/class-zinn-migrate-admin.php:261
 msgid "Room on this server"
 msgstr "Nafasi kwenye seva hii"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
-#: includes/class-zinn-migrate-admin.php:191
+#: includes/class-zinn-migrate-admin.php:272
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
 msgstr "Seva hii haitwambii ni kiasi gani cha nafasi ya diski ambacho ni huru, kwa hivyo hatuwezi kukukagua. Kifurushi hiki kinahitaji takriban %s. Ikiwa huna uhakika kuwa kuna nafasi ya kutosha, uliza mwenyeji wako kabla ya kuijenga — seva inayoishiwa na nafasi katikati inasimamisha tovuti."
 
 #. translators: 1: space required, 2: space free.
-#: includes/class-zinn-migrate-admin.php:197
+#: includes/class-zinn-migrate-admin.php:278
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
 msgstr "Kifurushi hiki kinahitaji takriban %1$s na seva hii ina nafasi ya bure ya %2$s."
 
-#: includes/class-zinn-migrate-admin.php:206
+#: includes/class-zinn-migrate-admin.php:287
 msgid "Build the package"
 msgstr "Tengeneza kifurushi"
 
-#: includes/class-zinn-migrate-admin.php:208
+#: includes/class-zinn-migrate-admin.php:289
 msgid "Building…"
 msgstr "Inajenga…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
-#: includes/class-zinn-migrate-admin.php:213
+#: includes/class-zinn-migrate-admin.php:294
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
 msgstr "Sasa inapakia: %1$s. Faili %2$s kufikia sasa, %3$s imeandikwa."
 
-#: includes/class-zinn-migrate-admin.php:214
+#: includes/class-zinn-migrate-admin.php:295
 msgid "your files"
 msgstr "failisho zako"
 
-#: includes/class-zinn-migrate-admin.php:214
+#: includes/class-zinn-migrate-admin.php:295
 msgid "your database"
 msgstr "hifadhi data yako"
 
-#: includes/class-zinn-migrate-admin.php:226
+#: includes/class-zinn-migrate-admin.php:307
 msgid "Continue"
 msgstr "Endelea"
 
-#: includes/class-zinn-migrate-admin.php:227
+#: includes/class-zinn-migrate-admin.php:308
 msgid "Cancel and delete"
 msgstr "Ghairisha na ufute"
 
-#: includes/class-zinn-migrate-admin.php:238
+#: includes/class-zinn-migrate-admin.php:312
 msgid "Your package is ready"
 msgstr "Kifurushi chako kiko tayari"
 
-#: includes/class-zinn-migrate-admin.php:239
+#: includes/class-zinn-migrate-admin.php:313
 msgid "Copy this link and paste it into your migration on Zinn®:"
 msgstr "Nakili kiungo hiki na ukibandike kwenye uhamiaji wako kwenye Zinn®:"
 
 #. translators: %s: the package size.
-#: includes/class-zinn-migrate-admin.php:252
+#: includes/class-zinn-migrate-admin.php:326
 #, php-format
 msgid "Size: %s."
 msgstr "Ukubwa: %s."
 
-#: includes/class-zinn-migrate-admin.php:264
+#: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
 msgstr "Chukulie kiungo hiki kama nenosiri. Mtu yeyote aliye nacho anaweza kupakua tovuti yako nzuri, ikiwa ni pamoja na hifadhidata yako. Tunafuta kifurushi hiki kiotomatiki saa 24 baada ya kuundwa — kifute mwenyewe pindi tu uhamiaji wako utakapokamilika."
 
-#: includes/class-zinn-migrate-admin.php:273
+#: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
 msgstr "Futa kifurushi hiki sasa"
 
-#: includes/class-zinn-migrate-admin.php:274
+#: includes/class-zinn-migrate-admin.php:348
 msgid "Build it again"
 msgstr "Ilijenge tena"
 
-#: includes/class-zinn-migrate-package.php:187
+#: includes/class-zinn-migrate-package.php:188
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
 msgstr "Seva hii haina kiendelezi cha ZipArchive cha PHP, kwa hivyo hatuwezi kuunda kifurushi hapa. Mwombe mwenyeji wakoakiwezeshe, au tumia fomu ya uhamiaji kwenye Zinn® iliyo na maelezo yako ya FTP au SSH badala yake."
 
-#: includes/class-zinn-migrate-package.php:197
+#: includes/class-zinn-migrate-package.php:198
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
 msgstr "Hatukuweza kuunda folda ndani ya saraka yako ya kupakia, kwa hivyo hakuna mahali pa kuandika kifurushi hicho. Angalia kuwa wp-content/uploads inaweza kuandikika."
 
-#: includes/class-zinn-migrate-package.php:278
+#: includes/class-zinn-migrate-package.php:279
 msgid "There is no package being built. Start one first."
 msgstr "Hakuna kifurushi kinachojengwa. Anza kimo kwanza."
 
-#: includes/class-zinn-migrate-package.php:284
+#: includes/class-zinn-migrate-package.php:285
 msgid "We could not open the package file for writing."
 msgstr "Hatukuweza kufungua faili ya kifurushi kwa ajili ya kuandika."
 
-#: includes/class-zinn-migrate-package.php:366
+#: includes/class-zinn-migrate-package.php:368
 msgid "We could not write the database export."
 msgstr "Hatukuweza kuandika usafirishaji wa hifadhidata."
 
@@ -168,27 +168,27 @@ msgstr "Soma mwongozo wa mtumiaji wa %s"
 msgid "Hide this"
 msgstr "Ficha hii"
 
-#: includes/class-zinn-migrate-promo.php:374
+#: includes/class-zinn-migrate-promo.php:424
 msgid "Zinn® hosting for WordPress"
 msgstr "Hosting ya Zinn® kwa ajili ya WordPress"
 
-#: includes/class-zinn-migrate-promo.php:375
+#: includes/class-zinn-migrate-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, nakala rudufu za kila siku, uhamiaji wa bure na kidhibiti kilichoundwa kwa ajili ya watu wanaoendesha zaidi ya tovuti moja."
 
-#: includes/class-zinn-migrate-promo.php:381
+#: includes/class-zinn-migrate-promo.php:431
 msgid "The Zinn® marketplace"
 msgstr "Soko la Zinn®"
 
-#: includes/class-zinn-migrate-promo.php:382
+#: includes/class-zinn-migrate-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Nunua na uuze tovuti, vikoa na nafasi za viungo zilizowekwa tayari, huku pesa zikiwekwa kwa usalama hadi pande zote mbili zitakapofurahi."
 
-#: includes/class-zinn-migrate-promo.php:429
+#: includes/class-zinn-migrate-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ajiri watu wanaofanya kazi hii kwa maisha yao"
 
-#: includes/class-zinn-migrate-promo.php:430
+#: includes/class-zinn-migrate-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Soko letu la kimataifa la wafanyakazi huru: vinjari huduma zaidi ya 10,000 zilizotengenezwa tayari kutoka kwa waandishi, wabunifu, watengenezaji programu na wataalamu wa SEO, au chapisha mradi na uwaruhusu watoe zabuni."
 
