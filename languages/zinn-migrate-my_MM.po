@@ -193,10 +193,20 @@ msgstr "Zinn Hub® — ဤအလုပ်ကို ကျွမ်းကျင�
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ ဖရီးလန်းဈေးကွက် - စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဒက်ဗလော့ပါများနှင့် SEO ကျွမ်းကျင်သူများထံမှ အသင့်ပြင်ဆင်ထားသော ဝန်ဆောင်မှုပေါင်း ၁၀,၀၀၀ ကျော်ကို ဝင်ရောက်ကြည့်ရှုပါ သို့မဟုတ် ပရောဂျက်တစ်ခု တင်ပြပြီး ၎င်းတို့အား လေလံဆွဲခွင့်ပြုပါ။"
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® ၏ ထုတ်ဝေမှု မှတ်စုများကို ကြည့်ပါ။"
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® အပ်ဒိတ်ဝန်ဆောင်မှုသည် ဤအပ်ဒိတ်အတွက် ဒေါင်းလုဒ်လင့်ခ်ကို မထုတ်ပေးခဲ့ပါ။ ဤဆိုက်သည် Zinn® ပလပ်ဖောင်းသို့ ချိတ်ဆက်နိုင်ခြင်း ရှိမရှိ စစ်ဆေးပြီးနောက် ထပ်မံကြိုးစားပါ။"
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® အပ်ဒိတ်ဝန်ဆောင်မှု (%s) မှ အပ်ဒိတ်ကို ဒေါင်းလုဒ်လုပ်၍မရပါ။ မိနစ်အနည်းငယ်ကြာမှ ထပ်ကြိုးစားပါ။"
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ဒေါင်းလုပ်လုပ်ထားသော အပ်ဒိတ်သည် ၏ အတိအကျစစ်ဆေးမှု (integrity check) မအောင်မြင်သဖြင့် ထည့်သွင်းခြင်း မပြုလုပ်ခဲ့ပါ။"

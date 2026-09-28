@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — ຈ້າງຜູ້ຊ່ຽວຊານທີ່ເຮ
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ຕະຫຼາດຟຣີແລນຊ໌ທົ່ວໂລກຂອງພວກເຮົາ: ເລືອກເບິ່ງບໍລິການສຳເລັດຮູບຫຼາຍກວ່າ 10,000 ການບໍລິການຈາກນັກຂຽນ, ນັກອອກແບບ, ນັກພັດທະນາ ແລະ ຜູ້ຊ່ຽວຊານດ້ານ SEO, ຫຼື ປະກາດໂຄງການແລ້ວໃຫ້ພວກເຂົາສະເໜີລາຄາ."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "ເບິ່ງບັນທຶກການປ່ອຍເວີຊັນຂອງ Zinn Digital®."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "ບໍລິການອັບເດດ Zinn® ບໍ່ໄດ້ອອກລິ້ງດາວໂຫຼດສຳລັບການອັບເດດນີ້. ກະລຸນາ ກວດສອບວ່າເວັບໄຊນີ້ສາມາດເຊື່ອມຕໍ່ຫາແພລດຟອມ Zinn® ໄດ້, ແລ້ວລອງໃໝ່ອີກຄັ້ງ."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "ບໍ່ສາມາດດາວໂຫຼດການອັບເດດຈາກບໍລິການອັບເດດຂອງ Zinn® (%s) ໄດ້. ກະລຸນາລອງໃໝ່ອີກຄັ້ງໃນອີກສອງສາມນາທີຂ້າງໜ້າ."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "ການອັບເດດທີ່ດາວໂຫຼດມາບໍ່ຜ່ານການກວດສອບຄວາມຖືກຕ້ອງ ແລະ ບໍ່ໄດ້ຮັບການຕິດຕັ້ງ."

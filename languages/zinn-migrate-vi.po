@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — thuê những người làm công việc này để kiế
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Thị trường tự do toàn cầu của chúng tôi: duyệt qua hơn 10.000 dịch vụ có sẵn từ các nhà văn, nhà thiết kế, lập trình viên và chuyên gia SEO, hoặc đăng một dự án và để họ đấu giá."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Xem ghi chú phát hành Zinn Digital®."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Dịch vụ cập nhật Zinn® không cung cấp liên kết tải xuống cho bản cập nhật này. Hãy kiểm tra xem trang web này có thể kết nối với nền tảng Zinn® hay không, sau đó thử lại."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Không thể tải bản cập nhật từ dịch vụ cập nhật của Zinn® (%s). Vui lòng thử lại sau vài phút."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Bản cập nhật đã tải xuống không vượt qua được kiểm tra tính toàn vẹn và không được cài đặt."

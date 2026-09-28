@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — gba awọn eniyan ti eyi jẹ iṣẹ wọn siṣẹ"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Ọja iṣẹ́ aládàáni káríayé wa: ṣe àwárí ju 10,000 àwọn iṣẹ́ tí a ti pèsè sílẹ̀ láti ọwọ́ àwọn akọ̀wé, apẹrẹ, àwọn olùgbékalẹ̀ àti àwọn amoye SEO, tàbí fi iṣẹ́ kan sílẹ̀ kí o sì jẹ́ kí wọ́n fúnni ní owó."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Wo àwọn àkọsílẹ̀ ìtújáde Zinn Digital®."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Iṣẹ imudojuiwọn Zinn® ko fun ni ọna asopọ igbasilẹ fun imudojuiwọn yii. Ṣayẹwo pe aaye yii le de ọdọ pẹpẹ Zinn®, lẹhinna tun gbiyanju lẹẹkọọkan."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "A ko le ṣe igbasilẹ imudojuiwọn naa lati iṣẹ imudojuiwọn Zinn® (%s). Gbiyanju lẹẹkan si ni iṣẹju diẹ."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Ìgbàlàwọ́n tí a ṣe sílẹ̀ náà kùnà àyẹ̀wò ìdúróṣinṣin rẹ̀, a kò sì fi í sí i."

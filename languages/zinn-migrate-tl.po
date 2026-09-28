@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — umarkila ng mga taong ito ang ikinabubuhay"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Ang aming pandaigdigang pamilihan para sa mga freelancer: mag-browse ng mahigit 10,000 handa nang serbisyo mula sa mga manunulat, designer, developer, at SEO, o mag-post ng proyekto at hayaan silang mag-bid."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Tingnan ang mga tala sa paglabas ng Zinn Digital®."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Hindi naglabas ang serbisyo ng pag-update ng Zinn® ng link sa pag-download para sa update na ito. Suriin na maaabot ng site na ito ang platform ng Zinn®, pagkatapos ay subukan ulit."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Hindi na-download ang update mula sa serbisyo ng pag-update ng Zinn® (%s). Subukang muli makalipas ang ilang minuto."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Nabigo ang na-download na update sa pagsusuri ng integridad nito at hindi na-install."

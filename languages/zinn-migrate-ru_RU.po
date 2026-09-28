@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — нанимайте профессионалов"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Наша глобальная биржа фриланса: выбирайте из более чем 10 000 готовых услуг от копирайтеров, дизайнеров, разработчиков и SEO-специалистов или опубликуйте проект и получайте отклики."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "См. примечания к выпуску Zinn Digital®."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Служба обновлений Zinn® не предоставила ссылку на скачивание для этого обновления. Убедитесь, что этот сайт имеет доступ к платформе Zinn®, и повторите попытку."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Не удалось загрузить обновление из службы обновлений Zinn® (%s). Повторите попытку через несколько минут."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Загруженное обновление не прошло проверку целостности и не было установлено."

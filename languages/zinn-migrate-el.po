@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — προσλάβετε άτομα που το κάνουν 
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Η παγκόσμια αγορά ανεξάρτητων επαγγελματιών μας: περιηγηθείτε σε περισσότερες από 10.000 έτοιμες υπηρεσίες από συγγραφείς, σχεδιαστές, προγραμματιστές και ειδικούς SEO, ή δημοσιεύστε ένα έργο και αφήστε τους να υποβάλουν προσφορές."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Δείτε τις σημειώσεις έκδοσης του Zinn Digital®."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Η υπηρεσία ενημέρωσης Zinn® δεν εξέδωσε σύνδεσμο λήψης για αυτήν την ενημέρωση. Ελέγξτε ότι αυτός ο ιστότοπος μπορεί να συνδεθεί με την πλατφόρμα Zinn® και, στη συνέχεια, δοκιμάστε ξανά."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Η ενημέρωση δεν μπόρεσε να ληφθεί από την υπηρεσία ενημερώσεων της Zinn® (%s). Δοκιμάστε ξανά σε λίγα λεπτά."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Η λaβoύσα ενημέρωση απέτυχε στον έλεγχο ακεραιότητας και δεν εγκαταστάθηκε."

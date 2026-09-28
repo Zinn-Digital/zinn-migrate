@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — ajiri watu wanaofanya kazi hii kwa maisha yao"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Soko letu la kimataifa la wafanyakazi huru: vinjari huduma zaidi ya 10,000 zilizotengenezwa tayari kutoka kwa waandishi, wabunifu, watengenezaji programu na wataalamu wa SEO, au chapisha mradi na uwaruhusu watoe zabuni."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Tazama maelezo ya toleo la Zinn Digital®."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Huduma ya kusasisha ya Zinn® haikutoa kiungo cha kupakua cha sasisho hili. Hakikisha kuwa tovuti hii inaweza kufikia jukwaa la Zinn®, kisha jaribu tena."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Sasisho halikuweza kupakuliwa kutoka kwa huduma ya kusasisha ya Zinn® (%s). Jaribu tena baada ya dakika chache."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Sasisho lililopakupwa limeshindwa ukaguzi wa uadilifu na halijasakinishwa."

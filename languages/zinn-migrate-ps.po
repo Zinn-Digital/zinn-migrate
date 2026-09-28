@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — هغه کسان وګمارئ چې دا کار د مسلک
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "زموږ د آزاد کارانو نړیوال بازار: د لیکوالانو، طراحانو، پرمختګ ورکوونکو او د SEO متخصصینو څخه له ۱۰،۰۰۰ څخه زیات چمتو شوي خدمتونه وپلټئ، یا یوه پروژه خپره کړئ او هغوی ته د داوطلبۍ اجازه ورکړئ."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "د Zinn Digital® خپرولو یادښتونه وګورئ."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "د Zinn® د تازه کولو خدمت د دې تازه کولو لپاره د ډاونلوډ لینک نه دی خپور کړی. وګورئ چې دا سایټ کولی شي د Zinn® پلیټ فارم ته ورسیږي، بیا بیا هڅه وکړئ."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "تازه معلومات د Zinn® د تازه کولو خدمت (%s) څخه نشول ترلاسه کېدلی. څو دقیقې وروسته بیا هڅه وکړئ."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "د ډاونلوډ شوي تازه معلوماتو د روغتیا معاینه ناکامه شوه او ونه لګول شول."

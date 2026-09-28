@@ -192,10 +192,20 @@ msgstr "Zinn Hub® — हे काम व्यवसाय म्हणून
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "आमची जागतिक फ्रीलान्स मार्केटप्लेस: लेखक, डिझायनर, डेव्हलपर आणि एसईओ (SEO) यांच्या १०,००० हून अधिक तयार सेवा ब्राउझ करा किंवा एखादा प्रकल्प पोस्ट करा आणि त्यांना बोली लावू द्या."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Zinn Digital® च्या रिलीझ नोट्स पहा."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Zinn® अपडेट सेवेने या अपडेटसाठी डाउनलोड लिंक जारी केली नाही. हे साइट Zinn® प्लॅटफॉर्मशी कनेक्ट होऊ शकते याची खात्री करा आणि नंतर पुन्हा प्रयत्न करा."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Zinn® अपडेट सेवा (%s) वरून अपडेट डाउनलोड केले जाऊ शकले नाही. काही मिनिटांनंतर पुन्हा प्रयत्न करा."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "डाउनलोड केलेल्या अपडेटची अखंडता चाचणी (इंटीग्रिटी चेक) अयशस्वी झाली आणि ते इन्स्टॉल केले गेले नाही."

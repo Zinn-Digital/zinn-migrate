@@ -193,10 +193,20 @@ msgstr "Zinn Hub® — kireyso dadkan shaqadan u leh noloshooda"
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Suuqa caalamiga ah ee xorta ah: ka baadh in ka badan 10,000 adeeg oo diyaar ah oo ka yimid qorayaasha, naqshadeeyayaasha, horumariyayaasha iyo khubarada SEO, ama soo dhig mashruuc oo u ogolow inay ku tartamaan."
 
-#: includes/class-zinn-migrate-updater.php:233
+#: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
 msgstr "Ka eeg qoraallada sii-daynta ee Zinn Digital®."
 
-#: includes/class-zinn-migrate-updater.php:288
+#: includes/class-zinn-migrate-updater.php:302
+msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
+msgstr "Adeegga cusboonaysiinta ee Zinn® ayaan soo saarin xiriiriye soo dejineed oo loogu talagalay cusboonaysiintan. Hubi in boggani uu gaari karo madal Zinn®, kadibna isku day mar labaad."
+
+#. translators: %s: the download error reported by WordPress.
+#: includes/class-zinn-migrate-updater.php:316
+#, php-format
+msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
+msgstr "Cusbooneysiin lama soo dejin karo adeegga cusboonaysiinta ee Zinn® (%s). Iskuday mar labaad daqiiqado gudahood."
+
+#: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
 msgstr "Cusboonaysiintii la soo dejiyay waa ay ku guuldareysatay baaritaanka daacadnimadeeda mana aysan rakibin."
