@@ -33,12 +33,12 @@ On a site we host this plugin keeps itself up to date. On your own WordPress it 
 
 ## Our other WordPress plugins
 
-- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — For sites hosted with Zinn Digital® — controls the page cache your Zinn® server already runs, with smart auto-purge, a signed purge endpoint for your own tools and a Redis object cache. Hosting elsewhere? Install Zinn® Cache Engine instead.
+- **[zinn-cache](https://github.com/Zinn-Digital/zinn-cache)** — For sites hosted with Zinn Digital® — controls the page cache your Zinn® server already runs, with smart auto-purge, a signed purge endpoint for your own tools and a Redis object cache. Hosting elsewhere? Install Zinn® Cache Engine instead. · [Install from WordPress.org](https://wordpress.org/plugins/zinn-cache/)
 - **[zinn-cache-pro](https://github.com/Zinn-Digital/zinn-cache-pro)** — A complete caching and optimisation engine — full-page cache, object cache, database cleanup and CSS/JS optimisation — for WordPress sites hosted somewhere that provides no cache layer. On Zinn Digital® hosting, install Zinn® Cache instead. A GPLv3 fork of LiteSpeed Cache.
 - **[zinn-chat](https://github.com/Zinn-Digital/zinn-chat)** — A fast, privacy-respecting live chat for any WordPress site — answered by AI when you are busy, handed to a person when it matters, and emailed to you when you miss it. Under 10 KB on the page, and no requests at all until a visitor opens it.
-- **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard.
-- **[zinn-offload](https://github.com/Zinn-Digital/zinn-offload)** — Move a WordPress media library to Zinn® object storage and serve it from a CDN. Configured from the Zinn® dashboard — no access key is ever typed into WordPress.
-- **[zinn-reseller](https://github.com/Zinn-Digital/zinn-reseller-toolkit)** — Sell Zinn Digital® hosting from your own WordPress site — domain search, one-click client sign-in, and WooCommerce provisioning.
+- **[zinn-connector](https://github.com/Zinn-Digital/zinn-connector)** — Connect any WordPress site to Zinn Digital® so scheduled articles publish to it. Pair with a code from your dashboard. · [Install from WordPress.org](https://wordpress.org/plugins/zinn-connector/)
+- **[zinn-offload](https://github.com/Zinn-Digital/zinn-offload)** — Move a WordPress media library to Zinn® object storage and serve it from a CDN. Configured from the Zinn® dashboard — no access key is ever typed into WordPress. · [Install from WordPress.org](https://wordpress.org/plugins/zinn-offload/)
+- **[zinn-reseller](https://github.com/Zinn-Digital/zinn-reseller-toolkit)** — Sell Zinn Digital® hosting from your own WordPress site — domain search, one-click client sign-in, and WooCommerce provisioning. · [Install from WordPress.org](https://wordpress.org/plugins/zinn-reseller/)
 - **[zinn-translate](https://github.com/Zinn-Digital/zinn-translate)** — Publish a WordPress site in 58 languages on their own web addresses — translated slugs, SEO metadata, menus, WooCommerce and hreflang — translated with a Zinn Digital® plan or the site owner's own provider key.
 
 All of them are free to download from https://zinndigital.com/wordpress-plugins.
