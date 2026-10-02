@@ -117,7 +117,7 @@ msgstr "Größe: %s."
 
 #: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
-msgstr "Behandle diesen Link wie ein Passwort. Jeder, der ihn hat, kann deine gesamte Website einschließlich deiner Datenbank herunterladen. Wir löschen das Paket automatisch 24 Stunden nach der Erstellung – lösche es selbst, sobald deine Migration abgeschlossen ist."
+msgstr "Behandle diesen Link wie ein Passwort. Jeder, der ihn hat, kann deine gesamte Website einschließlich deiner Datenbank herunterladen. Wir löschen das Paket automatisch 24 Stunden nach der Erstellung – lösche es selbst, sobald deine Migration abgeschlossen ist."
 
 #: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
@@ -148,47 +148,47 @@ msgid "We could not write the database export."
 msgstr "Wir konnten den Datenbankexport nicht schreiben."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-migrate-promo.php:241
-#: includes/class-zinn-migrate-promo.php:299
+#: includes/class-zinn-migrate-promo.php:326
+#: includes/class-zinn-migrate-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — Anleitungen und Dienste"
 
-#: includes/class-zinn-migrate-promo.php:256
+#: includes/class-zinn-migrate-promo.php:341
 msgid "User guides"
 msgstr "Benutzerhandbücher"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-migrate-promo.php:306
+#: includes/class-zinn-migrate-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Lies das %s-Benutzerhandbuch"
 
-#: includes/class-zinn-migrate-promo.php:314
+#: includes/class-zinn-migrate-promo.php:399
 msgid "Hide this"
 msgstr "Dies ausblenden"
 
-#: includes/class-zinn-migrate-promo.php:424
+#: includes/class-zinn-migrate-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Zinn®-Hosting für WordPress"
 
-#: includes/class-zinn-migrate-promo.php:425
+#: includes/class-zinn-migrate-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, tägliche Backups, kostenlose Migration und ein Control Panel für alle, die mehr als eine Website betreiben."
 
-#: includes/class-zinn-migrate-promo.php:431
+#: includes/class-zinn-migrate-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Der Zinn®-Marktplatz"
 
-#: includes/class-zinn-migrate-promo.php:432
+#: includes/class-zinn-migrate-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Kaufe und verkaufe etablierte Websites, Domains und Linkplatzierungen – mit sicherer Treuhandverwahrung des Geldes, bis beide Seiten zufrieden sind."
+msgstr "Kaufe und verkaufe etablierte Websites, Domains und Linkplatzierungen – mit sicherer Treuhandverwahrung des Geldes, bis beide Seiten zufrieden sind."
 
-#: includes/class-zinn-migrate-promo.php:479
+#: includes/class-zinn-migrate-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® – engagiere Leute, die das beruflich machen"
+msgstr "Zinn Hub® – engagiere Leute, die das beruflich machen"
 
-#: includes/class-zinn-migrate-promo.php:480
+#: includes/class-zinn-migrate-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Unser weltweiter Freelance-Marktplatz: Durchstöbere über 10.000 fertige Dienstleistungen von Textern, Designern, Entwicklern und SEO-Experten oder erstelle ein Projekt und lass dir Angebote machen."
 

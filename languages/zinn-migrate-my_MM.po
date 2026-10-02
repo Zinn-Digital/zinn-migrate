@@ -149,47 +149,47 @@ msgid "We could not write the database export."
 msgstr "ဒေတာဘေ့စ် ထုတ်ယူမှုကို မရေးသားနိုင်ခဲ့ပါ။"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-migrate-promo.php:241
-#: includes/class-zinn-migrate-promo.php:299
+#: includes/class-zinn-migrate-promo.php:326
+#: includes/class-zinn-migrate-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — လမ်းညွှန်များနှင့် ဝန်ဆောင်မှုများ"
 
-#: includes/class-zinn-migrate-promo.php:256
+#: includes/class-zinn-migrate-promo.php:341
 msgid "User guides"
 msgstr "အသုံးပြုသူ လမ်းညွှန်များ"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-migrate-promo.php:306
+#: includes/class-zinn-migrate-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%s အသုံးပြုသူလမ်းညွှန်ကို ဖတ်ရှုပါ"
 
-#: includes/class-zinn-migrate-promo.php:314
+#: includes/class-zinn-migrate-promo.php:399
 msgid "Hide this"
 msgstr "ဒါကို ဝှက်ထားပါ"
 
-#: includes/class-zinn-migrate-promo.php:424
+#: includes/class-zinn-migrate-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress အတွက် Zinn® ဟိုးစတင်း"
 
-#: includes/class-zinn-migrate-promo.php:425
+#: includes/class-zinn-migrate-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed၊ နေ့စဉ် အရန်ကူးယူမှုများ၊ အခမဲ့ ရွှေ့ပြောင်းပေးမှုနှင့် ဝဘ်ဆိုက်တစ်ခုထက်ပို၍ စီမံခန့်ခွဲသူများအတွက် တည်ဆောက်ထားသော ထိန်းချုပ်ခန်း။"
 
-#: includes/class-zinn-migrate-promo.php:431
+#: includes/class-zinn-migrate-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Zinn® ဈေးကွက်"
 
-#: includes/class-zinn-migrate-promo.php:432
+#: includes/class-zinn-migrate-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "နှစ်ဖက်စလုံး ကျေနပ်မှုမရှိမချင်း ငွေပေးချေမှုကို လုံခြုံစွာ ထိန်းသိမ်းထားပြီး တည်ထောင်ထားသော ဝက်ဘ်ဆိုက်များ၊ ဒိုမိန်းများနှင့် လင့်ခ်နေရာချထားမှုများကို ဝယ်ယူရောင်းချပါ။"
 
-#: includes/class-zinn-migrate-promo.php:479
+#: includes/class-zinn-migrate-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — ဤလုပ်ငန်းဖြင့် အသက်မွေးဝမ်းကျောင်းပြုသူများကို ငှားရမ်းပါ"
 
-#: includes/class-zinn-migrate-promo.php:480
+#: includes/class-zinn-migrate-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "ကျွန်ုပ်တို့၏ ကမ္ဘာလုံးဆိုင်ရာ အလွတ်တန်းအလုပ်သမားများ ဈေးကွက်- စာရေးဆရာများ၊ ဒီဇိုင်နာများ၊ ဒေတာဆော့ဖ်ဝဲရေးသားသူများနှင့် SEO ပညာရှင်များထံမှ အသင့်ဖန်တီးထားသော ဝန်ဆောင်မှုပေါင်း ၁၀,၀၀၀ ကျော်ကို ရှာဖွေပါ၊ သို့မဟုတ် ပရောဂျက်တစ်ခုကို တင်ပြီး ၎င်းတို့ကို လေလံဆွဲခွင့်ပေးပါ။"
 

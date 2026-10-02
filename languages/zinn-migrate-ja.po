@@ -49,7 +49,7 @@ msgstr "この操作を実行する権限がありません。"
 
 #: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
-msgstr "これにより、このサイト上のすべてのデータ（ファイルとデータベース）が1つのアーカイブにまとめられ、そのプライベートリンクが提供されます。そのリンクを Zinn®の移行画面に貼り付けると、サイトが転送されます。リンクを共有することを選択しない限り、ここにあるものがどこかに送信されることはありません。"
+msgstr "これにより、このサイト上のすべてのデータ (ファイルとデータベース) が1つのアーカイブにまとめられ、そのプライベートリンクが提供されます。そのリンクを Zinn®の移行画面に貼り付けると、サイトが転送されます。リンクを共有することを選択しない限り、ここにあるものがどこかに送信されることはありません。"
 
 #: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."

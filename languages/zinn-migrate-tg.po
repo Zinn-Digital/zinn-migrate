@@ -148,47 +148,47 @@ msgid "We could not write the database export."
 msgstr "Содироти пойгоҳи додаҳо навишта нашуд."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-migrate-promo.php:241
-#: includes/class-zinn-migrate-promo.php:299
+#: includes/class-zinn-migrate-promo.php:326
+#: includes/class-zinn-migrate-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — дастурҳо ва хидматҳо"
 
-#: includes/class-zinn-migrate-promo.php:256
+#: includes/class-zinn-migrate-promo.php:341
 msgid "User guides"
 msgstr "Дастурҳои корбар"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-migrate-promo.php:306
+#: includes/class-zinn-migrate-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Дастури корбари %s-ро хонед"
 
-#: includes/class-zinn-migrate-promo.php:314
+#: includes/class-zinn-migrate-promo.php:399
 msgid "Hide this"
 msgstr "Инро пинҳон кардан"
 
-#: includes/class-zinn-migrate-promo.php:424
+#: includes/class-zinn-migrate-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "Хостинги Zinn® барои WordPress"
 
-#: includes/class-zinn-migrate-promo.php:425
+#: includes/class-zinn-migrate-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, нусхабардориҳои эҳтиётии ҳаррӯза, кӯчонидани ройгон ва панели идоракунӣ барои афроде, ки беш аз як сомонаро идора мекунанд."
 
-#: includes/class-zinn-migrate-promo.php:431
+#: includes/class-zinn-migrate-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Бозори Zinn®"
 
-#: includes/class-zinn-migrate-promo.php:432
+#: includes/class-zinn-migrate-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Сомонаҳои амалкунанда, доменҳо ва ҷойгиркунии пайвандҳоро бо нигаҳдории бехатари маблағ то розигии ҳар ду ҷониб хариду фурӯш кунед."
 
-#: includes/class-zinn-migrate-promo.php:479
+#: includes/class-zinn-migrate-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — одамонеро ба кор гиред, ки ин касби онҳост"
 
-#: includes/class-zinn-migrate-promo.php:480
+#: includes/class-zinn-migrate-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Бозори ҷаҳонии фриланси мо: беш аз 10,000 хидматҳои омодаро аз муаллифон, тарроҳон, таҳиягарон ва мутахассисони SEO тамошо кунед, ё лоиҳаеро нашр кунед ва ба онҳо имкон диҳед, ки нарх пешниҳод кунанд."
 
