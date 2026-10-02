@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
 #. Description of the plugin
 #: zinn-migrate.php
 msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
-msgstr "このWordPressサイトのファイルとデータベースを、他の方法では接続できないホスト向けに、Zinn Digital®が取り込める単一のアーカイブにパッケージ化します。移行元のサイトにインストールし、ボタンを1回クリックして、リンクをZinn®移行に貼り付けてください。"
+msgstr "この WordPress サイトのファイルとデータベースを、他の方法では接続できないホスト向けに、Zinn Digital®が取り込める単一のアーカイブにパッケージ化します。移行元のサイトにインストールし、ボタンを1回クリックして、リンクを Zinn®移行に貼り付けてください。"
 
 #. Author of the plugin
 #: zinn-migrate.php
@@ -49,7 +49,7 @@ msgstr "この操作を実行する権限がありません。"
 
 #: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
-msgstr "これにより、このサイト上のすべてのデータ（ファイルとデータベース）が1つのアーカイブにまとめられ、そのプライベートリンクが提供されます。そのリンクをZinn®の移行画面に貼り付けると、サイトが転送されます。リンクを共有することを選択しない限り、ここにあるものがどこかに送信されることはありません。"
+msgstr "これにより、このサイト上のすべてのデータ（ファイルとデータベース）が1つのアーカイブにまとめられ、そのプライベートリンクが提供されます。そのリンクを Zinn®の移行画面に貼り付けると、サイトが転送されます。リンクを共有することを選択しない限り、ここにあるものがどこかに送信されることはありません。"
 
 #: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
@@ -148,50 +148,50 @@ msgid "We could not write the database export."
 msgstr "データベースのエクスポートを書き込めませんでした。"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-migrate-promo.php:241
-#: includes/class-zinn-migrate-promo.php:299
+#: includes/class-zinn-migrate-promo.php:326
+#: includes/class-zinn-migrate-promo.php:384
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — ガイドとサービス"
 
-#: includes/class-zinn-migrate-promo.php:256
+#: includes/class-zinn-migrate-promo.php:341
 msgid "User guides"
 msgstr "ユーザーガイド"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-migrate-promo.php:306
+#: includes/class-zinn-migrate-promo.php:391
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%sのユーザーガイドを読む"
 
-#: includes/class-zinn-migrate-promo.php:314
+#: includes/class-zinn-migrate-promo.php:399
 msgid "Hide this"
 msgstr "これを非表示"
 
 #. zinn-i18n: human translation — the machine translator refused this string
-#: includes/class-zinn-migrate-promo.php:424
+#: includes/class-zinn-migrate-promo.php:512
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress 向け Zinn® ホスティング"
 
-#: includes/class-zinn-migrate-promo.php:425
+#: includes/class-zinn-migrate-promo.php:513
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed、毎日のバックアップ、無料の移行、そして複数のサイトを運営するユーザーのために作られたコントロールパネル。"
 
-#: includes/class-zinn-migrate-promo.php:431
+#: includes/class-zinn-migrate-promo.php:519
 msgid "The Zinn® marketplace"
 msgstr "Zinn® マーケットプレイス"
 
-#: includes/class-zinn-migrate-promo.php:432
+#: includes/class-zinn-migrate-promo.php:520
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "双方が納得するまで代金が安全に保管される環境で、既存のサイト、ドメイン、被リンク枠を売買できます。"
 
-#: includes/class-zinn-migrate-promo.php:479
+#: includes/class-zinn-migrate-promo.php:567
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — これを生業としているプロを雇いましょう"
 
-#: includes/class-zinn-migrate-promo.php:480
+#: includes/class-zinn-migrate-promo.php:568
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "グローバルなフリーランスマーケットプレイス：ライター、デザイナー、開発者、SEOエキスパートによる1万件以上の既製サービスを閲覧するか、プロジェクトを投稿して提案を募集できます。"
+msgstr "グローバルなフリーランスマーケットプレイス: ライター、デザイナー、開発者、SEO エキスパートによる1万件以上の既製サービスを閲覧するか、プロジェクトを投稿して提案を募集できます。"
 
 #: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
