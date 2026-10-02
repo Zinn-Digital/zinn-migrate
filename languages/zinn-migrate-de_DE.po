@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
 #. Description of the plugin
 #: zinn-migrate.php
 msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
-msgstr "Packt diese WordPress-Site – Dateien und Datenbank – in ein einziges Archiv, das Zinn Digital® abrufen kann, für Hosts, die auf andere Weise nicht erreichbar sind. Installieren Sie es auf der Website, die Sie verlassen, drücken Sie eine Taste und fügen Sie den Link in Ihre Zinn®-Migration ein."
+msgstr "Packt diese WordPress-Website — Dateien und Datenbank — in ein einzelnes Archiv, das Zinn Digital® abrufen kann, für Hosts, die wir auf keinem anderen Weg erreichen können. Installiere es auf der Website, die du verlässt, drücke einen Button und füge den Link in deine Zinn®-Migration ein."
 
 #. Author of the plugin
 #: zinn-migrate.php
@@ -37,23 +37,23 @@ msgstr "https://zinndigital.com"
 #: includes/class-zinn-migrate-admin.php:64
 #: includes/class-zinn-migrate-admin.php:231
 msgid "Move this site to Zinn®"
-msgstr "Diese Website zu Zinn® migrieren"
+msgstr "Ziehe diese Website zu Zinn® um"
 
 #: includes/class-zinn-migrate-admin.php:65
 msgid "Move to Zinn®"
-msgstr "Zu Zinn® wechseln"
+msgstr "Zu Zinn® verschieben"
 
 #: includes/class-zinn-migrate-admin.php:149
 msgid "You do not have permission to do this."
-msgstr "Sie haben nicht die Berechtigung, dies zu tun."
+msgstr "Du bist nicht berechtigt, dies zu tun."
 
 #: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
-msgstr "Dies verpackt alles auf dieser Website – ihre Dateien und ihre Datenbank – in ein einziges Archiv und stellt Ihnen einen privaten Link dazu zur Verfügung. Fügen Sie diesen Link in Ihre Migration bei Zinn® ein, und wir holen die Website herüber. Hier wird nichts irgendwohin gesendet, bis Sie sich entscheiden, den Link zu teilen."
+msgstr "Dadurch wird alles auf dieser Website — ihre Dateien und ihre Datenbank — in einem einzigen Archiv gebündelt, und du erhältst einen privaten Link dazu. Füge diesen Link in deine Migration auf Zinn® ein und wir übertragen die Website. Nichts von hier wird irgendwohin gesendet, bis du dich entscheidest, den Link zu teilen."
 
 #: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
-msgstr "Das brauchen Sie möglicherweise nicht. Wenn Ihr alter Host Ihnen FTP, SSH, cPanel, Plesk oder DirectAdmin zur Verfügung stellt, kann Zinn® die Website direkt mit diesen Daten abrufen und Sie können dieses Plugin komplett überspringen – das geht schneller und es bleibt danach nichts zurück. Verwenden Sie dies, wenn keine dieser Optionen verfügbar ist."
+msgstr "Möglicherweise brauchst du dies nicht. Wenn dir dein alter Hoster FTP, SSH, cPanel, Plesk oder DirectAdmin zur Verfügung stellt, kann Zinn® die Website mit diesen Angaben direkt abrufen und du kannst dieses Plugin komplett überspringen — das geht schneller und hinterlässt danach keine Rückstände. Verwende dies, wenn dir keine dieser Optionen zur Verfügung steht."
 
 #: includes/class-zinn-migrate-admin.php:261
 msgid "Room on this server"
@@ -63,7 +63,7 @@ msgstr "Speicherplatz auf diesem Server"
 #: includes/class-zinn-migrate-admin.php:272
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
-msgstr "Dieser Server teilt uns nicht mit, wie viel Speicherplatz frei ist, sodass wir das nicht für Sie überprüfen können. Das Paket benötigt ungefähr %s. Wenn Sie nicht sicher sind, ob genügend Platz vorhanden ist, fragen Sie Ihren Host, bevor Sie es erstellen – ein Server, dem während des Vorgangs der Speicherplatz ausgeht, legt die Website lahm."
+msgstr "Dieser Server gibt nicht an, wie viel Speicherplatz frei ist, daher können wir das nicht für dich überprüfen. Das Paket benötigt ungefähr %s. Wenn du dir nicht sicher bist, ob so viel Platz vorhanden ist, frage deinen Hoster, bevor du es erstellst — geht einem Server mittendrin der Speicherplatz aus, wird die Website lahmgelegt."
 
 #. translators: 1: space required, 2: space free.
 #: includes/class-zinn-migrate-admin.php:278
@@ -83,15 +83,15 @@ msgstr "Wird erstellt…"
 #: includes/class-zinn-migrate-admin.php:294
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
-msgstr "Jetzt wird gepackt: %1$s. Bis jetzt %2$s Dateien, %3$s geschrieben."
+msgstr "Wird jetzt gepackt: %1$s. Bisher %2$s Dateien, %3$s geschrieben."
 
 #: includes/class-zinn-migrate-admin.php:295
 msgid "your files"
-msgstr "Ihre Dateien"
+msgstr "Deine Dateien"
 
 #: includes/class-zinn-migrate-admin.php:295
 msgid "your database"
-msgstr "Ihre Datenbank"
+msgstr "Deine Datenbank"
 
 #: includes/class-zinn-migrate-admin.php:307
 msgid "Continue"
@@ -103,11 +103,11 @@ msgstr "Abbrechen und löschen"
 
 #: includes/class-zinn-migrate-admin.php:312
 msgid "Your package is ready"
-msgstr "Ihr Paket ist bereit"
+msgstr "Dein Paket ist bereit"
 
 #: includes/class-zinn-migrate-admin.php:313
 msgid "Copy this link and paste it into your migration on Zinn®:"
-msgstr "Kopieren Sie diesen Link und fügen Sie ihn in Ihre Migration auf Zinn® ein:"
+msgstr "Kopiere diesen Link und füge ihn in deine Migration auf Zinn® ein:"
 
 #. translators: %s: the package size.
 #: includes/class-zinn-migrate-admin.php:326
@@ -117,7 +117,7 @@ msgstr "Größe: %s."
 
 #: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
-msgstr "Behandeln Sie diesen Link wie ein Passwort. Jeder, der ihn hat, kann Ihre gesamte Website einschließlich Ihrer Datenbank herunterladen. Wir löschen das Paket automatisch 24 Stunden nach seiner Erstellung – löschen Sie es selbst, sobald Ihre Migration abgeschlossen ist."
+msgstr "Behandle diesen Link wie ein Passwort. Jeder, der ihn hat, kann deine gesamte Website einschließlich deiner Datenbank herunterladen. Wir löschen das Paket automatisch 24 Stunden nach der Erstellung – lösche es selbst, sobald deine Migration abgeschlossen ist."
 
 #: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
@@ -125,19 +125,19 @@ msgstr "Paket jetzt löschen"
 
 #: includes/class-zinn-migrate-admin.php:348
 msgid "Build it again"
-msgstr "Erneut erstellen"
+msgstr "Baue es erneut"
 
 #: includes/class-zinn-migrate-package.php:188
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
-msgstr "Dieser Server verfügt nicht über die ZipArchive-Erweiterung von PHP, daher können wir hier kein Paket erstellen. Bitten Sie Ihren Host, sie zu aktivieren, oder nutzen Sie stattdessen das Migrationsformular auf Zinn® mit Ihren FTP- oder SSH-Daten."
+msgstr "Dieser Server verfügt nicht über die ZipArchive-Erweiterung von PHP, daher können wir hier kein Paket erstellen. Bitte deinen Hoster, sie zu aktivieren, oder nutze stattdessen das Migrationsformular auf Zinn® mit deinen FTP- oder SSH-Daten."
 
 #: includes/class-zinn-migrate-package.php:198
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
-msgstr "Wir konnten keinen Ordner in Ihrem Uploads-Verzeichnis erstellen, sodass das Paket nirgendwo gespeichert werden kann. Überprüfen Sie, ob wp-content/uploads beschreibbar ist."
+msgstr "Wir konnten keinen Ordner in deinem Upload-Verzeichnis erstellen, daher kann das Paket nirgendwo gespeichert werden. Bitte überprüfe, ob wp-content/uploads beschreibbar ist."
 
 #: includes/class-zinn-migrate-package.php:279
 msgid "There is no package being built. Start one first."
-msgstr "Es wird zurzeit kein Paket erstellt. Starten Sie zuerst eines."
+msgstr "Es wird kein Paket erstellt. Starte zuerst eines."
 
 #: includes/class-zinn-migrate-package.php:285
 msgid "We could not open the package file for writing."
@@ -162,11 +162,11 @@ msgstr "Benutzerhandbücher"
 #: includes/class-zinn-migrate-promo.php:306
 #, php-format
 msgid "Read the %s user guide"
-msgstr "Lesen Sie das %s-Benutzerhandbuch"
+msgstr "Lies das %s-Benutzerhandbuch"
 
 #: includes/class-zinn-migrate-promo.php:314
 msgid "Hide this"
-msgstr "Ausblenden"
+msgstr "Dies ausblenden"
 
 #: includes/class-zinn-migrate-promo.php:424
 msgid "Zinn® hosting for WordPress"
@@ -174,7 +174,7 @@ msgstr "Zinn®-Hosting für WordPress"
 
 #: includes/class-zinn-migrate-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, tägliche Backups, kostenlose Migration und ein Control Panel, das für Benutzer entwickelt wurde, die mehr als eine Website betreiben."
+msgstr "LiteSpeed, tägliche Backups, kostenlose Migration und ein Control Panel für alle, die mehr als eine Website betreiben."
 
 #: includes/class-zinn-migrate-promo.php:431
 msgid "The Zinn® marketplace"
@@ -182,29 +182,29 @@ msgstr "Der Zinn®-Marktplatz"
 
 #: includes/class-zinn-migrate-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Kaufen und verkaufen Sie etablierte Websites, Domains und Link-Platzierungen, wobei das Geld sicher verwahrt wird, bis beide Seiten zufrieden sind."
+msgstr "Kaufe und verkaufe etablierte Websites, Domains und Linkplatzierungen – mit sicherer Treuhandverwahrung des Geldes, bis beide Seiten zufrieden sind."
 
 #: includes/class-zinn-migrate-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — Beauftragen Sie Profis, die das beruflich machen"
+msgstr "Zinn Hub® – engagiere Leute, die das beruflich machen"
 
 #: includes/class-zinn-migrate-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Unser globaler Freelancer-Marktplatz: Durchstöbern Sie über 10.000 vorgefertigte Services von Autoren, Designern, Entwicklern und SEO-Experten oder schreiben Sie ein Projekt aus und lassen Sie diese Angebote abgeben."
+msgstr "Unser weltweiter Freelance-Marktplatz: Durchstöbere über 10.000 fertige Dienstleistungen von Textern, Designern, Entwicklern und SEO-Experten oder erstelle ein Projekt und lass dir Angebote machen."
 
 #: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Siehe die Zinn Digital® Versionshinweise."
+msgstr "Sieh dir die Versionshinweise für Zinn Digital® an."
 
 #: includes/class-zinn-migrate-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Der Aktualisierungsdienst von Zinn® hat keinen Download-Link für dieses Update bereitgestellt. Überprüfen Sie, ob diese Website die Zinn®-Plattform erreichen kann, und versuchen Sie es dann erneut."
+msgstr "Der Zinn®-Aktualisierungsdienst hat keinen Download-Link für diese Aktualisierung bereitgestellt. Überprüfe, ob diese Website die Zinn®-Plattform erreichen kann, und versuche es dann erneut."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-migrate-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Das Update konnte nicht vom Zinn® Update-Dienst (%s) heruntergeladen werden. Versuchen Sie es in wenigen Minuten noch einmal."
+msgstr "Das Update konnte nicht vom Zinn®-Aktualisierungsdienst (%s) heruntergeladen werden. Versuche es in wenigen Minuten erneut."
 
 #: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."

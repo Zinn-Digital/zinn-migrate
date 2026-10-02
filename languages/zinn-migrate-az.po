@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
 #. Description of the plugin
 #: zinn-migrate.php
 msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
-msgstr "Zinn Digital®-in başqa cür əldə edə bilmədiyimiz hostlar üçün daxil edə biləcəyi tək bir arxivə bu WordPress saytını — faylları və verilənlər bazasını — paketləyir. Onu köçdüyünüz saytda quraşdırın, bir düyməni basın və linki Zinn® miqrasiyanıza yapışdırın."
+msgstr "Bu WordPress saytını — faylları və verilənlər bazasını — başqa heç bir yolla əldə edə bilmədiyimiz hostlar üçün Zinn Digital® tərəfindən çəkilə bilən vahid arxivdə paketləyir. Onu tərk etdiyiniz saytda quraşdırın, bircə düyməni sıxın və linki Zinn® miqrasiyanıza yapışdırın."
 
 #. Author of the plugin
 #: zinn-migrate.php
@@ -41,39 +41,39 @@ msgstr "Bu saytı Zinn® platformasına köçürün"
 
 #: includes/class-zinn-migrate-admin.php:65
 msgid "Move to Zinn®"
-msgstr "Zinn®-ə köçür"
+msgstr "Zinn® xidmətinə köçürün"
 
 #: includes/class-zinn-migrate-admin.php:149
 msgid "You do not have permission to do this."
-msgstr "Bunu etməyə icazəniz yoxdur."
+msgstr "Bunu etmək üçün icazəniz yoxdur."
 
 #: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
-msgstr "Bu, bu saytdakı hər şeyi — fayllarını və verilənlər bazasını — bir arxivdə birləşdirir və sizə ona özəl keçid verir. Həmin keçidi Zinn® üzərindəki miqrasiyanıza yapışdırın və biz saytı köçürək. Keçidi paylaşmağı seçənə qədər burada heç nə heç yerə göndərilmir."
+msgstr "Bu, bu saytdakı hər şeyi — fayllarını və verilənlər bazasını — vahid arxivə yığır və sizə onun üçün şəxsi keçid təqdim edir. Həmin keçidi Zinn® üzərindəki miqrasiyanıza yapışdırın və biz saytı köçürək. Keçidi paylaşmağı seçməyincə, buradakı heç nə heç yerə göndərilmir."
 
 #: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
-msgstr "Buna ehtiyacınız olmaya bilər. Köhnə hostinqiniz sizə FTP, SSH, cPanel, Plesk və ya DirectAdmin verirsə, Zinn® həmin məlumatlar vasitəsilə saytı birbaşa əldə edə bilər və siz bu plagindən tamamilə yan keçə bilərsiniz — bu, daha sürətlidir və sonradan heç nə qalmır. Bunlardan heç biri əlçatan olmadıqda bundan istifadə edin."
+msgstr "Buna ehtiyacınız olmaya bilər. Əgər köhnə hostinqiniz sizə FTP, SSH, cPanel, Plesk və ya DirectAdmin təqdim edirsə, Zinn® həmin məlumatlarla saytı birbaşa gətirə bilər və siz bu qoşmanı tamamilə atlaya bilərsiniz — bu daha sürətlidir və sonradan geridə heç nə qalmır. Bunların heç biri sizin üçün əlçatan olmadıqda bundan istifadə edin."
 
 #: includes/class-zinn-migrate-admin.php:261
 msgid "Room on this server"
-msgstr "Bu serverdə yer"
+msgstr "Bu serverdə boş yer"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
 #: includes/class-zinn-migrate-admin.php:272
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
-msgstr "Bu server bizə nə qədər boş disk sahəsinin qaldığını bildirmir, ona görə də sizin üçün yoxlaya bilmirik. Paketə təxminən %s lazımdır. Əgər kifayət qədər yer olduğundan əmin deyilsinizsə, qurmazdan əvvəl hostinq provayderinizlə əlaqə saxlayın – yarıda sahəsi bitən server saytı sıradan çıxarır."
+msgstr "Bu server nə qədər boş disk sahəsinin olduğunu bildirmir, buna görə də sizin üçün yoxlaya bilmirik. Paket üçün təxminən %s lazımdır. O qədər boş yer olduğuna əmin deyilsinizsə, onu qurmadan əvvəl hostinq provayderinizlə dəqiqləşdirin — prosesin ortasında yaddaşı bitən server saytı sıradan çıxarır."
 
 #. translators: 1: space required, 2: space free.
 #: includes/class-zinn-migrate-admin.php:278
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
-msgstr "Paketə təxminən %1$s lazımdır və bu serverdə %2$s boş yer var."
+msgstr "Paket üçün təxminən %1$s lazımdır və bu serverdə %2$s boş yer var."
 
 #: includes/class-zinn-migrate-admin.php:287
 msgid "Build the package"
-msgstr "Paketi qur"
+msgstr "Paketi qurun"
 
 #: includes/class-zinn-migrate-admin.php:289
 msgid "Building…"
@@ -83,19 +83,19 @@ msgstr "Qurulur…"
 #: includes/class-zinn-migrate-admin.php:294
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
-msgstr "Paketlənir: %1$s. İndiyə qədər %2$s fayl, %3$s yazıldı."
+msgstr "İndi paketlənir: %1$s. İndiyə qədər %2$s fayl, %3$s yazıldı."
 
 #: includes/class-zinn-migrate-admin.php:295
 msgid "your files"
-msgstr "fayllarınız"
+msgstr "Fayllarınız"
 
 #: includes/class-zinn-migrate-admin.php:295
 msgid "your database"
-msgstr "sizin verilənlər bazanız"
+msgstr "Verilənlər bazanız"
 
 #: includes/class-zinn-migrate-admin.php:307
 msgid "Continue"
-msgstr "Davam et"
+msgstr "Davam edin"
 
 #: includes/class-zinn-migrate-admin.php:308
 msgid "Cancel and delete"
@@ -107,7 +107,7 @@ msgstr "Paketiniz hazırdır"
 
 #: includes/class-zinn-migrate-admin.php:313
 msgid "Copy this link and paste it into your migration on Zinn®:"
-msgstr "Bu keçidi kopyalayın və Zinn® üzərindəki miqrasiyanıza yapışdırın:"
+msgstr "Bu linki kopyalayın və Zinn® üzərindəki miqrasiyanıza yapışdırın:"
 
 #. translators: %s: the package size.
 #: includes/class-zinn-migrate-admin.php:326
@@ -117,46 +117,46 @@ msgstr "Ölçü: %s."
 
 #: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
-msgstr "Bu keçidə parol kimi yanaşın. Ona sahib olan hər kəs verilənlər bazanız da daxil olmaqla bütün saytınızı yükləyə bilər. Paket yaradıldıqdan 24 saat sonra avtomatik olaraq silinir — miqrasiya başa çatan kimi onu özünüz silin."
+msgstr "Bu keçidə şifrə kimi yanaşın. Ona sahib olan hər kəs verilənlər bazanız da daxil olmaqla bütün saytınızı endirə bilər. Paket hazırlandıqdan 24 saat sonra onu avtomatik olaraq silirik — köçürməniz başa çatan kimi onu özünüz silin."
 
 #: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
-msgstr "Paketi dərhal sil"
+msgstr "Paketi indi silin"
 
 #: includes/class-zinn-migrate-admin.php:348
 msgid "Build it again"
-msgstr "Yenidən qur"
+msgstr "Yenidən qurun"
 
 #: includes/class-zinn-migrate-package.php:188
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
-msgstr "Bu serverdə PHP-nin ZipArchive genişlənməsi yoxdur, ona görə də burada paket yarada bilmirik. Hostinq provayderinizdən onu aktivləşdirməyi xahiş edin və ya bunun əvəzinə FTP və ya SSH məlumatlarınızla Zinn® saytındakı miqrasiya formasından istifadə edin."
+msgstr "Bu serverdə PHP-nin ZipArchive uzantısı yoxdur, buna görə də burada paket hazırlaya bilmirik. Hostinq provayderinizdən onu aktivləşdirməsini xahiş edin və ya bunun əvəzinə FTP yaxud SSH məlumatlarınızla Zinn® üzərindəki köçürmə formasından istifadə edin."
 
 #: includes/class-zinn-migrate-package.php:198
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
-msgstr "Yükləmə kataloqunuzda qovluq yarada bilmədik, buna görə də paketin yazılacağı yer yoxdur. wp-content/uploads qovluğuna yazmaq hüququnun olduğundan əmin olun."
+msgstr "Yükləmələr qovluğunuzda yeni qovluq yaratmaq mümkün olmadı, buna görə də paketi yazmaq üçün yer yoxdur. wp-content/uploads qovluğuna yazma icazəsinin olduğunu yoxlayın."
 
 #: includes/class-zinn-migrate-package.php:279
 msgid "There is no package being built. Start one first."
-msgstr "Heç bir paket qurulmur. Əvvəlcə birini başladın."
+msgstr "Yığılan heç bir paket yoxdur. Əvvəlcə birini başladın."
 
 #: includes/class-zinn-migrate-package.php:285
 msgid "We could not open the package file for writing."
-msgstr "Paket faylını yazmaq üçün aça bilmədik."
+msgstr "Paket faylı yazılmaq üçün açıla bilmədi."
 
 #: includes/class-zinn-migrate-package.php:368
 msgid "We could not write the database export."
-msgstr "Verilənlər bazasının ixracını yazmaq mümkün olmadı."
+msgstr "Verilənlər bazasının ixracı yazıla bilmədi."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-migrate-promo.php:241
 #: includes/class-zinn-migrate-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s — təlimatlar və xidmətlər"
+msgstr "%s — bələdçilər və xidmətlər"
 
 #: includes/class-zinn-migrate-promo.php:256
 msgid "User guides"
-msgstr "İstifadəçi bələdçiləri"
+msgstr "İstifadəçi təlimatları"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-migrate-promo.php:306
@@ -166,7 +166,7 @@ msgstr "%s istifadəçi təlimatını oxuyun"
 
 #: includes/class-zinn-migrate-promo.php:314
 msgid "Hide this"
-msgstr "Gizlət"
+msgstr "Bunu gizlət"
 
 #: includes/class-zinn-migrate-promo.php:424
 msgid "Zinn® hosting for WordPress"
@@ -174,7 +174,7 @@ msgstr "WordPress üçün Zinn® hostinqi"
 
 #: includes/class-zinn-migrate-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, gündəlik ehtiyat nüsxələr, pulsuz miqrasiya və birdən çox sayt idarə edənlər üçün hazırlanmış idarəetmə paneli."
+msgstr "LiteSpeed, gündəlik nüsxələmə, pulsuz köçürülmə və birdən çox saytı idarə edən şəxslər üçün hazırlanmış idarəetmə paneli."
 
 #: includes/class-zinn-migrate-promo.php:431
 msgid "The Zinn® marketplace"
@@ -182,15 +182,15 @@ msgstr "Zinn® bazarı"
 
 #: includes/class-zinn-migrate-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Hazır saytları, domenləri və keçid yerləşdirmələrini alın və satın, hər iki tərəf razı qədər pul təhlükəsiz şəkildə saxlanılır."
+msgstr "Hər iki tərəf razı qalana qədər vəsait təhlükəsiz şəkildə saxlanılmaqla fəaliyyət göstərən saytları, domenləri və keçid yerləşdirmələrini alın və satın."
 
 #: includes/class-zinn-migrate-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — bu işi peşəkar olaraq görən mütəxəssislər işə götürün"
+msgstr "Zinn Hub® — bu işlə peşəkar şəkildə məşğul olan insanları işə götürün"
 
 #: includes/class-zinn-migrate-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Qlobal frilanser bazarımız: yazıçılar, dizaynerlər, tərtibatçılar və SEO mütəxəssislərindən 10 000-dən çox hazır xidməti nəzərdən keçirin və ya layihə yerləşdirərək onların təklif verməsinə icazə verin."
+msgstr "Qlobal frilans bazarımız: yazıçılar, dizaynerlər, tərtibatçılar və SEO mütəxəssislərindən 10 000-dən çox hazır xidmətə nəzər salın və ya layihə yerləşdirərək onların təklif verməsinə imkan yaradın."
 
 #: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
@@ -204,8 +204,8 @@ msgstr "Zinn® yeniləmə xidməti bu yeniləmə üçün yükləmə linki təqdi
 #: includes/class-zinn-migrate-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Yeniləmə Zinn® yeniləmə xidmətindən (%s) endirilə bilmədi. Bir neçə dəqiqə sonra yenidən cəhd edin."
+msgstr "Yeniləməni Zinn® yeniləmə xidmətindən (%s) endirmək mümkün olmadı. Bir neçə dəqiqə sonra yenidən cəhd edin."
 
 #: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "Yüklənmiş yeniləmə bütövlük yoxlamasından keçmədi və quraşdırılmadı."
+msgstr "Endirilmiş yenilənmə bütövlük yoxlamasından keçmədi və quraşdırılmadı."

@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
 #. Description of the plugin
 #: zinn-migrate.php
 msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
-msgstr "ఈ WordPress సైట్ - ఫైళ్లు మరియు డేటాబేస్ - Zinn Digital® లాగగల ఒక ఆర్కైవ్‌గా ప్యాకేజ్ చేస్తుంది, మేము ఏ ఇతర మార్గంలోనూ చేరుకోలేని హోస్ట్‌ల కోసం. మీరు వదిలిపెడుతున్న సైట్‌పై దీన్ని ఇన్‌స్టాల్ చేయండి, ఒక బటన్‌ను నొక్కండి మరియు లింక్‌ను మీ Zinn® మైగ్రేషన్‌లో అతికించండి."
+msgstr "మేము మరే ఇతర మార్గంలో చేరుకోలేని హోస్ట్‌ల కోసం, ఈ WordPress సైట్‌ను — ఫైల్‌లు మరియు డేటాబేస్‌ను — Zinn Digital® లాగగలిగే ఒక ఆర్కైవ్‌గా ప్యాక్ చేస్తుంది. మీరు నిష్క్రమిస్తున్న సైట్‌లో దీన్ని ఇన్‌స్టాల్ చేయండి, ఒక బటన్‌ను నొక్కండి మరియు మీ Zinn® మైగ్రేషన్‌లోకి లింక్‌ను అతికించండి."
 
 #. Author of the plugin
 #: zinn-migrate.php
@@ -41,7 +41,7 @@ msgstr "ఈ సైట్‌ను Zinn®కి తరలించండి"
 
 #: includes/class-zinn-migrate-admin.php:65
 msgid "Move to Zinn®"
-msgstr "Zinn®కి తరలించు"
+msgstr "Zinn®కి తరలించండి"
 
 #: includes/class-zinn-migrate-admin.php:149
 msgid "You do not have permission to do this."
@@ -49,27 +49,27 @@ msgstr "దీన్ని చేయడానికి మీకు అనుమ
 
 #: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
-msgstr "ఇది ఈ సైట్‌లోని ప్రతి విషయాన్ని — దీని ఫైళ్లు మరియు దీని డేటాబేస్‌ను — ఒక ఆర్కైవ్‌గా ప్యాక్ చేసి, దానికి మీకు ఒక ప్రైవేట్ లింక్‌ను అందిస్తుంది. ఆ లింక్‌ను Zinn® లో మీ మైగ్రేషన్‌లో పేస్ట్ చేయండి మరియు మేము సైట్‌ను బదిలీ చేస్తాము. మీరు ఆ లింక్‌ను షేర్ చేయాలని ఎంచుకునే వరకు ఇక్కడ ఉన్న ఏదీ ఎక్కడికీ పంపబడదు."
+msgstr "ఇది ఈ సైట్‌లోని ప్రతిదాన్ని — దాని ఫైల్‌లు మరియు దాని డేటాబేస్‌ను — ఒక ఆర్కైవ్‌గా ప్యాకేజ్ చేస్తుంది మరియు దానికి మీకు ఒక ప్రైవేట్ లింక్‌ను అందిస్తుంది. ఆ లింక్‌ను Zinn® పై మీ మైగ్రేషన్‌లో అతికించండి మరియు మేము సైట్‌ను ఇక్కడికి తరలిస్తాము. మీరు లింక్‌ను భాగస్వామ్యం చేయడానికి ఎంచుకునే వరకు ఇక్కడి నుండి ఏదీ ఎక్కడికీ పంపబడదు."
 
 #: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
-msgstr "మీకు ఇది అవసరం లేకపోవచ్చు. మీ పాత హోస్ట్ మీకు FTP, SSH, cPanel, Plesk లేదా DirectAdminని అందిస్తే, Zinn® ఆ వివరాలతో సైట్‌ను నేరుగా తీసుకురాగలదు మరియు మీరు ఈ ప్లగిన్‌ను పూర్తిగా దాటవేయవచ్చు — ఇది వేగంగా ఉంటుంది మరియు తర్వాత ఏదీ మిగిలి ఉండదు. ఇవి ఏవీ మీకు అందుబాటులో లేనప్పుడు దీన్ని ఉపయోగించండి."
+msgstr "మీకు ఇది అవసరం లేకపోవచ్చు. మీ పాత హోస్ట్ మీకు FTP, SSH, cPanel, Plesk లేదా DirectAdmin అందిస్తున్నట్లయితే, Zinn® ఆ వివరాలతో సైట్‌ను నేరుగా పొందగలదు మరియు మీరు ఈ ప్లగిన్‌ను పూర్తిగా దాటవేయవచ్చు — ఇది వేగవంతమైనది మరియు ఆ తర్వాత ఏదీ మిగిలి ఉండదు. వీటిలో ఏవీ మీకు అందుబాటులో లేనప్పుడు దీన్ని ఉపయోగించండి."
 
 #: includes/class-zinn-migrate-admin.php:261
 msgid "Room on this server"
-msgstr "ఈ సర్వర్‌లో ఖాళీ స్థలం"
+msgstr "ఈ సర్వర్‌లో స్థలం"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
 #: includes/class-zinn-migrate-admin.php:272
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
-msgstr "ఈ సర్వర్ ఎంత డిస్క్ స్థలం ఖాళీగా ఉందో మాకు చెప్పదు, కాబట్టి మేము మీ కోసం తనిఖీ చేయలేము. ప్యాకేజీకి సుమారు %s అవసరం. అంత స్థలం ఉందో లేదో మీకు ఖచ్చితంగా తెలియకపోతే, మీరు దీన్ని రూపొందించే ముందు మీ హోస్ట్ ని అడగండి — మధ్యలో స్థలం అయిపోయిన సర్వర్ సైట్‌ను నిలిపివేస్తుంది."
+msgstr "ఈ సర్వర్ ఎంత డిస్క్ స్థలం ఖాళీగా ఉందో మాకు చెప్పదు, కాబట్టి మేము మీ కోసం తనిఖీ చేయలేము. ప్యాకేజీకి సుమారుగా %s అవసరం. అంత స్థలం ఉందో లేదో మీకు ఖచ్చితంగా తెలియనట్లయితే, మీరు దీన్ని రూపొందించడానికి ముందు మీ హోస్ట్‌ని అడగండి — మధ్యలో స్థలం అయిపోయే సర్వర్ సైట్‌ను డౌన్ చేస్తుంది."
 
 #. translators: 1: space required, 2: space free.
 #: includes/class-zinn-migrate-admin.php:278
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
-msgstr "ఈ ప్యాకేజీకి సుమారు %1$s అవసరం మరియు ఈ సర్వర్‌లో %2$s ఖాళీగా ఉంది."
+msgstr "ప్యాకేజీకి సుమారుగా %1$s అవసరం మరియు ఈ సర్వర్‌లో %2$s ఖాళీ స్థలం ఉంది."
 
 #: includes/class-zinn-migrate-admin.php:287
 msgid "Build the package"
@@ -77,13 +77,13 @@ msgstr "ప్యాకేజీని రూపొందించండి"
 
 #: includes/class-zinn-migrate-admin.php:289
 msgid "Building…"
-msgstr "రూపొందిస్తోంది…"
+msgstr "నిర్మిస్తోంది…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
 #: includes/class-zinn-migrate-admin.php:294
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
-msgstr "ఇప్పుడు ప్యాకేజింగ్ జరుగుతోంది: %1$s. ఇప్పటివరకు %2$s ఫైళ్లు, %3$s వ్రాయబడ్డాయి."
+msgstr "ఇప్పుడు ప్యాకేజ్ చేస్తోంది: %1$s. ఇప్పటివరకు %2$s ఫైళ్ళు, %3$s వ్రాయబడ్డాయి."
 
 #: includes/class-zinn-migrate-admin.php:295
 msgid "your files"
@@ -99,7 +99,7 @@ msgstr "కొనసాగించు"
 
 #: includes/class-zinn-migrate-admin.php:308
 msgid "Cancel and delete"
-msgstr "రద్దు చేసి తొలగించు"
+msgstr "రద్దు చేసి తొలగించండి"
 
 #: includes/class-zinn-migrate-admin.php:312
 msgid "Your package is ready"
@@ -107,7 +107,7 @@ msgstr "మీ ప్యాకేజీ సిద్ధంగా ఉంది"
 
 #: includes/class-zinn-migrate-admin.php:313
 msgid "Copy this link and paste it into your migration on Zinn®:"
-msgstr "ఈ లింక్‌ను కాపీ చేసి, Zinn®లో మీ మైగ్రేషన్‌లో అతికించండి:"
+msgstr "ఈ లింక్‌ను కాపీ చేసి, Zinn® లోని మీ మైగ్రేషన్‌లో అతికించండి:"
 
 #. translators: %s: the package size.
 #: includes/class-zinn-migrate-admin.php:326
@@ -117,46 +117,46 @@ msgstr "పరిమాణం: %s."
 
 #: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
-msgstr "ఈ లింక్‌ను పాస్‌వర్డ్‌లా భావించండి. దీన్ని కలిగి ఉన్న ఎవరైనా మీ డేటాబేస్‌తో సహా మీ మొత్తం సైట్‌ను డౌన్‌లోడ్ చేసుకోవచ్చు. ప్యాకేజీ తయారైన 24 గంటల తర్వాత మేము దాన్ని స్వయంచాలకంగా తొలగిస్తాము — మీ మైగ్రేషన్ పూర్తయిన వెంటనే మీ అంతట మీరే దాన్ని తొలగించండి."
+msgstr "ఈ లింక్‌ను పాస్‌వర్డ్‌లా భావించండి. ఇది ఎవరి వద్దనైనా ఉంటే, వారు మీ డేటాబేస్‌తో సహా మీ మొత్తం సైట్‌ను డౌన్‌లోడ్ చేసుకోవచ్చు. ప్యాకేజీని రూపొందించిన 24 గంటల తర్వాత మేము దానిని ఆటోమేటిక్‌గా తొలగిస్తాము — మీ మైగ్రేషన్ పూర్తయిన వెంటనే దాన్ని మీరే తొలగించండి."
 
 #: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
-msgstr "ఈ ప్యాకేజీని ఇప్పుడే తొలగించండి"
+msgstr "ప్యాకేజీని ఇప్పుడే తొలగించండి"
 
 #: includes/class-zinn-migrate-admin.php:348
 msgid "Build it again"
-msgstr "మళ్లీ నిర్మించండి"
+msgstr "మళ్ళీ రూపొందించండి"
 
 #: includes/class-zinn-migrate-package.php:188
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
-msgstr "ఈ సర్వర్‌లో PHP యొక్క ZipArchive ఎక్స్‌టెన్షన్ లేదు, కాబట్టి మేము ఇక్కడ ప్యాకేజీని సృష్టించలేము. దీన్ని ప్రారంభించమని మీ హోస్ట్ ని అడగండి, లేదా బదులుగా మీ FTP లేదా SSH వివరాలతో Zinn® లోని మైగ్రేషన్ ఫారమ్‌ను ఉపయోగించండి."
+msgstr "ఈ సర్వర్‌లో PHP యొక్క ZipArchive పొడిగింపు లేదు, కాబట్టి మేము ఇక్కడ ప్యాకేజీని నిర్మించలేము. దీన్ని ప్రారంభించమని మీ హోస్ట్‌ను అడగండి, లేదా ప్రత్యామ్నాయంగా మీ FTP లేదా SSH వివరాలతో Zinn® లోని మైగ్రేషన్ ఫారమ్‌ను ఉపయోగించండి."
 
 #: includes/class-zinn-migrate-package.php:198
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
-msgstr "మీ అప్‌లోడ్స్ డైరెక్టరీలో మేము ఫోల్డర్‌ను సృష్టించలేకయాము, అందువల్ల ప్యాకేజీని వ్రాయడానికి ఎక్కడా స్థానం లేదు. wp-content/uploads వ్రాయదగినదిగా (writable) ఉందో లేదో తనిఖీ చేయండి."
+msgstr "మీ అప్‌లోడ్‌ల డైరెక్టరీలో ఫోల్డర్‌ను సృష్టించడం సాధ్యపడలేదు, కాబట్టి ప్యాకేజీని రాయడానికి ఎక్కడా స్థలం లేదు. wp-content/uploads రాయడానికి అనుకూలంగా ఉందో లేదో తనిఖీ చేయండి."
 
 #: includes/class-zinn-migrate-package.php:279
 msgid "There is no package being built. Start one first."
-msgstr "ఏ ప్యాకేజీ బిల్డ్ చేయబడుట లేదు. ముందుగా ఒకదానిని ప్రారంభించండి."
+msgstr "ఏ ప్యాకేజీ నిర్మించబడటం లేదు. మొదట ఒకదాన్ని ప్రారంభించండి."
 
 #: includes/class-zinn-migrate-package.php:285
 msgid "We could not open the package file for writing."
-msgstr "రాయడం కోసం ప్యాకేజీ ఫైల్‌ను మేము తె తెరవలేకపోయాము."
+msgstr "వ్రాయడానికి ప్యాకేజీ ఫైల్‌ను తెరవడం సాధ్యపడలేదు."
 
 #: includes/class-zinn-migrate-package.php:368
 msgid "We could not write the database export."
-msgstr "డేటాబేస్ ఎగుమతిని వ్రాయలేకపోయాము."
+msgstr "మేము డేటాబేస్ ఎగుమతిని రాయలేకపోయాము."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-migrate-promo.php:241
 #: includes/class-zinn-migrate-promo.php:299
 #, php-format
 msgid "%s — guides and services"
-msgstr "%s — గైడ్‌లు మరియు సేవలు"
+msgstr "%s — మార్గదర్శకాలు మరియు సేవలు"
 
 #: includes/class-zinn-migrate-promo.php:256
 msgid "User guides"
-msgstr "యూజర్ గైడ్‌లు"
+msgstr "వినియోగదారు గైడ్‌లు"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-migrate-promo.php:306
@@ -166,27 +166,27 @@ msgstr "%s వినియోగదారు మార్గదర్శిన�
 
 #: includes/class-zinn-migrate-promo.php:314
 msgid "Hide this"
-msgstr "దీన్ని దాచు"
+msgstr "దీన్ని దాచండి"
 
 #: includes/class-zinn-migrate-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "WordPress కోసం Zinn® హోస్టింగ్"
+msgstr "WordPress కొరకు Zinn® హోస్టింగ్"
 
 #: includes/class-zinn-migrate-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "లైట్‌స్పీడ్ (LiteSpeed), రోజువారీ బ్యాకప్‌లు, ఉచిత మైగ్రేషన్ మరియు ఒకటి కంటే ఎక్కువ సైట్‌లను నిర్వహించే వ్యక్తుల కోసం రూపొందించబడిన కంట్రోల్ ప్యానెల్."
+msgstr "LiteSpeed, రోజువారీ బ్యాకప్‌లు, ఉచిత మైగ్రేషన్ మరియు ఒకటి కంటే ఎక్కువ సైట్‌లను నడిపించే వారి కోసం రూపొందించబడిన కంట్రోల్ ప్యానెల్."
 
 #: includes/class-zinn-migrate-promo.php:431
 msgid "The Zinn® marketplace"
-msgstr "Zinn® మార్కెట్ ప్లేస్"
+msgstr "Zinn® మార్కెట్‌ప్లేస్"
 
 #: includes/class-zinn-migrate-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "స్థాపిత సైట్‌లు, డొమైన్‌లు మరియు లింక్ ప్లేస్‌మెంట్‌లను కొనుగోలు చేయండి మరియు అమ్మండి, ఇరుపక్షాలు సంతృప్తి చెందే వరకు డబ్బు సురక్షితంగా ఉంచబడుతుంది."
+msgstr "ఇరుపక్షాలు సంతృప్తి చెందే వరకు నగదును సురక్షితంగా ఉంచుతూ, స్థిరపడిన సైట్‌లు, డొమైన్‌లు మరియు లింక్ ప్లేస్‌మెంట్‌లను కొనుగోలు చేయండి మరియు విక్రయించండి."
 
 #: includes/class-zinn-migrate-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — దీన్ని వృత్తిగా చేసే వారిని నియమించుకోండి"
+msgstr "Zinn Hub® — దీనినే జీవనోపాధిగా చేసుకున్న వ్యక్తులను నియమించుకోండి"
 
 #: includes/class-zinn-migrate-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
@@ -198,14 +198,14 @@ msgstr "Zinn Digital® విడుదల గమనికలను చూడం�
 
 #: includes/class-zinn-migrate-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Zinn® అప్‌డేట్ సేవ ఈ అప్‌డేట్ కోసం డౌన్‌లోడ్ లింక్‌ను జారీ చేయలేదు. ఈ సైట్ Zinn® ప్లాట్‌ఫారమ్‌ను చేరుకోగలదని తనిఖీ చేసి, ఆపై మళ్లీ ప్రయత్నించండి."
+msgstr "Zinn® నవీకరణ సేవ ఈ నవీకరణ కోసం డౌన్‌లోడ్ లింక్‌ను అందించలేదు. ఈ సైట్ Zinn® ప్లాట్‌ఫారమ్‌ను చేరుకోగలదో లేదో తనిఖీ చేయండి, ఆపై మళ్లీ ప్రయత్నించండి."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-migrate-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Zinn® అప్‌డేట్ సేవ (%s) నుండి నవీకరణను డౌన్‌లోడ్ చేయడం సాధ్యం కాలేదు. కొన్ని నిమిషాల తర్వాత మళ్లీ ప్రయత్నించండి."
+msgstr "Zinn® నవీకరణ సేవ (%s) నుండి నవీకరణను డౌన్‌లోడ్ చేయడం సాధ్యపడలేదు. దయచేసి కొన్ని నిమిషాల తర్వాత మళ్లీ ప్రయత్నించండి."
 
 #: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "డౌన్‌లోడ్ చేసిన అప్‌డేట్ సమగ్రత తనిఖీలో విఫలమైంది మరియు ఇన్‌స్టాల్ చేయబడలేదు."
+msgstr "డౌన్‌లోడ్ చేసిన నవీకరణ దాని సమగ్రత తనిఖీలో విఫలమైంది మరియు ఇన్‌స్టాల్ చేయబడలేదు."

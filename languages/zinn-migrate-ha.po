@@ -22,7 +22,7 @@ msgstr "https://zinndigital.com/wordpress-plugins/zinn-migrate"
 #. Description of the plugin
 #: zinn-migrate.php
 msgid "Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration."
-msgstr "Yana tara wannan rukunin yanar gizon WordPress — fayiloli da bayanan bayanai — zuwa cikin jakar ajiya guda ɗaya wacce Zinn Digital® za ta iya jawowa, don masu masaukin baki da ba za mu iya isa gare ta ta wata hanya ba. Sanya shi a kan rukunin yanar gizon da kakeBARI, danna maballin guda ɗaya, kuma manna hanyar haɗin a cikin hijirarka ta Zinn®."
+msgstr "Yana tattara wannan rukunin yanar gizo na WordPress — fayiloli da ma'ajiyar bayanai — zuwa cikin rumbun adana bayanai guda ɗaya wanda Zinn Digital® zai iya ɗauka, don masu masaukin yanar gizo da ba za mu iya samun dama ta wata hanya ba. Shigar da shi a rukunin yanar gizon da kuke bari, danna maballin guda ɗaya, sannan liƙa hanyar haɗin yanar gizon a cikin ƙaurarku ta Zinn®."
 
 #. Author of the plugin
 #: zinn-migrate.php
@@ -37,33 +37,33 @@ msgstr "https://zinndigital.com"
 #: includes/class-zinn-migrate-admin.php:64
 #: includes/class-zinn-migrate-admin.php:231
 msgid "Move this site to Zinn®"
-msgstr "Matsar da wannan shafin zuwa Zinn®"
+msgstr "Matsar da wannan shafi zuwa Zinn®"
 
 #: includes/class-zinn-migrate-admin.php:65
 msgid "Move to Zinn®"
-msgstr "Muruda zuwa Zinn®"
+msgstr "Matsar zuwa Zinn®"
 
 #: includes/class-zinn-migrate-admin.php:149
 msgid "You do not have permission to do this."
-msgstr "Ba ka da izinin yin wannan."
+msgstr "Ba ku da izinin yin wannan."
 
 #: includes/class-zinn-migrate-admin.php:235
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
-msgstr "Wannan yana tattara komai a kan wannan rukunin yanar gizon — fayilolinsa da bayanan bayanan sa — zuwa cikin kundin adana bayanai guda ɗaya, kuma yana ba ku keɓaɓɓen mahada zuwa gare shi. Liƙa wannan mahada cikin ƙaura a Zinn® kuma za mu ja shafin a fadin. Babu wani abu da ake aikawa ko ina anan har sai kun zaɓi raba mahadar."
+msgstr "Wannan yana tattara duk abin da ke kan wannan rukunin yanar gizon — fayilolinsa da ma'ajiyar bayanansa — zuwa cikin rumbun adana bayanai guda ɗaya, kuma yana ba ku hanyar haɗi ta sirri zuwa gare shi. Manna wannan hanyar haɗin yanar gizon a cikin ƙaurarku a kan Zinn® kuma za mu jawo rukunin yanar gizon. Ba a aika wani abu a nan ko'ina ba har sai kun zaɓi raba hanyar haɗin yanar gizon."
 
 #: includes/class-zinn-migrate-admin.php:249
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
-msgstr "Wataƙila ba ka buƙatar wannan ba. Idan tsohon mai masaukin yanar gizonka ya ba ka FTP, SSH, cPanel, Plesk ko DirectAdmin, Zinn® na iya ɗaukar shafin kai tsaye da waɗannan bayanan kuma za ka iya tsallake wannanplugin ɗin gaba ɗaya — yana da sauri kuma babu abin da ya rage a baya daga baya. Yi amfani da wannan lokacin da babu wani daga cikin waɗannan da ke gare ka."
+msgstr "Wataƙila ba kwa buƙatar wannan. Idan tsohon uwar garkenku yana ba ku FTP, SSH, cPanel, Plesk ko DirectAdmin, Zinn® na iya ɗauko rukunin yanar gizon kai tsaye tare da waɗannan bayanan kuma za ku iya tsallake wannan manhaja gaba ɗaya — ya fi sauri kuma babu abin da zai bari a baya daga baya. Yi amfani da wannan lokacin da babu ko ɗaya daga cikin waɗannan da ke akwai a gare ku."
 
 #: includes/class-zinn-migrate-admin.php:261
 msgid "Room on this server"
-msgstr "Wuri a kan wannan uwar garken"
+msgstr "Wuri a wannan uwar garken"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
 #: includes/class-zinn-migrate-admin.php:272
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
-msgstr "Wannan sabar ba za ta gaya mana adadin sararin da ya rage a rumbun ajiyarta ba, saboda haka ba za mu iya bincika maka ba. Kunshin yana buƙatar kimanin %s. Idan ba ka da tabbas akwai wannan sarari, tambayi mai sabar ɗin kafin ka gina shi — sabar da ta ƙare mata sarari a tsakiyar aiki tana ɗauke da shafin."
+msgstr "Wannan uwar garken ba za ta gaya mana adadin sararin faifai da ke da 'yanci ba, don haka ba za mu iya bincika muku ba. Kunshin yana buƙatar kusan %s. Idan ba ku da tabbacin akwai sarari mai yawa, tambayi mai masaukin ku kafin ku gina shi — uwar garken da ta ƙarewa sarari a tsakiyar aiki tana saukar da rukunin yanar gizon."
 
 #. translators: 1: space required, 2: space free.
 #: includes/class-zinn-migrate-admin.php:278
@@ -83,15 +83,15 @@ msgstr "Ana ginawa…"
 #: includes/class-zinn-migrate-admin.php:294
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
-msgstr "Yanzu ana shiryawa: %1$s. Fayiloli %2$s kawo yanzu, %3$s an rubuta."
+msgstr "Ana tattarawa yanzu: %1$s. Fayiloli %2$s kawo yanzu, an rubuta %3$s."
 
 #: includes/class-zinn-migrate-admin.php:295
 msgid "your files"
-msgstr "fayilolinka"
+msgstr "Fayilolinku"
 
 #: includes/class-zinn-migrate-admin.php:295
 msgid "your database"
-msgstr "ma'ajiyar bayananka"
+msgstr "Rumbun bayananka"
 
 #: includes/class-zinn-migrate-admin.php:307
 msgid "Continue"
@@ -99,45 +99,45 @@ msgstr "Ci gaba"
 
 #: includes/class-zinn-migrate-admin.php:308
 msgid "Cancel and delete"
-msgstr "Soke sannan ka share"
+msgstr "Soke kuma goge"
 
 #: includes/class-zinn-migrate-admin.php:312
 msgid "Your package is ready"
-msgstr "Kunshin ku a shirye yake"
+msgstr "Fakitin ku ya shirya"
 
 #: includes/class-zinn-migrate-admin.php:313
 msgid "Copy this link and paste it into your migration on Zinn®:"
-msgstr "Kwafi wannan hanyar haɗin gwiwa sannan ka manna shi a cikin ƙaura ta Zinn®:"
+msgstr "Kwafi wannan hanyar haɗin yanar gizo kuma manna shi a cikin ƙauranku akan Zinn®:"
 
 #. translators: %s: the package size.
 #: includes/class-zinn-migrate-admin.php:326
 #, php-format
 msgid "Size: %s."
-msgstr "Girman: %s."
+msgstr "Girma: %s."
 
 #: includes/class-zinn-migrate-admin.php:338
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
-msgstr "Ka dauki wannan hanyar sadarwa kamar kalmar sirri. Duk wanda yake da ita zai iya sauke daukacin shafinka, ciki har da bayanan ajiyarka. Muna goge fakitin da kansa bayan sa'o'i 24 da aka kirkire shi — ka goge shi da kanka da zaran ka gama hijirar shafin."
+msgstr "Kula da wannan hanyar haɗin kamar kalmar sirri ce. Duk wanda ke da ita zai iya sauke dukkan rukunin yanar gizonku, gami da ma'ajiyar bayanan ku. Muna share kunshin kai tsaye sa'o'i 24 bayan an gina shi — ku goge shi da kanku da zarar an kammala ƙaura."
 
 #: includes/class-zinn-migrate-admin.php:347
 msgid "Delete the package now"
-msgstr "Share fakitin yanzu"
+msgstr "Goge fakitin yanzu"
 
 #: includes/class-zinn-migrate-admin.php:348
 msgid "Build it again"
-msgstr "Sake ginawa"
+msgstr "Sake gina shi"
 
 #: includes/class-zinn-migrate-package.php:188
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
-msgstr "Wannan uwar garken ba ta da tsarin ZipArchive na PHP, don haka ba za mu iya gina kunshin a nan ba. Ka roƙi mai masaukin baƙi naka da ya kunna shi, ko kuma a maimakon haka ka yi amfani da fom ɗin ƙaura a kan Zinn® tare da bayanan FTP ko SSH naka."
+msgstr "Wannan uwar garken ba ta da ƙarin haɓaka na ZipArchive na PHP, don haka ba za mu iya gina kunshi a nan ba. Tambayi mai masaukin ku don ya kunna shi, ko kuma a maimakon haka ku yi amfani da fom ɗin ƙaura a Zinn® tare da bayanan FTP ko SSH na ku."
 
 #: includes/class-zinn-migrate-package.php:198
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
-msgstr "Ba mu iya ƙirƙirar babban fayil ba a cikin kundin adireshin ku na lodawa, don haka babu inda za a rubuta fakitin. Bincika cewa wp-content/uploads yana da izinin rubutawa."
+msgstr "Ba mu iya ƙirƙirar babban fayil a cikin rumbun adana bayanan abubuwan da ka loda ba, don haka babu inda za a rubuta kunshin. Bincika don tabbatar da cewa ana iya rubutu a wp-content/uploads."
 
 #: includes/class-zinn-migrate-package.php:279
 msgid "There is no package being built. Start one first."
-msgstr "Babu wani kunshin da ake ginawa. Fara guda ɗaya tukunna."
+msgstr "Ba a gina kowane fakiti ba. Fara ɗaya da farko."
 
 #: includes/class-zinn-migrate-package.php:285
 msgid "We could not open the package file for writing."
@@ -145,7 +145,7 @@ msgstr "Ba mu iya buɗe fayil ɗin kunshin don rubutawa ba."
 
 #: includes/class-zinn-migrate-package.php:368
 msgid "We could not write the database export."
-msgstr "Ba mu iya rubuta fitar da bayanan ba."
+msgstr "Ba mu iya rubuta fitarwar ma'ajiyar bayanai ba."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
 #: includes/class-zinn-migrate-promo.php:241
@@ -156,7 +156,7 @@ msgstr "%s — jagorori da ayyuka"
 
 #: includes/class-zinn-migrate-promo.php:256
 msgid "User guides"
-msgstr "Jagororin masu amfani"
+msgstr "Jagororin mai amfani"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
 #: includes/class-zinn-migrate-promo.php:306
@@ -166,15 +166,15 @@ msgstr "Karanta jagorar mai amfani ta %s"
 
 #: includes/class-zinn-migrate-promo.php:314
 msgid "Hide this"
-msgstr "Boye da wannan"
+msgstr "Ɓoye wannan"
 
 #: includes/class-zinn-migrate-promo.php:424
 msgid "Zinn® hosting for WordPress"
-msgstr "Zinn® hosting don WordPress"
+msgstr "Bakuncin Zinn® don WordPress"
 
 #: includes/class-zinn-migrate-promo.php:425
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
-msgstr "LiteSpeed, madogaransa na kullum, ƙaura kyauta da kuma allon sarrafawa da aka gina don mutanen da ke gudanar da shafuka fiye da ɗaya."
+msgstr "LiteSpeed, adana bayanan yau da kullum, canja wurin shafi kyauta, da allon sarrafawa da aka gina domin mutanen da ke gudanar da shafuka fiye da daya."
 
 #: includes/class-zinn-migrate-promo.php:431
 msgid "The Zinn® marketplace"
@@ -182,30 +182,30 @@ msgstr "Kasuwar Zinn®"
 
 #: includes/class-zinn-migrate-promo.php:432
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
-msgstr "Sayi da siyar da ingantattun shafuka, yanki (domains), da wuraren sanya hanyoyin sadarwa (link placements), tare da ajiye kudin a amince har sai bangarorin biyu sun gamsu."
+msgstr "Sayi kuma sayar da kafaffun shafukan yanar gizo, yankuna da wuraren sanya hanyoyin haɗi, tare da ajiye kuɗin lafiya har sai ɓangarorin biyu sun gamsu."
 
 #: includes/class-zinn-migrate-promo.php:479
 msgid "Zinn Hub® — hire people who do this for a living"
-msgstr "Zinn Hub® — hayar mutanen da suka kware a fannin aikinsu"
+msgstr "Zinn Hub® — ɗauki mutanen da suka mayar da wannan sana'ar rayuwarsu"
 
 #: includes/class-zinn-migrate-promo.php:480
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
-msgstr "Kasuwancinmu na masu zaman kansu na duniya: bincika ayyuka sama da 10,000 da aka riga aka shirya daga marubuta, masu zanen kaya, masu haɓakawa da ƙwararrun SEO, ko sanya wani aikin kuma bari su yi ciniki."
+msgstr "Kasuwar mu ta masu aikin dogaro da kai ta duniya: bincika sama da ayyuka 10,000 da aka riga aka shirya daga marubuta, masu ƙira, masu haɓaka software da ƙwararrun SEO, ko sanya aiki kuma ka bar su su bayar da tayin farashi."
 
 #: includes/class-zinn-migrate-updater.php:253
 msgid "See the Zinn Digital® release notes."
-msgstr "Dubi bayanan fitowar Zinn Digital®."
+msgstr "Duba bayanan sakin Zinn Digital®."
 
 #: includes/class-zinn-migrate-updater.php:302
 msgid "The Zinn® update service did not issue a download link for this update. Check that this site can reach the Zinn® platform, then try again."
-msgstr "Sabon sabis na Zinn® bai bayar da hanyar saukewa don wannan sabuntawar ba. Tabbatar cewa wannan shafin zai iya isa ga dandalin Zinn®, sannan ka sake gwadawa."
+msgstr "Sabis ɗin ɗaukaka na Zinn® bai bayar da hanyar saukarwa don wannan ɗaukakawa ba. Bincika ko wannan rukunin yanar gizon zai iya samun damar shiga dandalin Zinn®, sannan ku sake gwadawa."
 
 #. translators: %s: the download error reported by WordPress.
 #: includes/class-zinn-migrate-updater.php:316
 #, php-format
 msgid "The update could not be downloaded from the Zinn® update service (%s). Try again in a few minutes."
-msgstr "Ba a iya saukar da sabuntawar daga sabis na sabuntawa na Zinn® (%s) ba. Gwada sake a 'yan mintoci kadan."
+msgstr "Ba a iya sauke sabuntawar ba daga sabis ɗin sabuntawa na Zinn® (%s). Sake gwadawa bayan ƴan mintuna."
 
 #: includes/class-zinn-migrate-updater.php:330
 msgid "The downloaded update failed its integrity check and was not installed."
-msgstr "Sabuntawar da aka sauke ta gaza a wajen tantance amincinta kuma ba a shigar da ita ba."
+msgstr "Ɗaukakawar da aka saukar ta gaza a binciken amincinta kuma ba a shigar da ita ba."

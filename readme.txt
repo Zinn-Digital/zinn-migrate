@@ -7,7 +7,7 @@ Tags: migration, export, backup, transfer, move
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ The plugin will tell you so instead of failing part way. In that case use the mi
 It builds in small steps, so size is a question of time and disk space rather than of timeouts. If the site is larger than the free space on the server, the screen tells you before you start.
 
 == Changelog ==
+
+= 1.2.1 =
+* Every bundled translation is redone with the current Google model: each locale in its own script (Serbian in Cyrillic), in the register its WordPress translation team uses, with the original spacing, placeholders and entities preserved.
 
 = 1.2.0 =
 * Smaller download: the editable translation sources (.po) are no longer shipped; WordPress only ever loads the compiled .mo and .l10n.php files, which are unchanged.
