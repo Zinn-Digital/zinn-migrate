@@ -168,7 +168,9 @@ final class Zinn_Migrate_Package {
 						return false;
 					}
 				}
-				return $current->isFile() || $current->isReadable();
+				// ⛔ READABLE, files included: an unreadable file that was added made
+				// `ZipArchive::close()` fail for the whole window (measured 2026-10-08, S1006).
+				return $current->isReadable();
 			}
 		);
 		return new RecursiveIteratorIterator( $filtered, RecursiveIteratorIterator::SELF_FIRST );
@@ -272,6 +274,8 @@ final class Zinn_Migrate_Package {
 	 * kills at `max_execution_time` is a truncated zip — which opens, lists some files, and
 	 * looks like a smaller site. That is the worst outcome available here: a migration that
 	 * completes and silently omits half the media library.
+	 *
+	 * @throws \Throwable When a step fails part way (the archive is closed first).
 	 */
 	public static function step(): array {
 		$state = self::state();
@@ -285,11 +289,19 @@ final class Zinn_Migrate_Package {
 			return array( 'error' => __( 'We could not open the package file for writing.', 'zinn-migrate' ) );
 		}
 		try {
-			$state = 'files' === $state['stage']
+			$state  = 'files' === $state['stage']
 				? self::step_files( $zip, $state )
 				: self::step_database( $zip, $state );
-		} finally {
+			$closed = $zip->close();
+		} catch ( \Throwable $e ) {
 			$zip->close();
+			throw $e;
+		}
+		// ⛔ A failed close leaves the archive as it was before this window. Saving the advanced
+		// cursor anyway is how a package came out silently short (S1006, 2026-10-08): stop here,
+		// keep the old cursor, and say so.
+		if ( true !== $closed ) {
+			return array( 'error' => __( 'We could not open the package file for writing.', 'zinn-migrate' ) );
 		}
 		$state['bytes'] = file_exists( $path ) ? (int) filesize( $path ) : 0;
 		update_option( self::STATE, $state, false );
