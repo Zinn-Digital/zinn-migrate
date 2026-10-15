@@ -360,7 +360,7 @@ final class Zinn_Migrate_Package {
 		);
 		$sql    = zinn_migrate_base_dir() . '/' . $state['token'] . '/database.sql';
 		if ( 0 === (int) $state['table'] && 0 === (int) $state['offset'] ) {
-			file_put_contents( $sql, "-- Zinn® Migrate export\nSET NAMES utf8mb4;\n" ); // phpcs:ignore WordPress.WP.AlternativeFunctions
+			file_put_contents( $sql, "-- Zinn® Migrate export\nSET NAMES utf8mb4;\nSET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';\n" ); // phpcs:ignore WordPress.WP.AlternativeFunctions
 		}
 		$index = (int) $state['table'];
 		if ( $index >= count( $tables ) ) {

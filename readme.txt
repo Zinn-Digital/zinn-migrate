@@ -7,7 +7,7 @@ Tags: migration, export, backup, transfer, move
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ The plugin will tell you so instead of failing part way. In that case use the mi
 It builds in small steps, so size is a question of time and disk space rather than of timeouts. If the site is larger than the free space on the server, the screen tells you before you start.
 
 == Changelog ==
+
+= 1.2.7 =
+* Security hardening: a database value of any size, with any quotes, backslashes or semicolons, can never turn into SQL when a backup is restored, whatever the server's SQL mode; a restore never runs server-wide or account settings from a backup file.
 
 = 1.2.6 =
 * Fix: a file the site cannot read is now left out instead of making a whole step of the package fail silently; a step whose archive cannot be written now stops with an error instead of reporting the package complete.
