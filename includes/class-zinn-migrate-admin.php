@@ -131,10 +131,7 @@ final class Zinn_Migrate_Admin {
 		return <<<'JS'
 		( function () {
 			var step = document.querySelector( 'form input[value="zinn_migrate_step"]' );
-			// A step that FAILED comes back with `zm_error` and still shows Continue; pressing it
-			// again repeats the same failure every second, forever. The customer chooses instead.
-			var failed = /[?&]zm_error=/.test( window.location.search );
-			if ( step && step.form && ! failed ) {
+			if ( step && step.form ) {
 				window.setTimeout( function () { step.form.submit(); }, 800 );
 			}
 

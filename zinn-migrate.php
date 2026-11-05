@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Migrate
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-migrate
  * Description:       Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration.
- * Version:           1.2.8
+ * Version:           1.2.7
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -62,7 +62,7 @@ declare( strict_types=1 );
 
 defined( 'ABSPATH' ) || exit;
 
-const ZINN_MIGRATE_VERSION = '1.2.8';
+const ZINN_MIGRATE_VERSION = '1.2.7';
 
 /** ⛔ `__FILE__`, never a guessed path: a plugin may be symlinked into `plugins/`. */
 const ZINN_MIGRATE_FILE = __FILE__;
@@ -76,8 +76,7 @@ const ZINN_MIGRATE_FILE = __FILE__;
  * be listed. `wp-content/uploads/zinn-migrate/` alone would be a directory a crawler finds.
  *
  * ⭐ Randomness is not the *only* control — `Zinn_Migrate_Package` also writes an
- * `index.html`, a `.htaccess` and a `web.config` that deny listing (never a PHP file: one in
- * uploads is a webshell's shape, see `seal()`), because a server with
+ * `index.php`, an `index.html` and a `.htaccess` that denies listing, because a server with
  * `Options +Indexes` turns an unguessable directory into a guessable one the moment its
  * parent is fetched. Belt and braces, and the braces are the one that works on nginx.
  */
