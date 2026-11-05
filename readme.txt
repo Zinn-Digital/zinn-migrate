@@ -7,7 +7,7 @@ Tags: migration, export, backup, transfer, move
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.8
+Stable tag: 1.2.9
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ The plugin will tell you so instead of failing part way. In that case use the mi
 It builds in small steps, so size is a question of time and disk space rather than of timeouts. If the site is larger than the free space on the server, the screen tells you before you start.
 
 == Changelog ==
+
+= 1.2.9 =
+* Fix: no longer crashes on hosts that disable PHP functions such as disk_free_space, getmypid, ignore_user_abort, gzopen or stream_socket_client; each call is checked first and falls back safely.
 
 = 1.2.8 =
 * Fix: when a build step fails, the screen shows the error and stops; it no longer presses Continue again every second. Press Continue to retry, or Cancel and build again.

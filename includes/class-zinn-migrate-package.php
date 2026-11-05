@@ -104,13 +104,16 @@ final class Zinn_Migrate_Package {
 		$needed = self::estimate_bytes();
 
 		/*
-		 * ⛔ The `@` is load-bearing. `disk_free_space` is commonly in `disable_functions` on
-		 * exactly the shared hosts this plugin exists for, where it emits a warning AND
-		 * returns false. The `false` is what is handled below — reported to the customer as
-		 * "we cannot tell", never as room (§2.44) — so the warning adds nothing except our
-		 * plugin's name in their own debug log for a condition already covered.
+		 * ⛔⛔ NOT `@disk_free_space()`. Shared hosts list `disk_free_space` in `disable_functions`
+		 * (V1 ticket 13692), and on PHP 8 a disabled function is UNDEFINED: calling it is a fatal
+		 * error that `@` does NOT stop, so the old "the @ is load-bearing" call white-screened this
+		 * very admin page on exactly the hosts this plugin exists for. Asked first; when the host
+		 * will not say, `free` is `null` - "we cannot tell", never room (§2.44).
 		 */
-		$free = @disk_free_space( WP_CONTENT_DIR ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged -- see above.
+		$free = null;
+		if ( zinn_migrate_can_call( 'disk_free_space' ) ) {
+			$free = @disk_free_space( WP_CONTENT_DIR ); // phpcs:ignore WordPress.PHP.NoSilencedErrors.Discouraged -- open_basedir may still refuse with a warning; `false` is handled below.
+		}
 		return array(
 			'needed' => $needed,
 			'free'   => ( false === $free || null === $free ) ? null : (int) $free,

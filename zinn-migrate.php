@@ -3,7 +3,7 @@
  * Plugin Name:       Zinn® Migrate
  * Plugin URI:        https://zinndigital.com/wordpress-plugins/zinn-migrate
  * Description:       Packages this WordPress site — files and database — into one archive that Zinn Digital® can pull in, for hosts we cannot reach any other way. Install it on the site you are LEAVING, press one button, and paste the link into your Zinn® migration.
- * Version:           1.2.8
+ * Version:           1.2.9
  * Requires at least: 6.6
  * Requires PHP:      8.2
  * Author:            Neil Lock — CEO, Zinn Digital® Ltd
@@ -62,7 +62,7 @@ declare( strict_types=1 );
 
 defined( 'ABSPATH' ) || exit;
 
-const ZINN_MIGRATE_VERSION = '1.2.8';
+const ZINN_MIGRATE_VERSION = '1.2.9';
 
 /** ⛔ `__FILE__`, never a guessed path: a plugin may be symlinked into `plugins/`. */
 const ZINN_MIGRATE_FILE = __FILE__;
@@ -106,6 +106,7 @@ function zinn_migrate_base_url(): string {
  */
 const ZINN_MIGRATE_TTL_SECONDS = 86400;
 
+require_once __DIR__ . '/includes/php-functions-guard.php'; // Before anything that may call a host-disableable function.
 require_once __DIR__ . '/includes/class-zinn-migrate-package.php';
 require_once __DIR__ . '/includes/class-zinn-migrate-admin.php';
 require_once __DIR__ . '/includes/class-zinn-migrate-promo.php';
