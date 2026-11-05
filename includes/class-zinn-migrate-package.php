@@ -222,27 +222,32 @@ final class Zinn_Migrate_Package {
 	/**
 	 * Make a directory unlistable and its contents unservable-by-accident.
 	 *
-	 * ⛔ Three files, because one is not enough on the estate this runs on. `index.php` and
-	 * `index.html` stop Apache and nginx serving a listing when `Options +Indexes` is on;
-	 * `.htaccess` denies listing explicitly on Apache. On nginx with `autoindex on` the index
-	 * files are what works, which is why both are written rather than the `.htaccess` alone.
+	 * ⛔ Three files, and NONE of them is PHP. An `index.php` here (the "Silence is golden"
+	 * idiom) is a PHP file written into `uploads/` — the exact shape of a webshell, and it
+	 * fired our own CRITICAL Falco rule FalcoWebshellIndicator on 2026-11-05. A host's
+	 * scanner would rightly treat every customer of this plugin the same way.
+	 *
+	 * `index.html` (empty) stops Apache and nginx serving a listing when indexes are on;
+	 * `.htaccess` denies listing on Apache, `web.config` on IIS. Where none of them is read
+	 * (LiteSpeed ignoring a per-directory `.htaccess`, nginx with `autoindex on` and no
+	 * `index.html` in its index list), the package directory name is still 32 hex characters
+	 * of `random_bytes()` — unguessable — and that is the control that does not depend on the
+	 * web server at all. The archive itself must stay downloadable: the link IS the product.
 	 *
 	 * @param string $dir Absolute path to the directory to seal.
 	 * @return void
 	 */
 	private static function seal( string $dir ): void {
-		foreach ( array(
-			'index.php'  => "<?php\n// Silence is golden.\n",
+		$files = array(
 			'index.html' => '',
-		) as $name => $body ) {
+			'.htaccess'  => "Options -Indexes\n",
+			'web.config' => "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<configuration><system.webServer><directoryBrowse enabled=\"false\" /></system.webServer></configuration>\n",
+		);
+		foreach ( $files as $name => $body ) {
 			$path = trailingslashit( $dir ) . $name;
 			if ( ! file_exists( $path ) ) {
 				file_put_contents( $path, $body ); // phpcs:ignore WordPress.WP.AlternativeFunctions
 			}
-		}
-		$htaccess = trailingslashit( $dir ) . '.htaccess';
-		if ( ! file_exists( $htaccess ) ) {
-			file_put_contents( $htaccess, "Options -Indexes\n" ); // phpcs:ignore WordPress.WP.AlternativeFunctions
 		}
 	}
 
