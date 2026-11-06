@@ -267,11 +267,22 @@ final class Zinn_Migrate_Package {
 	/**
 	 * The URL a customer pastes into Zinn®.
 	 *
+	 * ⛔ HTTPS whenever this request came over HTTPS (1.2.10). `wp_upload_dir()` builds the
+	 * address from the `siteurl` option, which many sites leave as `http://` while the server
+	 * redirects every request to `https://`. The importer fetches the link without following
+	 * redirects (that is its safety fence), so an `http://` link handed over the redirect page
+	 * instead of the package and the import failed. Only ever upgraded, never downgraded: a site
+	 * whose `siteurl` is already `https://` keeps it even on a plain HTTP request.
+	 *
 	 * @param string $token The job token.
 	 * @return string
 	 */
 	public static function archive_url( string $token ): string {
-		return zinn_migrate_base_url() . '/' . $token . '/zinn-package.zip';
+		$url = zinn_migrate_base_url() . '/' . $token . '/zinn-package.zip';
+		if ( is_ssl() ) {
+			$url = set_url_scheme( $url, 'https' );
+		}
+		return $url;
 	}
 
 	/**
