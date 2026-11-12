@@ -35,7 +35,7 @@ msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-migrate-admin.php:64
-#: includes/class-zinn-migrate-admin.php:231
+#: includes/class-zinn-migrate-admin.php:234
 msgid "Move this site to Zinn®"
 msgstr "A webhely áthelyezése a Zinn® szolgáltatásba"
 
@@ -43,152 +43,163 @@ msgstr "A webhely áthelyezése a Zinn® szolgáltatásba"
 msgid "Move to Zinn®"
 msgstr "Áthelyezés a Zinn®-be"
 
-#: includes/class-zinn-migrate-admin.php:149
+#: includes/class-zinn-migrate-admin.php:152
 msgid "You do not have permission to do this."
 msgstr "Nincs jogosultság a művelet végrehajtásához."
 
-#: includes/class-zinn-migrate-admin.php:235
+#: includes/class-zinn-migrate-admin.php:238
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "Ez a webhely összes elemét — a fájlokat és az adatbázist — egyetlen archívumba csomagolja, és privát hivatkozást biztosít hozzá. A hivatkozást a Zinn® felületén lévő migrálásba beillesztve a webhely átvitele megtörténik. Innen semmi sem kerül elküldésre sehová, amíg a hivatkozás megosztása meg nem történik."
 
-#: includes/class-zinn-migrate-admin.php:249
+#: includes/class-zinn-migrate-admin.php:252
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
 msgstr "Erre valószínűleg nincs szükség. Ha a korábbi szolgáltató biztosít FTP-, SSH-, cPanel-, Plesk- vagy DirectAdmin-hozzáférést, a Zinn® ezen adatok birtokában közvetlenül is le tudja kérni a webhelyet, így ez a bővítmény teljesen kihagyható — a folyamat gyorsabb, és utána semmi sem marad hátra. Ezt a megoldást akkor érdemes használni, ha a fentiek egyike sem érhető el."
 
-#: includes/class-zinn-migrate-admin.php:261
+#: includes/class-zinn-migrate-admin.php:264
 msgid "Room on this server"
 msgstr "Tárhely ezen a szerveren"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
-#: includes/class-zinn-migrate-admin.php:272
+#: includes/class-zinn-migrate-admin.php:275
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
 msgstr "Ez a kiszolgáló nem közli, mennyi szabad lemezterület van, így nem lehet azt ellenőrizni. A csomagnak körülbelül ennyire van szüksége: %s. Ha nem biztos, hogy rendelkezésre áll ennyi hely, érdemes megkérdezni a tárhelyszolgáltatót a létrehozás előtt — a folyamat közben megtelő kiszolgáló a webhely leállását okozza."
 
 #. translators: 1: space required, 2: space free.
-#: includes/class-zinn-migrate-admin.php:278
+#: includes/class-zinn-migrate-admin.php:281
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
 msgstr "A csomagnak körülbelül %1$s helyre van szüksége, és ezen a kiszolgálón %2$s szabad terület áll rendelkezésre."
 
-#: includes/class-zinn-migrate-admin.php:287
+#: includes/class-zinn-migrate-admin.php:290
 msgid "Build the package"
 msgstr "Csomag összeállítása"
 
-#: includes/class-zinn-migrate-admin.php:289
+#: includes/class-zinn-migrate-admin.php:292
 msgid "Building…"
 msgstr "Összeállítás folyamatban…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
-#: includes/class-zinn-migrate-admin.php:294
+#: includes/class-zinn-migrate-admin.php:297
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
 msgstr "Csomagolás folyamatban: %1$s. Eddig %2$s fájl, %3$s kiírva."
 
-#: includes/class-zinn-migrate-admin.php:295
+#: includes/class-zinn-migrate-admin.php:298
 msgid "your files"
 msgstr "Fájlok"
 
-#: includes/class-zinn-migrate-admin.php:295
+#: includes/class-zinn-migrate-admin.php:298
 msgid "your database"
 msgstr "Adatbázis"
 
-#: includes/class-zinn-migrate-admin.php:307
+#: includes/class-zinn-migrate-admin.php:310
 msgid "Continue"
 msgstr "Folytatás"
 
-#: includes/class-zinn-migrate-admin.php:308
+#: includes/class-zinn-migrate-admin.php:311
 msgid "Cancel and delete"
 msgstr "Mégse és törlés"
 
-#: includes/class-zinn-migrate-admin.php:312
+#: includes/class-zinn-migrate-admin.php:315
 msgid "Your package is ready"
 msgstr "A csomag elkészült"
 
-#: includes/class-zinn-migrate-admin.php:313
+#: includes/class-zinn-migrate-admin.php:316
 msgid "Copy this link and paste it into your migration on Zinn®:"
 msgstr "Másolja ezt a hivatkozást, és illessze be a Zinn® felületén lévő migrálásba:"
 
 #. translators: %s: the package size.
-#: includes/class-zinn-migrate-admin.php:326
+#: includes/class-zinn-migrate-admin.php:329
 #, php-format
 msgid "Size: %s."
 msgstr "Méret: %s."
 
-#: includes/class-zinn-migrate-admin.php:338
+#: includes/class-zinn-migrate-admin.php:341
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
 msgstr "Ez a hivatkozás jelszóként kezelendő. Birtokában a teljes webhely letölthető, beleértve az adatbázist is. A csomag az elkészülte után 24 órával automatikusan törlésre kerül — a költöztetés befejeztével érdemes azonnal törölni."
 
-#: includes/class-zinn-migrate-admin.php:347
+#: includes/class-zinn-migrate-admin.php:350
 msgid "Delete the package now"
 msgstr "Csomag törlése most"
 
-#: includes/class-zinn-migrate-admin.php:348
+#: includes/class-zinn-migrate-admin.php:351
 msgid "Build it again"
 msgstr "Újraépítés"
 
-#: includes/class-zinn-migrate-package.php:188
+#: includes/class-zinn-migrate-package.php:193
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
 msgstr "Ez a szerver nem rendelkezik a PHP ZipArchive kiterjesztésével, így itt nem készíthető csomag. Kérje a tárhelyszolgáltatót annak engedélyezésére, vagy használja helyette a Zinn® felületén található migrációs űrlapot az FTP- vagy SSH-adatok megadásával."
 
-#: includes/class-zinn-migrate-package.php:198
+#: includes/class-zinn-migrate-package.php:203
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
 msgstr "Nem sikerült mappát létrehozni a feltöltési könyvtárban, így nem írható sehová a csomag. Ellenőrizendő, hogy a wp-content/uploads írható-e."
 
-#: includes/class-zinn-migrate-package.php:279
+#: includes/class-zinn-migrate-package.php:302
 msgid "There is no package being built. Start one first."
 msgstr "Nem készül csomag. Előbb el kell indítani egyet."
 
-#: includes/class-zinn-migrate-package.php:285
+#: includes/class-zinn-migrate-package.php:308
+#: includes/class-zinn-migrate-package.php:323
 msgid "We could not open the package file for writing."
 msgstr "Nem sikerült a csomagfájlt írásra megnyitni."
 
-#: includes/class-zinn-migrate-package.php:368
+#: includes/class-zinn-migrate-package.php:399
 msgid "We could not write the database export."
 msgstr "Nem sikerült kiírni az adatbázis-exportot."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-migrate-promo.php:326
-#: includes/class-zinn-migrate-promo.php:384
+#: includes/class-zinn-migrate-promo.php:363
+#: includes/class-zinn-migrate-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — útmutatók és szolgáltatások"
 
-#: includes/class-zinn-migrate-promo.php:341
+#: includes/class-zinn-migrate-promo.php:378
 msgid "User guides"
 msgstr "Felhasználói útmutatók"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-migrate-promo.php:391
+#: includes/class-zinn-migrate-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "A(z) %s felhasználói útmutató elolvasása"
 
-#: includes/class-zinn-migrate-promo.php:399
+#: includes/class-zinn-migrate-promo.php:436
 msgid "Hide this"
 msgstr "Elrejtés"
 
-#: includes/class-zinn-migrate-promo.php:512
+#: includes/class-zinn-migrate-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro tagság: minden Pro bővítmény, egyetlen licenc"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-migrate-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "A Page Builder Sandwich, a Tranzly, a Zinn® SEO, a Zinn® Cache és a Zinn® Backups Pro verziói, valamint minden következőként megjelenő Pro bővítmény, évi %s ártól. Egy második tagság a Zinn® Chat Pro bővítményt adja hozzá."
+
+#: includes/class-zinn-migrate-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "Zinn® webtárhely a WordPresshez"
 
-#: includes/class-zinn-migrate-promo.php:513
+#: includes/class-zinn-migrate-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, napi biztonsági mentések, ingyenes költöztetés és egy több webhelyet kezelők számára készült vezérlőpult."
 
-#: includes/class-zinn-migrate-promo.php:519
+#: includes/class-zinn-migrate-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "A Zinn® piactér"
 
-#: includes/class-zinn-migrate-promo.php:520
+#: includes/class-zinn-migrate-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Bejáratott webhelyek, domainek és linkelhelyezések adásvétele biztonságos letéttel, amíg mindkét fél elégedett nem lesz."
 
-#: includes/class-zinn-migrate-promo.php:567
+#: includes/class-zinn-migrate-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — bízzunk meg olyan embereket, akik ebből élnek"
 
-#: includes/class-zinn-migrate-promo.php:568
+#: includes/class-zinn-migrate-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Globális szabadúszó piacterünk: böngésszen több mint 10 000 kész szolgáltatás között, amelyeket írók, grafikusok, fejlesztők és SEO-szakemberek kínálnak, vagy hozzon létre egy projektet, és fogadja az ajánlatokat."
 

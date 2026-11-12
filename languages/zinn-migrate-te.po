@@ -35,7 +35,7 @@ msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-migrate-admin.php:64
-#: includes/class-zinn-migrate-admin.php:231
+#: includes/class-zinn-migrate-admin.php:234
 msgid "Move this site to Zinn®"
 msgstr "ఈ సైట్‌ను Zinn®కి తరలించండి"
 
@@ -43,152 +43,163 @@ msgstr "ఈ సైట్‌ను Zinn®కి తరలించండి"
 msgid "Move to Zinn®"
 msgstr "Zinn®కి తరలించండి"
 
-#: includes/class-zinn-migrate-admin.php:149
+#: includes/class-zinn-migrate-admin.php:152
 msgid "You do not have permission to do this."
 msgstr "దీన్ని చేయడానికి మీకు అనుమతి లేదు."
 
-#: includes/class-zinn-migrate-admin.php:235
+#: includes/class-zinn-migrate-admin.php:238
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "ఇది ఈ సైట్‌లోని ప్రతిదాన్ని — దాని ఫైల్‌లు మరియు దాని డేటాబేస్‌ను — ఒక ఆర్కైవ్‌గా ప్యాకేజ్ చేస్తుంది మరియు దానికి మీకు ఒక ప్రైవేట్ లింక్‌ను అందిస్తుంది. ఆ లింక్‌ను Zinn® పై మీ మైగ్రేషన్‌లో అతికించండి మరియు మేము సైట్‌ను ఇక్కడికి తరలిస్తాము. మీరు లింక్‌ను భాగస్వామ్యం చేయడానికి ఎంచుకునే వరకు ఇక్కడి నుండి ఏదీ ఎక్కడికీ పంపబడదు."
 
-#: includes/class-zinn-migrate-admin.php:249
+#: includes/class-zinn-migrate-admin.php:252
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
 msgstr "మీకు ఇది అవసరం లేకపోవచ్చు. మీ పాత హోస్ట్ మీకు FTP, SSH, cPanel, Plesk లేదా DirectAdmin అందిస్తున్నట్లయితే, Zinn® ఆ వివరాలతో సైట్‌ను నేరుగా పొందగలదు మరియు మీరు ఈ ప్లగిన్‌ను పూర్తిగా దాటవేయవచ్చు — ఇది వేగవంతమైనది మరియు ఆ తర్వాత ఏదీ మిగిలి ఉండదు. వీటిలో ఏవీ మీకు అందుబాటులో లేనప్పుడు దీన్ని ఉపయోగించండి."
 
-#: includes/class-zinn-migrate-admin.php:261
+#: includes/class-zinn-migrate-admin.php:264
 msgid "Room on this server"
 msgstr "ఈ సర్వర్‌లో స్థలం"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
-#: includes/class-zinn-migrate-admin.php:272
+#: includes/class-zinn-migrate-admin.php:275
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
 msgstr "ఈ సర్వర్ ఎంత డిస్క్ స్థలం ఖాళీగా ఉందో మాకు చెప్పదు, కాబట్టి మేము మీ కోసం తనిఖీ చేయలేము. ప్యాకేజీకి సుమారుగా %s అవసరం. అంత స్థలం ఉందో లేదో మీకు ఖచ్చితంగా తెలియనట్లయితే, మీరు దీన్ని రూపొందించడానికి ముందు మీ హోస్ట్‌ని అడగండి — మధ్యలో స్థలం అయిపోయే సర్వర్ సైట్‌ను డౌన్ చేస్తుంది."
 
 #. translators: 1: space required, 2: space free.
-#: includes/class-zinn-migrate-admin.php:278
+#: includes/class-zinn-migrate-admin.php:281
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
 msgstr "ప్యాకేజీకి సుమారుగా %1$s అవసరం మరియు ఈ సర్వర్‌లో %2$s ఖాళీ స్థలం ఉంది."
 
-#: includes/class-zinn-migrate-admin.php:287
+#: includes/class-zinn-migrate-admin.php:290
 msgid "Build the package"
 msgstr "ప్యాకేజీని రూపొందించండి"
 
-#: includes/class-zinn-migrate-admin.php:289
+#: includes/class-zinn-migrate-admin.php:292
 msgid "Building…"
 msgstr "నిర్మిస్తోంది…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
-#: includes/class-zinn-migrate-admin.php:294
+#: includes/class-zinn-migrate-admin.php:297
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
 msgstr "ఇప్పుడు ప్యాకేజ్ చేస్తోంది: %1$s. ఇప్పటివరకు %2$s ఫైళ్ళు, %3$s వ్రాయబడ్డాయి."
 
-#: includes/class-zinn-migrate-admin.php:295
+#: includes/class-zinn-migrate-admin.php:298
 msgid "your files"
 msgstr "మీ ఫైళ్లు"
 
-#: includes/class-zinn-migrate-admin.php:295
+#: includes/class-zinn-migrate-admin.php:298
 msgid "your database"
 msgstr "మీ డేటాబేస్"
 
-#: includes/class-zinn-migrate-admin.php:307
+#: includes/class-zinn-migrate-admin.php:310
 msgid "Continue"
 msgstr "కొనసాగించు"
 
-#: includes/class-zinn-migrate-admin.php:308
+#: includes/class-zinn-migrate-admin.php:311
 msgid "Cancel and delete"
 msgstr "రద్దు చేసి తొలగించండి"
 
-#: includes/class-zinn-migrate-admin.php:312
+#: includes/class-zinn-migrate-admin.php:315
 msgid "Your package is ready"
 msgstr "మీ ప్యాకేజీ సిద్ధంగా ఉంది"
 
-#: includes/class-zinn-migrate-admin.php:313
+#: includes/class-zinn-migrate-admin.php:316
 msgid "Copy this link and paste it into your migration on Zinn®:"
 msgstr "ఈ లింక్‌ను కాపీ చేసి, Zinn® లోని మీ మైగ్రేషన్‌లో అతికించండి:"
 
 #. translators: %s: the package size.
-#: includes/class-zinn-migrate-admin.php:326
+#: includes/class-zinn-migrate-admin.php:329
 #, php-format
 msgid "Size: %s."
 msgstr "పరిమాణం: %s."
 
-#: includes/class-zinn-migrate-admin.php:338
+#: includes/class-zinn-migrate-admin.php:341
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
 msgstr "ఈ లింక్‌ను పాస్‌వర్డ్‌లా భావించండి. ఇది ఎవరి వద్దనైనా ఉంటే, వారు మీ డేటాబేస్‌తో సహా మీ మొత్తం సైట్‌ను డౌన్‌లోడ్ చేసుకోవచ్చు. ప్యాకేజీని రూపొందించిన 24 గంటల తర్వాత మేము దానిని ఆటోమేటిక్‌గా తొలగిస్తాము — మీ మైగ్రేషన్ పూర్తయిన వెంటనే దాన్ని మీరే తొలగించండి."
 
-#: includes/class-zinn-migrate-admin.php:347
+#: includes/class-zinn-migrate-admin.php:350
 msgid "Delete the package now"
 msgstr "ప్యాకేజీని ఇప్పుడే తొలగించండి"
 
-#: includes/class-zinn-migrate-admin.php:348
+#: includes/class-zinn-migrate-admin.php:351
 msgid "Build it again"
 msgstr "మళ్ళీ రూపొందించండి"
 
-#: includes/class-zinn-migrate-package.php:188
+#: includes/class-zinn-migrate-package.php:193
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
 msgstr "ఈ సర్వర్‌లో PHP యొక్క ZipArchive పొడిగింపు లేదు, కాబట్టి మేము ఇక్కడ ప్యాకేజీని నిర్మించలేము. దీన్ని ప్రారంభించమని మీ హోస్ట్‌ను అడగండి, లేదా ప్రత్యామ్నాయంగా మీ FTP లేదా SSH వివరాలతో Zinn® లోని మైగ్రేషన్ ఫారమ్‌ను ఉపయోగించండి."
 
-#: includes/class-zinn-migrate-package.php:198
+#: includes/class-zinn-migrate-package.php:203
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
 msgstr "మీ అప్‌లోడ్‌ల డైరెక్టరీలో ఫోల్డర్‌ను సృష్టించడం సాధ్యపడలేదు, కాబట్టి ప్యాకేజీని రాయడానికి ఎక్కడా స్థలం లేదు. wp-content/uploads రాయడానికి అనుకూలంగా ఉందో లేదో తనిఖీ చేయండి."
 
-#: includes/class-zinn-migrate-package.php:279
+#: includes/class-zinn-migrate-package.php:302
 msgid "There is no package being built. Start one first."
 msgstr "ఏ ప్యాకేజీ నిర్మించబడటం లేదు. మొదట ఒకదాన్ని ప్రారంభించండి."
 
-#: includes/class-zinn-migrate-package.php:285
+#: includes/class-zinn-migrate-package.php:308
+#: includes/class-zinn-migrate-package.php:323
 msgid "We could not open the package file for writing."
 msgstr "వ్రాయడానికి ప్యాకేజీ ఫైల్‌ను తెరవడం సాధ్యపడలేదు."
 
-#: includes/class-zinn-migrate-package.php:368
+#: includes/class-zinn-migrate-package.php:399
 msgid "We could not write the database export."
 msgstr "మేము డేటాబేస్ ఎగుమతిని రాయలేకపోయాము."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-migrate-promo.php:326
-#: includes/class-zinn-migrate-promo.php:384
+#: includes/class-zinn-migrate-promo.php:363
+#: includes/class-zinn-migrate-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — మార్గదర్శకాలు మరియు సేవలు"
 
-#: includes/class-zinn-migrate-promo.php:341
+#: includes/class-zinn-migrate-promo.php:378
 msgid "User guides"
 msgstr "వినియోగదారు గైడ్‌లు"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-migrate-promo.php:391
+#: includes/class-zinn-migrate-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "%s వినియోగదారు మార్గదర్శిని చదవండి"
 
-#: includes/class-zinn-migrate-promo.php:399
+#: includes/class-zinn-migrate-promo.php:436
 msgid "Hide this"
 msgstr "దీన్ని దాచండి"
 
-#: includes/class-zinn-migrate-promo.php:512
+#: includes/class-zinn-migrate-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro సభ్యత్వం: ప్రతి Pro ప్లగిన్, ఒక లైసెన్స్"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-migrate-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache మరియు Zinn® Backups యొక్క Pro వెర్షన్‌లు, అలాగే మేము తర్వాత విడుదల చేసే ప్రతి Pro ప్లగిన్, సంవత్సరానికి %s నుండి. రెండవ సభ్యత్వం Zinn® Chat Pro ని జోడిస్తుంది."
+
+#: includes/class-zinn-migrate-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "WordPress కొరకు Zinn® హోస్టింగ్"
 
-#: includes/class-zinn-migrate-promo.php:513
+#: includes/class-zinn-migrate-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, రోజువారీ బ్యాకప్‌లు, ఉచిత మైగ్రేషన్ మరియు ఒకటి కంటే ఎక్కువ సైట్‌లను నడిపించే వారి కోసం రూపొందించబడిన కంట్రోల్ ప్యానెల్."
 
-#: includes/class-zinn-migrate-promo.php:519
+#: includes/class-zinn-migrate-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Zinn® మార్కెట్‌ప్లేస్"
 
-#: includes/class-zinn-migrate-promo.php:520
+#: includes/class-zinn-migrate-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "ఇరుపక్షాలు సంతృప్తి చెందే వరకు నగదును సురక్షితంగా ఉంచుతూ, స్థిరపడిన సైట్‌లు, డొమైన్‌లు మరియు లింక్ ప్లేస్‌మెంట్‌లను కొనుగోలు చేయండి మరియు విక్రయించండి."
 
-#: includes/class-zinn-migrate-promo.php:567
+#: includes/class-zinn-migrate-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — దీనినే జీవనోపాధిగా చేసుకున్న వ్యక్తులను నియమించుకోండి"
 
-#: includes/class-zinn-migrate-promo.php:568
+#: includes/class-zinn-migrate-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "మా గ్లోబల్ ఫ్రీలాన్స్ మార్కెట్‌ప్లేస్: రచయితలు, డిజైనర్లు, డెవలపర్లు మరియు SEO నిపుణుల నుండి 10,000 కంటే ఎక్కువ సిద్ధంగా ఉన్న సేవలను బ్రౌజ్ చేయండి లేదా ప్రాజెక్ట్‌ను పోస్ట్ చేసి వారిని బిడ్ చేయనివ్వండి."
 

@@ -35,7 +35,7 @@ msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-migrate-admin.php:64
-#: includes/class-zinn-migrate-admin.php:231
+#: includes/class-zinn-migrate-admin.php:234
 msgid "Move this site to Zinn®"
 msgstr "将此站点迁移至 Zinn®"
 
@@ -43,152 +43,163 @@ msgstr "将此站点迁移至 Zinn®"
 msgid "Move to Zinn®"
 msgstr "移动到 Zinn®"
 
-#: includes/class-zinn-migrate-admin.php:149
+#: includes/class-zinn-migrate-admin.php:152
 msgid "You do not have permission to do this."
 msgstr "您没有权限执行此操作。"
 
-#: includes/class-zinn-migrate-admin.php:235
+#: includes/class-zinn-migrate-admin.php:238
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "这会将此站点上的所有内容（包括其文件和数据库）打包进一个归档文件中，并为您提供一个专用链接。请将该链接粘贴到您在 Zinn® 上的迁移任务中，我们将为您把站点拉取过来。在您选择共享该链接之前，此处的任何内容都不会发送到任何地方。"
 
-#: includes/class-zinn-migrate-admin.php:249
+#: includes/class-zinn-migrate-admin.php:252
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
 msgstr "您可能不需要此插件。如果您的旧主机为您提供 FTP、SSH、cPanel、Plesk 或 DirectAdmin，Zinn® 可以直接使用这些详细信息获取网站，并且您可以完全跳过此插件——这样速度更快，且事后不会留下任何残留。请仅在您无法使用上述任何一项时使用此插件。"
 
-#: includes/class-zinn-migrate-admin.php:261
+#: includes/class-zinn-migrate-admin.php:264
 msgid "Room on this server"
 msgstr "此服务器上的空间"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
-#: includes/class-zinn-migrate-admin.php:272
+#: includes/class-zinn-migrate-admin.php:275
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
 msgstr "该服务器不会告知我们有多少可用的磁盘空间，因此我们无法为您进行检查。该安装包大约需要 %s。如果您不确定是否有足够的空间，请在构建前咨询您的主机提供商 — 在中途耗尽空间的服务器会导致网站宕机。"
 
 #. translators: 1: space required, 2: space free.
-#: includes/class-zinn-migrate-admin.php:278
+#: includes/class-zinn-migrate-admin.php:281
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
 msgstr "该安装包大约需要 %1$s，而此服务器有 %2$s 可用空间。"
 
-#: includes/class-zinn-migrate-admin.php:287
+#: includes/class-zinn-migrate-admin.php:290
 msgid "Build the package"
 msgstr "构建包"
 
-#: includes/class-zinn-migrate-admin.php:289
+#: includes/class-zinn-migrate-admin.php:292
 msgid "Building…"
 msgstr "正在构建…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
-#: includes/class-zinn-migrate-admin.php:294
+#: includes/class-zinn-migrate-admin.php:297
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
 msgstr "现在正在打包：%1$s。目前已有 %2$s 个文件，已写入 %3$s。"
 
-#: includes/class-zinn-migrate-admin.php:295
+#: includes/class-zinn-migrate-admin.php:298
 msgid "your files"
 msgstr "您的文件"
 
-#: includes/class-zinn-migrate-admin.php:295
+#: includes/class-zinn-migrate-admin.php:298
 msgid "your database"
 msgstr "您的数据库"
 
-#: includes/class-zinn-migrate-admin.php:307
+#: includes/class-zinn-migrate-admin.php:310
 msgid "Continue"
 msgstr "继续"
 
-#: includes/class-zinn-migrate-admin.php:308
+#: includes/class-zinn-migrate-admin.php:311
 msgid "Cancel and delete"
 msgstr "取消并删除"
 
-#: includes/class-zinn-migrate-admin.php:312
+#: includes/class-zinn-migrate-admin.php:315
 msgid "Your package is ready"
 msgstr "您的软件包已准备就绪"
 
-#: includes/class-zinn-migrate-admin.php:313
+#: includes/class-zinn-migrate-admin.php:316
 msgid "Copy this link and paste it into your migration on Zinn®:"
 msgstr "复制此链接并将其粘贴到您在 Zinn® 上的迁移中："
 
 #. translators: %s: the package size.
-#: includes/class-zinn-migrate-admin.php:326
+#: includes/class-zinn-migrate-admin.php:329
 #, php-format
 msgid "Size: %s."
 msgstr "大小：%s。"
 
-#: includes/class-zinn-migrate-admin.php:338
+#: includes/class-zinn-migrate-admin.php:341
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
 msgstr "请像对待密码一样妥善保管此链接。任何拥有该链接的人都可以下载您的整个网站，包括您的数据库。我们在打包完成后 24 小时会自动将其删除 — 迁移完成后，请您自行立即将其删除。"
 
-#: includes/class-zinn-migrate-admin.php:347
+#: includes/class-zinn-migrate-admin.php:350
 msgid "Delete the package now"
 msgstr "立即删除软件包"
 
-#: includes/class-zinn-migrate-admin.php:348
+#: includes/class-zinn-migrate-admin.php:351
 msgid "Build it again"
 msgstr "重新构建"
 
-#: includes/class-zinn-migrate-package.php:188
+#: includes/class-zinn-migrate-package.php:193
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
 msgstr "此服务器缺少 PHP 的 ZipArchive 扩展，因此我们无法在此构建安装包。请联系您的主机服务商启用该扩展，或者使用您的 FTP 或 SSH 信息通过 Zinn® 上的迁移表单进行操作。"
 
-#: includes/class-zinn-migrate-package.php:198
+#: includes/class-zinn-migrate-package.php:203
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
 msgstr "我们无法在您的 uploads 目录中创建文件夹，因此无法写入该安装包。请检查 wp-content/uploads 是否具有可写权限。"
 
-#: includes/class-zinn-migrate-package.php:279
+#: includes/class-zinn-migrate-package.php:302
 msgid "There is no package being built. Start one first."
 msgstr "没有正在构建的包。请先开始一个。"
 
-#: includes/class-zinn-migrate-package.php:285
+#: includes/class-zinn-migrate-package.php:308
+#: includes/class-zinn-migrate-package.php:323
 msgid "We could not open the package file for writing."
 msgstr "我们无法打开软件包文件以进行写入。"
 
-#: includes/class-zinn-migrate-package.php:368
+#: includes/class-zinn-migrate-package.php:399
 msgid "We could not write the database export."
 msgstr "我们无法写入数据库导出文件。"
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-migrate-promo.php:326
-#: includes/class-zinn-migrate-promo.php:384
+#: includes/class-zinn-migrate-promo.php:363
+#: includes/class-zinn-migrate-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — 指南与服务"
 
-#: includes/class-zinn-migrate-promo.php:341
+#: includes/class-zinn-migrate-promo.php:378
 msgid "User guides"
 msgstr "用户指南"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-migrate-promo.php:391
+#: includes/class-zinn-migrate-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "阅读 %s 用户指南"
 
-#: includes/class-zinn-migrate-promo.php:399
+#: includes/class-zinn-migrate-promo.php:436
 msgid "Hide this"
 msgstr "隐藏此项"
 
-#: includes/class-zinn-migrate-promo.php:512
+#: includes/class-zinn-migrate-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Zinn® Pro 会员：每个 Pro 插件，只需一个许可证"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-migrate-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Page Builder Sandwich、Tranzly、Zinn® SEO、Zinn® Cache 和 Zinn® Backups 的 Pro 版本，以及我们接下来发布的每一个 Pro 插件，每年仅需 %s 起。第二个会员资格可添加 Zinn® Chat Pro。"
+
+#: includes/class-zinn-migrate-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "适用于 WordPress 的 Zinn® 托管"
 
-#: includes/class-zinn-migrate-promo.php:513
+#: includes/class-zinn-migrate-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed、每日备份、免费迁移，以及专为管理多个网站的用户打造的控制面板。"
 
-#: includes/class-zinn-migrate-promo.php:519
+#: includes/class-zinn-migrate-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Zinn® 市场"
 
-#: includes/class-zinn-migrate-promo.php:520
+#: includes/class-zinn-migrate-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "买卖成熟网站、域名和外链位置，资金安全托管，直到双方均感满意。"
 
-#: includes/class-zinn-migrate-promo.php:567
+#: includes/class-zinn-migrate-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — 聘请以此为生的专业人士"
 
-#: includes/class-zinn-migrate-promo.php:568
+#: includes/class-zinn-migrate-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "我们的全球自由职业交易市场：浏览由写手、设计师、开发人员和 SEO 专家提供的 10,000 多种现成服务，或者发布项目让他们进行竞标。"
 

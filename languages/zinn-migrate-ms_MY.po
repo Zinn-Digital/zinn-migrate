@@ -35,7 +35,7 @@ msgid "https://zinndigital.com"
 msgstr "https://zinndigital.com"
 
 #: includes/class-zinn-migrate-admin.php:64
-#: includes/class-zinn-migrate-admin.php:231
+#: includes/class-zinn-migrate-admin.php:234
 msgid "Move this site to Zinn®"
 msgstr "Pindahkan laman ini ke Zinn®"
 
@@ -43,152 +43,163 @@ msgstr "Pindahkan laman ini ke Zinn®"
 msgid "Move to Zinn®"
 msgstr "Pindahkan ke Zinn®"
 
-#: includes/class-zinn-migrate-admin.php:149
+#: includes/class-zinn-migrate-admin.php:152
 msgid "You do not have permission to do this."
 msgstr "Anda tidak mempunyai kebenaran untuk melakukan ini."
 
-#: includes/class-zinn-migrate-admin.php:235
+#: includes/class-zinn-migrate-admin.php:238
 msgid "This packages everything on this site — its files and its database — into one archive, and gives you a private link to it. Paste that link into your migration on Zinn® and we will pull the site across. Nothing here is sent anywhere until you choose to share the link."
 msgstr "Ini membungkus segala-galanya di laman web ini — fail dan pangkalan datanya — ke dalam satu arkib, dan memberikan anda pautan peribadi kepadanya. Tampal pautan tersebut ke dalam penghijrahan anda di Zinn® dan kami akan memindahkan laman web tersebut. Tiada apa-apa di sini dihantar ke mana-mana sehingga anda memilih untuk berkongsi pautan tersebut."
 
-#: includes/class-zinn-migrate-admin.php:249
+#: includes/class-zinn-migrate-admin.php:252
 msgid "You may not need this. If your old host gives you FTP, SSH, cPanel, Plesk or DirectAdmin, Zinn® can fetch the site directly with those details and you can skip this plugin entirely — it is faster and there is nothing left behind afterwards. Use this when none of those are available to you."
 msgstr "Anda mungkin tidak memerlukan ini. Jika hos lama anda menyediakan FTP, SSH, cPanel, Plesk atau DirectAdmin, Zinn® boleh mengambil laman tersebut secara terus dengan butiran tersebut dan anda boleh melangkau pemalam ini sepenuhnya — ia lebih pantas dan tiada apa-apa yang tertinggal selepas itu. Gunakan ini apabila tiada satu pun daripadanya tersedia untuk anda."
 
-#: includes/class-zinn-migrate-admin.php:261
+#: includes/class-zinn-migrate-admin.php:264
 msgid "Room on this server"
 msgstr "Ruang pada pelayan ini"
 
 #. translators: %s: an approximate size, e.g. "1.4 GB".
-#: includes/class-zinn-migrate-admin.php:272
+#: includes/class-zinn-migrate-admin.php:275
 #, php-format
 msgid "This server will not tell us how much disk space is free, so we cannot check for you. The package needs roughly %s. If you are not sure there is that much room, ask your host before you build it — a server that runs out of space mid-way takes the site down."
 msgstr "Pelayan ini tidak memberitahu kami berapa banyak ruang cakera yang kosong, jadi kami tidak dapat menyemak untuk anda. Pakej ini memerlukan kira-kira %s. Jika anda tidak pasti terdapat ruang sebanyak itu, tanya hos anda sebelum anda membinanya — pelayan yang kehabisan ruang di pertengahan jalan akan menyebabkan tapak web tergendala."
 
 #. translators: 1: space required, 2: space free.
-#: includes/class-zinn-migrate-admin.php:278
+#: includes/class-zinn-migrate-admin.php:281
 #, php-format
 msgid "The package needs roughly %1$s and this server has %2$s free."
 msgstr "Pakej ini memerlukan kira-kira %1$s dan pelayan ini mempunyai %2$s ruang kosong."
 
-#: includes/class-zinn-migrate-admin.php:287
+#: includes/class-zinn-migrate-admin.php:290
 msgid "Build the package"
 msgstr "Bina pakej"
 
-#: includes/class-zinn-migrate-admin.php:289
+#: includes/class-zinn-migrate-admin.php:292
 msgid "Building…"
 msgstr "Membina…"
 
 #. translators: 1: what is being packaged now, 2: files packaged so far, 3: size so far.
-#: includes/class-zinn-migrate-admin.php:294
+#: includes/class-zinn-migrate-admin.php:297
 #, php-format
 msgid "Now packaging: %1$s. %2$s files so far, %3$s written."
 msgstr "Sedang membungkus sekarang: %1$s. Setakat ini %2$s fail, %3$s ditulis."
 
-#: includes/class-zinn-migrate-admin.php:295
+#: includes/class-zinn-migrate-admin.php:298
 msgid "your files"
 msgstr "Fail anda"
 
-#: includes/class-zinn-migrate-admin.php:295
+#: includes/class-zinn-migrate-admin.php:298
 msgid "your database"
 msgstr "Pangkalan data anda"
 
-#: includes/class-zinn-migrate-admin.php:307
+#: includes/class-zinn-migrate-admin.php:310
 msgid "Continue"
 msgstr "Teruskan"
 
-#: includes/class-zinn-migrate-admin.php:308
+#: includes/class-zinn-migrate-admin.php:311
 msgid "Cancel and delete"
 msgstr "Batal dan padam"
 
-#: includes/class-zinn-migrate-admin.php:312
+#: includes/class-zinn-migrate-admin.php:315
 msgid "Your package is ready"
 msgstr "Pakej anda sudah sedia"
 
-#: includes/class-zinn-migrate-admin.php:313
+#: includes/class-zinn-migrate-admin.php:316
 msgid "Copy this link and paste it into your migration on Zinn®:"
 msgstr "Salin pautan ini dan tampalkannya ke dalam migrasi anda di Zinn®:"
 
 #. translators: %s: the package size.
-#: includes/class-zinn-migrate-admin.php:326
+#: includes/class-zinn-migrate-admin.php:329
 #, php-format
 msgid "Size: %s."
 msgstr "Saiz: %s."
 
-#: includes/class-zinn-migrate-admin.php:338
+#: includes/class-zinn-migrate-admin.php:341
 msgid "Treat this link like a password. Anyone who has it can download your whole site, including your database. We delete the package automatically 24 hours after it was built — delete it yourself as soon as your migration has finished."
 msgstr "Anggap pautan ini seperti kata laluan. Sesiapa sahaja yang memilikinya boleh memuat turun keseluruhan tapak web anda, termasuk pangkalan data anda. Kami memadamkan pakej secara automatik 24 jam selepas ia dibina — padamkannya sendiri sebaik sahaja migrasi anda selesai."
 
-#: includes/class-zinn-migrate-admin.php:347
+#: includes/class-zinn-migrate-admin.php:350
 msgid "Delete the package now"
 msgstr "Padamkan pakej sekarang"
 
-#: includes/class-zinn-migrate-admin.php:348
+#: includes/class-zinn-migrate-admin.php:351
 msgid "Build it again"
 msgstr "Bina semula"
 
-#: includes/class-zinn-migrate-package.php:188
+#: includes/class-zinn-migrate-package.php:193
 msgid "This server does not have PHP’s ZipArchive extension, so we cannot build a package here. Ask your host to enable it, or use the migration form on Zinn® with your FTP or SSH details instead."
 msgstr "Pelayan ini tidak mempunyai sambungan ZipArchive PHP, jadi kami tidak dapat membina pakej di sini. Minta hos anda untuk mendayakannya, atau gunakan borang migrasi di Zinn® dengan butiran FTP atau SSH anda sebagai ganti."
 
-#: includes/class-zinn-migrate-package.php:198
+#: includes/class-zinn-migrate-package.php:203
 msgid "We could not create a folder inside your uploads directory, so there is nowhere to write the package. Check that wp-content/uploads is writable."
 msgstr "Kami tidak dapat mencipta folder di dalam direktori muat naik anda, jadi tiada tempat untuk menulis pakej tersebut. Sila pastikan wp-content/uploads boleh ditulis."
 
-#: includes/class-zinn-migrate-package.php:279
+#: includes/class-zinn-migrate-package.php:302
 msgid "There is no package being built. Start one first."
 msgstr "Tiada pakej yang sedang dibina. Mulakan satu terlebih dahulu."
 
-#: includes/class-zinn-migrate-package.php:285
+#: includes/class-zinn-migrate-package.php:308
+#: includes/class-zinn-migrate-package.php:323
 msgid "We could not open the package file for writing."
 msgstr "Kami tidak dapat membuka fail pakej untuk ditulis."
 
-#: includes/class-zinn-migrate-package.php:368
+#: includes/class-zinn-migrate-package.php:399
 msgid "We could not write the database export."
 msgstr "Kami tidak dapat menulis eksport pangkalan data."
 
 #. translators: %s: the Zinn Digital trade mark, which is not translated.
-#: includes/class-zinn-migrate-promo.php:326
-#: includes/class-zinn-migrate-promo.php:384
+#: includes/class-zinn-migrate-promo.php:363
+#: includes/class-zinn-migrate-promo.php:421
 #, php-format
 msgid "%s — guides and services"
 msgstr "%s — panduan dan perkhidmatan"
 
-#: includes/class-zinn-migrate-promo.php:341
+#: includes/class-zinn-migrate-promo.php:378
 msgid "User guides"
 msgstr "Panduan pengguna"
 
 #. translators: %s: this plugin's name, e.g. "Zinn® Cache".
-#: includes/class-zinn-migrate-promo.php:391
+#: includes/class-zinn-migrate-promo.php:428
 #, php-format
 msgid "Read the %s user guide"
 msgstr "Baca panduan pengguna %s"
 
-#: includes/class-zinn-migrate-promo.php:399
+#: includes/class-zinn-migrate-promo.php:436
 msgid "Hide this"
 msgstr "Sembunyikan ini"
 
-#: includes/class-zinn-migrate-promo.php:512
+#: includes/class-zinn-migrate-promo.php:550
+msgid "Zinn® Pro Membership: every Pro plugin, one licence"
+msgstr "Keahlian Zinn® Pro: setiap pemalam Pro, satu lesen"
+
+#. translators: %s: the lowest yearly price with its currency sign, e.g. "$149".
+#: includes/class-zinn-migrate-promo.php:553
+#, php-format
+msgid "The Pro versions of Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache and Zinn® Backups, and every Pro plugin we release next, from %s a year. A second membership adds Zinn® Chat Pro."
+msgstr "Versi Pro bagi Page Builder Sandwich, Tranzly, Zinn® SEO, Zinn® Cache dan Zinn® Backups, serta setiap pemalam Pro yang kami keluarkan seterusnya, daripada %s setahun. Keahlian kedua menambah Zinn® Chat Pro."
+
+#: includes/class-zinn-migrate-promo.php:562
 msgid "Zinn® hosting for WordPress"
 msgstr "Pengehosan Zinn® untuk WordPress"
 
-#: includes/class-zinn-migrate-promo.php:513
+#: includes/class-zinn-migrate-promo.php:563
 msgid "LiteSpeed, daily backups, free migration and a control panel built for people who run more than one site."
 msgstr "LiteSpeed, sandaran harian, migrasi percuma dan panel kawalan yang dibina untuk mereka yang menguruskan lebih daripada satu laman."
 
-#: includes/class-zinn-migrate-promo.php:519
+#: includes/class-zinn-migrate-promo.php:569
 msgid "The Zinn® marketplace"
 msgstr "Pasaran Zinn®"
 
-#: includes/class-zinn-migrate-promo.php:520
+#: includes/class-zinn-migrate-promo.php:570
 msgid "Buy and sell established sites, domains and link placements, with the money held safely until both sides are happy."
 msgstr "Beli dan jual tapak yang mantap, domain dan peletakan pautan, dengan wang disimpan dengan selamat sehingga kedua-dua belah pihak berpuas hati."
 
-#: includes/class-zinn-migrate-promo.php:567
+#: includes/class-zinn-migrate-promo.php:617
 msgid "Zinn Hub® — hire people who do this for a living"
 msgstr "Zinn Hub® — upah individu yang melakukan ini sebagai mata pencarian"
 
-#: includes/class-zinn-migrate-promo.php:568
+#: includes/class-zinn-migrate-promo.php:618
 msgid "Our global freelance marketplace: browse over 10,000 ready-made services from writers, designers, developers and SEOs, or post a project and let them bid."
 msgstr "Pasaran bebas global kami: layari lebih 10,000 perkhidmatan sedia ada daripada penulis, pereka bentuk, pembangun dan pakar SEO, atau siarkan projek dan biarkan mereka membida."
 
