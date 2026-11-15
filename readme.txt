@@ -7,7 +7,7 @@ Tags: migration, export, backup, transfer, move
 Requires at least: 6.6
 Tested up to: 7.1
 Requires PHP: 8.2
-Stable tag: 1.2.11
+Stable tag: 1.2.12
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -48,6 +48,10 @@ The plugin deletes the package automatically 24 hours after it was built, and th
 * **It cannot package a broken site.** This is PHP running inside the site it is copying, so the site has to load. A site that is down needs SSH or our managed migration service.
 * **It opens no route.** Nothing here registers a REST endpoint or accepts an inbound request. Zinn® cannot ring your site — you press a button, and you carry the link to us.
 
+= Source code =
+
+The complete source is public at https://github.com/Zinn-Digital/zinn-migrate
+
 == Installation ==
 
 1. Install and activate the plugin on the site you are moving **away from**.
@@ -79,6 +83,9 @@ The plugin will tell you so instead of failing part way. In that case use the mi
 It builds in small steps, so size is a question of time and disk space rather than of timeouts. If the site is larger than the free space on the server, the screen tells you before you start.
 
 == Changelog ==
+
+= 1.2.12 =
+* The readme links the plugin's public source repository.
 
 = 1.2.11 =
 * Shows the Zinn® Pro Membership offer in the plugin's Zinn® panel.
